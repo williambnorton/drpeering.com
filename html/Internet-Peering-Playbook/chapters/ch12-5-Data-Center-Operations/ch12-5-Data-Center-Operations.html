@@ -1,0 +1,228 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>The Data Center Operations Model</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch12-4-HVAC/ch12-4-HVAC.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>The Data Center HVAC Model</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch12-6-Networked-Data-Center/ch12-6-Networked-Data-Center.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>The Networked Data Center Model</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>The Data Center Operations Model</h1>
+	<p>This infrastructure requires data center operations staff.</p>
+</div>
+  <div class="NotesFromTheField" id="left1">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      Even Small Data Centers Require Effort</p>
+<p>
+      A foreign telco built into and established its own POP in Los Angeles. At the time of my visit, the telco country manager was also the POP facilities manager and was dealing with a weekend UPS failure. The manufacturer service technician was scrolling through the alarms to troubleshoot the failure, and the detailed description of the root cause was amazingly cryptic. The root cause came from only a single piece of equipment in only one of the rings. This experience highlighted some the specialized knowledge required at each ring of a professionally managed data center. Having a support team that can monitor and repair, and coordinate and maintain support will lead to a shorter outage that will not likely happen again – at least not in the same way.</p>
+  </div>
+  <div id="right1">
+    <p>Perhaps most importantly, when things break, and they will, how will the IDC handle the situation and how will it communicate with its customers?</p>
+  </div>
+
+  <div class="NotesFromTheField" id="center6">
+    <p class="NotesFromTheFieldLabel">Notes from the field.</p>
+<p class="NotesFromTheFieldTitle">
+      The 111 8th Street Story</p>
+<p>
+      The 111 8th Street building outage illustrates the three rules of IXP outages: </p>
+    <ol>
+      <li>things break, </li>
+      <li>everyone recognizes rule #1, and </li>
+      <li>how the IDC keeps IDC participants informed is more important to the participants than the outage itself. </li>
+    </ol>
+    <p>This 111 8th Street story focuses on the extraordinary chain of events that led to a 24-hour+ outage. I share this story with the hope that we learn from it the lesson that notification and continual updates matter a lot to this community. George Santayana, who, in his &ldquo;Reason in Common Sense, The Life of Reason, Vol.1,&rdquo; wrote, &ldquo;Those who cannot remember the past are condemned to repeat it.&rdquo; And, in fact, the Internet operations community has repeated the failure of notification on a continual basis. Here are the broad strokes of the 111 8th Street notification story shared with DrPeering anonymously...</p>
+<p>
+      The 111 8th Street Outage</p>
+<p>
+      During the New York City blackout in August 2003, the 111 8th Street building (housing many major telecommunications company facilities) lost power. As designed, the UPS took over the building load and the generators on the roof kicked on. A crude picture of the building is shown in Figure 12-12.</p>
+  </div>
+  <div id="center7">
+    <p class="figure"><img src="img/12-12-1118th.png" alt="The 1118th street story"></p>
+    <p class="figure">Figure 12-12. During the NYC blackout, the backup power systems failed during the extended 111 8th Street outage. The cascading failures were forgiven, but the notification failures were not.</p>
+  </div>
+  <div class="NotesFromTheField" id="overflow">
+    <p>On the roof of 111 8th Street are a handful of generators fueled by a relatively small (maybe 500 gallons) diesel tank, refilled by a powerful below-ground fuel pump attached to a couple of 50,000 gallon diesel tanks safely stowed under the building. The system was designed so that when the automatic transfer switch kicked the building from the utility power feed over to the building power system, the fuel pump would also kick on to continually top off the rooftop diesel tank. And here is where the first failure occurred.</p>
+<p>
+      When installed, the below-ground fuel pump was tested, and sure enough, it turned on and seemed to start pumping fuel. The problem was that the polarity was reversed on the pump, so instead of pushing fuel from the underground tanks to the roof tank, it was accidentally rigged to pull fuel from the roof down to the underground tanks! When the city power was cut, the underground fuel pump indeed powered on and made noise, but did exactly the opposite of what it was supposed to do. It started draining the 500 gallon rooftop fuel tank.</p>
+<p>
+      During the blackout, all seemed fine at the IXP (which we will call X from here on) until the first generator on the roof stopped running, and then the second, and then the third. The tenants of the building who didn&rsquo;t have their own private power systems were told that there was a problem with the building power system. IXP Operator X notified its participants at this point that there was a power problem and the building owner was checking it out. </p>
+<p>
+      Another generator kicked off. Only two generators were now left operating on the roof. </p>
+<p>
+      IXP Operator X sent a note to its customers suggesting that the building was down to its last generators and that customers should shut down all unnecessary gear at the facility. </p>
+<p>
+      So far, so good.</p>
+<p>
+      However, it turned out to be the last communication most of the customers received from IXP X. The last of the generators kicked off shortly thereafter and most of the tenants of 111 8th Street were left completely without power.</p>
+<p>
+      The building electricians figured out that the roof tank was empty and the underground fuel pump was indeed running but pulling fuel down from the roof. They tried the polarity reversal test and the roof tank started filling up.</p>
+<p>
+      The roof tank filled up. But the generators were not starting up. Why?</p>
+<p>
+      During the hours that all of this activity was taking place, the generator starter motors were continually trying to restart the generators. The starter motors burned out! It took many hours to get the replacement starters delivered through the partying streets of New York City.</p>
+<p>
+      Once the new starters were installed, the generators cranked, but the generators still would not start. Why?</p>
+<p>
+      At the bottom of the 500-gallon roof tank was diesel sludge that had clogged the fuel pumps that fed the generators. It took more hours to get the tank cleaned and replacement fuel filters delivered through the partying streets of New York City.</p>
+<p>
+      Once the new fuel pumps were installed (and the sludge cleaned out of the fuel tank and fuel lines), the generators finally started up. </p>
+<p>
+      This process took many hours to unfold. And no notifications were sent to customers after IXP X lost power – radio silence lasted for over 24 hours of downtime.</p>
+<p>
+      During the outage, the building folks were probably scrambling to diagnose and fix the problem and perhaps not updating the tenants who depended on the building for power. Perhaps the building folks updated IXP Operator X periodically. We do not know. But what we do know is that IXP Operator X did not keep its customers updated during the outage, so the customers did not know if their equipment would be powering back up in a few minutes, hours, or days, and they could not prepare. ISPs told DrPeering that they can understand that failures occur, but the fact that there were no updates for an outage that ultimately lasted over 24 hours was maddening.</p>
+<p>
+      Lessons we should learn:</p>
+<p>
+      This scenario could have happened to any exchange point operator where power is out of its control. Indeed, unanticipated failure scenarios have happened to every data center company. What we should learn is that what seems to matter most to the participants is how the company responds to these events.</p>
+<p>
+      The part that was under IXP Operator X&rsquo;s control was its communication strategy, and in this scenario it failed completely. The ISPs interviewed were very understanding about the outage itself, but were very upset about the notification failure.</p>
+<p>
+      The way the system failed also demonstrates cascading failures. It was the sequence of the power outage, followed by the fuel pump polarity issue that led to the starter motor failure and the fuel pump clogging issues. If the fuel pump hadn&rsquo;t emptied the roof tank, the other two failures may not have occurred, at least not at that time. It was the cascading effect of these failures that made this outage an extended physical plant outage. </p>
+<p>
+      The N+1 electrical and mechanical system redundancy did not help. </p>
+<p>
+      Some would argue the root cause here was testing. Others would argue the root cause was lack of emergency preparedness by the IXP.</p>
+  </div>
+  <div id="conclusion">As valuable as a data center is at this stage of development, with no way in or out, it is an island, so we will next add network to the data center.</div>
+  <div id="bottomleftnav"> <a href="../ch12-4-HVAC/ch12-4-HVAC.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>The Data Center HVAC Model</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch12-6-Networked-Data-Center/ch12-6-Networked-Data-Center.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>The Networked Data Center Model</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

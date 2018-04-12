@@ -1,0 +1,238 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Chapter 4- Internet Peering</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Back to Table Of Contents</p>
+</a> </div>
+<div id="toprightnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Top 5 Motivations to Peer</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Chapter 4 - Internet Peering chapter</h1>
+	<p>In this chapter we introduce the other dominant form of interconnection, called Internet Peering. Internet Peering is a local routing optimization, a way to exchange some of your traffic with another party, with neither party incurring Internet Transit fees. We describe the process of peering, introduce (a lot of) terminology, and enumerate the top five motivations ISPs give for peering. The chapter closes with a brief discussion of Paid Peering.</p>
+</div>
+  <div id="left1">
+    <h2>Introduction</h2>
+    <p>Some people in the peering community see peering as like dating, finding a suitable partner where each party derives about equal value.</p>
+    <h2>Internet Peering</h2>
+    <p>One of the most common discussions within the peering coordinator community is</p>
+<p class="quote">
+  &ldquo;Internet Transit is so inexpensive, why do we need anything else?&rdquo;</p>
+<p>
+      The answer is related to transit traffic volume.</p>
+<p>
+      As stated earlier, as the price of Internet Transit has dropped an average of 30% per year, the average volume of Internet traffic has historically grown by 40–50% per year. This growth leads to the growth of the transit fees paid by and paid to the upstream ISPs.</p>
+<p>
+      For example, while the price for Internet Transit drops from $3/Mbps down to $2/Mbps, the volume of traffic during the same period might grow from 6Gbps to 10Gbps. The net result of these simultaneous forces is a 25% increase in monthly transit fees, from $16,000 per month to $20,000 per month. The percentages vary, but every year the Internet packet transmission market could grow as shown in Figure 4-1. </p>
+<p>So even though the unit cost of transit drops, the monthly transit bill increases. Decreasing the absolute cost of Internet Transit is one of the principal drivers for pursuing an Internet Peering strategy.</p>
+  </div>
+  <div class="NotesFromTheField" id="right1">
+    <p class="NotesFromTheFieldLabel">Notes from the field.</p>
+<p class="NotesFromTheFieldTitle">
+      Peering is Like Dating</p>
+<p>
+      C: I am trying to meet these people at this conference to see if they want to peer, and this feels like looking for a date.</p>
+<p>
+      DrP: Peering is a grudging interdependence. Both parties need to agree that it is better for them to interconnect than the next best alternative. </p>
+<p>
+      C: Like dating. </p>
+<p>
+      DrP: And then after peering is established, both parties continue to agree that the relationship is worth keeping in place, as that they both receive about equal value from the interconnection. </p>
+<p>
+      C: Like going steady. </p>
+<p>
+      DrP: Well, some peering requires a contract, like a yearly renewable marriage contract. ...Maybe the analogy is a bit stretched here. If the value is not there, the interconnection is removed, a process referred to as &ldquo;de-peering.&rdquo; This de-peering gives the community something to talk about... De-peering is sometimes a very public thing. </p>
+<p>
+      C: Does name-calling occur, ascribing of evil intent? And are there any of those uncomfortable social situations? </p>
+<p>
+      DrP: Sometimes. And sometimes, the peering is reestablished but with some additional conditions.</p>
+<p>
+      C: So peering is like dating?</p>
+<p>
+      DrP: Somewhat. However, unlike dating monogamy, peering monogamy would be just weird.</p>
+  </div>
+  <div id="left2">
+    <p class="figure"><img src="img/4-1-Price-Drop-Volume-Increase.png" alt="Transit Prices drop but volume increases" width="75%"></p>
+    <p class="figure">Figure 4-1. The unit cost of Internet bandwidth drops, but the volume increases. The result is a monthly Internet Transit bill that continues to rise.</p>
+</div>
+  <div id="right2">
+    <p><span class="definitionLabel">Definition</span>: <span class="definition">Internet Peering</span> is the business relationship whereby two companies reciprocally provide access to each other&rsquo;s customers.</p>
+<p>
+      Internet Peering is typically settlement-free, meaning that neither party pays the other for access to each other&rsquo;s customers, reflective of the underlying notion that peering is a relationship of approximately equal value to each party. Since both parties benefit about the same from the relationship, there is no need to bother with the overhead of measurement and settlement. </p>
+<p>
+      There is also no standard way to calculate and monitor the absolute value derived from a peering relationship. Is the value of the peering relationship proportional to the volume of traffic freely peered bi-directionally? Or is it proportional to the desirability or uniqueness of the routes? Or is the value the number of people reached?</p>
+<p>
+      For these and other reasons, the dominant form of peering is settlement-free. When you see the term &ldquo;peering&rdquo; from this point on, it means settlement-free peering.</p>
+<p>
+      To illustrate Internet Peering, consider the mini-Internet Peering Ecosystem shown in Figure 4-2 with only three ISPs: WestNet, MidNet, and EastNet.</p>
+  </div>
+  <div id="left3">
+    <p class="figure"><img src="img/4-2-Peering-Diagram.png" alt="Peering Diagram" width="75%"></p>
+    <p class="figure">Figure 4-2. Internet Peering provides reciprocal access to each other&rsquo;s customers.</p>
+  </div>
+  <div id="right3">
+    <p>Using graphical peering notation, we see that:</p>
+    <ul >
+      <li>WestNet is an      ISP with customers shown as clouds below it, MidNet is an ISP with its own      downstream customers, and EastNet is an ISP with its own downstream      customers.</li>
+      <li>WestNet is in an      Internet Peering relationship with MidNet in which WestNet learns how to      reach MidNet&rsquo;s customers, and MidNet reciprocally learns how to reach      WestNet&rsquo;s green customers.</li>
+      <li>EastNet is in an      Internet Peering relationship with MidNet in which EastNet learns how to      reach MidNet&rsquo;s customers, and MidNet reciprocally learns how to reach      EastNet&rsquo;s customers.</li>
+    </ul>
+    <p>After these two peering sessions are established, the routing tables are in place (as graphically shown as colored circles in the &ldquo;routing table&rdquo; beneath the ISP clouds). This diagram shows that MidNet peers with both EastNet and WestNet, and therefore MidNet customers can reach both EastNet and WestNet customers.</p>
+<p>
+      It is important to observe that the routing announcements go in the opposite direction as the traffic to that destination. The Internet routing scheme separates the control plane from the data plane.</p>
+<p>
+      For convenience, we will use the simplified and equivalent notation shown in Figure 4-3 to indicate a settlement-free peering relationship between two parties.</p>
+<p>These notations concisely convey that the two parties (ISP A and ISP B) are in a peering relationship.</p>
+</div>
+  <div id="left4">
+    <p class="figure"><img src="img/4-3-Peering-Diagram-Equiv.png" alt="Peering Equivalency diagram" width="75%"></p>
+    <p class="figure">Figure 4-3. Equivalent graphical notations for an Internet Peering relationship between ISP A and ISP B.</p>
+  </div>
+  <div id="right4">
+    <h2>Three Key Points about Internet Peering</h2>
+    <p>Three key points often get lost when one is first introduced to Internet Peering. It is worth reading the following points a few times:</p>
+    <ul>
+      <li>Internet Peering is not a transitive      relationship. The fact that WestNet is peering with MidNet and MidNet      is peering with EastNet does not imply that EastNet customers can reach      WestNet customers. WestNet knows how to get to only its own and MidNet&rsquo;s      customers, and EastNet knows how to reach only its own and MidNet&rsquo;s      customers. The fact that they both peer with MidNet is inconsequential;      peering is a nontransitive relationship. </li>
+      <li>As such, Internet Peering is not a perfect substitute for Internet Transit.      Internet Transit is a service that provides access to the global Internet,      while Internet Peering simply provides a more direct path for a subset of      the traffic.</li>
+      <li>Internet Peering is typically      settlement-free, with each side deriving about the same value from the      reciprocal arrangement. If either party perceives that the benefit derived      from peering is asymmetric, one party or the other may deny peering or      suggest an alternative paid arrangement.</li>
+    </ul>
+  </div>
+  <div id="bottomleftnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Back to Table Of Contents</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Top 5 Motivations to Peer</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

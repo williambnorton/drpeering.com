@@ -1,0 +1,215 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Chapter 5 - The Business Case for Peering</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Back to Table Of Contents</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch05-1-Peering-vs-Transit-Economics/ch05-1-Peering-vs-Transit-Economics.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Peering vs. Transit Economics</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Chapter 5 - The Business Case for Peering</h1>
+	<p>This chapter is written primarily for a Chief Financial Officer at an ISP who asks the question: &ldquo;Tell me why we should burn a port that might otherwise be generating revenue from customers.&rdquo;</p>
+<p>
+    I will present a systematic analysis for determining if and when peering makes financial sense. This topic is one of the most popular, and the analysis I present is done by just about every entity looking to attach at the core of the Internet. This chapter is an essential one for all interested in Internet Peering.</p>
+</div>
+<div id="Introduction">
+  <h2><a name="_Toc204407579"></a><a name="_Toc177273688"></a><a name="_Toc172603982"></a><a name="_Toc171221743"></a><a name="_Toc167976555">The Cost</a> of Peering</h2>
+  <p>To illustrate the Peering vs. Transit decision, let&rsquo;s enhance our previous peering model with some specific market price points collected at the DE-CIX Customer Meeting in Frankfurt, Germany, in late 2010. </p>
+<p>
+    Transport Cost Data Points. At the DE-CIX 2010 meeting, Edward Punt (KPN) and Sven Engelhardt (TiNet) shared pricing estimates for three categories of 10G transport circuit into the European IXP. They said that pricing tends to vary based on how close one is to the IXP:</p>
+<p>
+    Local: $2,000 per month for a local 10G connection into an IXP</p>
+<p>
+    Nearby: $4,000 per month for a 10G originating in a nearby country</p>
+<p>
+    Far: $6,000 per month for a Pan-European 10G circuit </p>
+<p>
+    At the meeting, a Slovenian ISP validated these price points. He shared with the group that the 10G circuit from Slovenia into the DE-CIX in Frankfurt was quoted as high as $7000 per month, and that from Budapest to the DE-CIX was about $6000 per month. So these numbers appear to be in the right ballpark for our analysis.</p>
+</div>
+  <div id="left1">
+    <h3><a name="_Toc204407580"></a><a name="_Toc167976556">Peering with 10G Ethernet</a></h3>
+    <p>We will first determine the unit cost of peering at 10G.</p>
+<p>
+      Let&rsquo;s start with the assumption that the ISP is coming from far away and will purchase a 10G transport circuit into an IXP for $6,000/month. </p>
+<p>
+      At the IXP, let&rsquo;s assume the 10G peering port costs $2,000 per month, and a powered half rack costs $1000/month, as shown in Figure 5-1. </p>
+<p>
+      We will add some equipment costs into the mix as well. A Cisco 6509 might amortize to about $2,000 per month.</p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/5-1-Cost-of-Peering.png" alt="Sample costs of peering" width="80%"></p>
+    <p class="figure">Figure 5-1. Sample cost of peering at an IXP.</p>
+  </div>
+  <div id="left2">
+    <p>With all of these costs accounted for, we see a monthly cost of peering of $11,000 per month, as shown in Table 5-1.</p>
+  </div>
+  <div id="right2">
+    <p class="figure">Table 5-1. The cost of peering using cross-continent transport.</p>
+    <p class="figure"><img src="img/t5-1-Cost-Of-Peering.png" alt="Peering cost table" width="75%"></p>
+  </div>
+  <div id="left3">
+    <h2><a name="_Toc204407581"></a><a name="_Toc177273689"></a><a name="_Toc172603983"></a><a name="_Toc171221744"></a><a name="_Toc167976557">Calculating the Cost</a> of Peering</h2>
+    <p>Question: Given these figures, how much does it cost to peer 1Gbps over this 10Gbps infrastructure?</p>
+<p>
+      To answer this question, we need to normalize peering costs into the same terms as transit costs. We need to compare both peering and transit on a Megabit-per-second basis. To do this we divide the fixed monthly cost of peering by the amount of traffic we will peer across the infrastructure. </p>
+<p>
+      For example, since peering costs $11,000 per month, and we will peer 1Gbps (1000Mbps) over that infrastructure, we will realize a cost of $11,000/1000Mbps= $11.00 per Mbps when that 1Gbps of traffic is peered.</p>
+<p>
+      As shown in Table 5-2, when we peer away 2.2Gbps of our traffic, the unit cost for traffic exchange is $5/Mbps.</p>
+    <p>Now let&rsquo;s generalize the analysis.</p>
+</div>
+  <div id="right3">
+    <p class="figure">Table 5-2. Allocating the costs of peering across the amount of traffic peered.</p>
+    <p class="figure"><img src="img/t5-2-Allocating-costs.png" alt="Allocating the cost of peering across traffic volume" width="75%"></p>
+  </div>
+  <div id="center6">
+    <h2><a name="_Toc204407582"></a><a name="_Toc177273690"></a><a name="_Toc172603984"></a><a name="_Toc171221745"></a><a name="_Toc167976558">Generalized Analysis</a></h2>
+    <p>Four key peering metrics describe the effectiveness of peering:</p>
+    <ul >
+      <li>The Peering Break-Even Point answers      the question, &ldquo;How much traffic do I have to peer for free to save enough      money to cover the cost of peering?&rdquo; </li>
+      <li>The Effective Peering Bandwidth      answers the question, &ldquo;What is the maximum amount of traffic I can      realistically push through the peering infrastructure?&rdquo;</li>
+      <li>The Effective Peering Range answers      the question, &ldquo;Where is the peering sweet spot – the peering bandwidth      range where peering is financially rational?&rdquo;</li>
+      <li>The Minimum Cost for Traffic Exchange answers the      question, &ldquo;What is the best possible unit cost for peering?&rdquo;</li>
+    </ul>
+    <p>I will walk through each of these peering vs. transit calculations in turn.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Back to Table Of Contents</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch05-1-Peering-vs-Transit-Economics/ch05-1-Peering-vs-Transit-Economics.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Peering vs. Transit Economics</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

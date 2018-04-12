@@ -1,0 +1,180 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Tactic 7. Extend the Dominant IXP</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch13-06-Beachhead Verticals and Niche Markets/ch13-06-Beachhead Verticals and Niche Markets.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Tactic 6. Beachhead Verticals and Niche Markets</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch13-08-Prevent Rogue IXPs/ch13-08-Prevent Rogue IXPs.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Tactic 8. Prevent Rogue IXPs</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Tactic 7. Extend the Dominant IXP</h1>
+	<p>&nbsp;</p>
+</div>
+  <div id="left1">
+    <p>In this tactic, the upstart IXP asks to be a reseller for the dominant IXP by extending the peering fabric into its data center space. In this way, the population of the startup IXP will immediately include all of the dominant IXP participants.</p>
+<p>
+      In the U.S. this tactic rarely works because of the asymmetric benefits of the extension. The dominant IXP is unlikely to be willing to support an IXP that could eventually compete with it. When approached, the dominant IXP will likely make the negotiation process long and difficult.</p>
+<p>
+      The IXP extension may seem similar to the European IXP model as described earlier, where the colocation site is a separate company from the IXP. The difference though is the ability for the extension colocation center to offer its own peering services as well. Ultimately, the extension site wants to have the stickiness of a network dense IXP and be able to charge the premium prices for its network-dense colocation environment.</p>
+<p>
+      If the extension is allowed, the startup IXP can start to build its own critical mass of peers that peer privately on site while still having access to the dominant IXP customers. Once this dual-peered population grows, the upstart has a potentially superior offering to the market and can lure peers over from the dominant IXP.</p>
+  </div>
+  <div id="right1">
+    <p> <strong>Value of the IXP</strong> = f<strong>(p</strong>, <span class="glow"><strong>r</strong></span><strong>,</strong> <strong>v</strong>, <strong>m</strong>) - <strong>c</strong></p><!-- #BeginLibraryItem "/Library/7_IXPvalueParms.lbi" --><p><strong>p</strong>: The population</p>
+<p>
+    <strong>r</strong>: The routes available</p>
+<p>
+    <strong>v</strong>: The volume of traffic exchanged</p>
+<p>
+    <strong>m</strong>: The market perception of the IXP</p>
+<p><strong>c:</strong> The cost of participatioon at the IXP</p>
+<!-- #EndLibraryItem --><p></p>
+  </div>
+  <div class="NotesFromTheField" id="right2">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      Interconnections Between Tenants of the Same Carrier Hotel.</p>
+<p>
+    When IXPs are collocated in the same building, such as in the Infomart in Texas, interconnections between the customers of each IXP have proven problematic. One or both colocation companies may make the interconnection process slow and expensive. Both IXPs stand to lose their stickiness by removing the necessity for the other IXP customer to build in. </p>
+  </div>
+
+  <div id="bottomleftnav"> <a href="../ch13-06-Beachhead Verticals and Niche Markets/ch13-06-Beachhead Verticals and Niche Markets.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Tactic 6. BeachheadVerticals and Niche Markets</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch13-08-Prevent Rogue IXPs/ch13-08-Prevent Rogue IXPs.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Tactic 9. Prevent Rogue IXPs</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

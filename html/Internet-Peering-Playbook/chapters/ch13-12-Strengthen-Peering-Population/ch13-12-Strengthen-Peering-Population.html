@@ -1,0 +1,209 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Tactic 12. Strengthen Peering Population</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch13-11-Build-and-Maintain-Population-Stickiness/ch13-11-Build-and-Maintain-Population-Stickiness.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Tactic 11. Build and Maintain Population Stickiness</p>
+</a> </div>
+<div id="toprightnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Back to Table Of Contents</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Tactic 12. Strengthen Peering Population</h1>
+	<p>&nbsp;</p>
+</div>
+  <div id="left1">
+    <p>In Europe, a defense system is automatically in place; if a rival IXP approaches a founding member of a dominant European IXP, for example, the result is effectively intelligence gathering for the dominant IXP. The founding members are unlikely to move from &ldquo;their&rdquo; IXP, although they may be persuaded to add a presence elsewhere if given a compelling reason. The Europeans have proven to be very protective of their IXPs.</p>
+<p>
+      For commercial IXPs in the U.S., however, it is critical to work very closely with the peering community to build and maintain a strong alliance with the peering population. </p>
+<p>
+      This tactic goes beyond understanding the customers&rsquo; businesses. It is critical to understand their inclinations. This tactic is about systematically tracking the interconnections and effectively managing introductions to maximize the degree of interconnection. The litmus test of success is the degree of the mesh. </p>
+<p>
+      The peering map (Figure 13-9) tracks peering sessions between classes of peers. At least one side needs to share its peering session lists in order to fill in the appropriate square with a peering mark. Let&rsquo;s look at the peering map.</p>
+  </div>
+  <div id="right1">
+    <p> <strong>Value of the IXP</strong> = f<strong>(p</strong>, <strong>r</strong><strong>,</strong> <strong>v</strong>, <strong class="glow">m</strong>) - <strong>c</strong></p><!-- #BeginLibraryItem "/Library/7_IXPvalueParms.lbi" --><p><strong>p</strong>: The population</p>
+<p>
+    <strong>r</strong>: The routes available</p>
+<p>
+    <strong>v</strong>: The volume of traffic exchanged</p>
+<p>
+    <strong>m</strong>: The market perception of the IXP</p>
+<p><strong>c:</strong> The cost of participatioon at the IXP</p>
+<!-- #EndLibraryItem --><p></p>
+  </div>
+  <div id="left2">
+    <p>From the peering map in Figure 13-9 we can see that a maximally peered IXP would have all Open peers peering with all other Open peers. </p>
+<p>
+      Those ISPs with Selective Peering Inclinations require certain thresholds to be met (traffic volumes, interconnection points, ratios, etc.) and if met, an IXP can facilitate introductions leading to peering. Sometimes Open and Selective peers will peer with each other. Selective peers may peer with other selective peers, but their policies need to be examined before the introductions are made. Some Selective peers prefer to manage their own peering and are not receptive to peering introductions, but my experience, very few will object to IXPs providing introductions and facilitating peering. The arrows in Figure 13-9 highlight opportunities for the IXP to facilitate peering that might otherwise not happen.</p>
+<p>
+      Introductions to Restrictive peers are not worth doing since Restrictive peers generally do not want additional peers. Making them aware of large Selective peers as they join may be a good idea and may indirectly facilitate peering between Restrictive and Selective peers. </p>
+<p>
+      With the peering map filled in and maintained, the peering policies can be systematically tracked and understood, and an IXP peering manager can facilitate the introduction of prospective customers to the current peering population, helping to ensure the value growth of the IXP. The absence of such peering initiatives means managing the IXP development based on hope and luck.</p>
+<p>
+      To illustrate IXP peer tracking, consider a snapshot of a peering population at a well-established IXP in Figure 13-10. The nature of the participants&rsquo; interconnections are plotted across the X and Y axes, with the intersection highlighting the peering inclination and peering state. </p>
+  </div>
+  <div id="right2">
+    <p class="figure"><img src="img/13-9-Strengthen-Peering-Population.jpg" alt="Strengthen Peering Population"></p>
+    <p class="figure">Figure 13-9. Strengthen Peering Population.</p>
+  </div>
+  <div id="left3">
+    <p><strong>Peering Map Legend</strong></p>
+<p>
+      Green indicates that both parties have an Open Peering Policy or have explicitly indicated a willingness to peer with the other party. </p>
+<p>
+      Yellow indicates one or the other party has not indicated affirmatively or negatively, either by policy or explicitly, an inclination to peer with the other party.</p>
+<p>
+      Purple indicates that there is a known Public Peering relationship.</p>
+<p>
+      Blue indicates that there is a known Private Peering relationship.</p>
+<p>
+      Black diamonds indicate that a peering introduction has been made.</p>
+<p>
+      White means that we have no information about whether these two parties would peer.</p>
+<p>
+      By systematically tracking and managing the customer base and interconnections (to the extent allowed by the population), an IXP can maximize its interdependence stickiness.</p>
+  </div>
+  <div id="right3">
+    <p class="figure"><img src="img/13-10-Peering-Map.jpg" alt="peering map"></p>
+    <p class="figure">Figure 13-10. Track IXP Peering.</p>
+  </div>
+
+  <div id="bottomleftnav"> <a href="../ch13-11-Build-and-Maintain-Population-Stickiness/ch13-11-Build-and-Maintain-Population-Stickiness.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Tactic 11. Build and Maintain Population Stickiness</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Back to Table Of Contents</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

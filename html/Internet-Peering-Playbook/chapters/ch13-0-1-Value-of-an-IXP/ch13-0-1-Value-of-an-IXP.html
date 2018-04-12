@@ -1,0 +1,283 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>The Value of an IXP</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch13-0-0-IXP-Playbook/ch13-0-0-IXP-Playbook.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>The IXP Playbook</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch13-0-2-IXP-Playbook-Tactics/ch13-0-2-IXP-Playbook-Tactics.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>The IXP Playbook Tactics</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>The Value of an IXP</h1>
+	<p>Building an IXP is relatively easy. Building a successful IXP is hard. </p>
+</div>
+  <div id="left1">
+    <h2>
+    What is a successful IXP?</h2>
+<p>
+      <span class="definitionLabel">Definition</span>: A <span class="definition">Successful IXP</span> is an IXP where the value derived from peering exceeds the cost of peering.</p>
+<p>
+      To understand the value side of an IXP, we need to talk about Network Externality.</p>
+<p>
+      <span class="definitionLabel">Definition</span>: <span class="definition">Network Externality</span> is the economist term for the characteristic of a product or service whose value is proportional to the others using the product or service.</p>
+<p>
+      The classic example of Network Externality is a fax machine. If only a single fax machine existed, it would have no inherent value – there would be no one to receive the first fax! When the second fax machine was deployed, the first machine could exchange images with it, so the value for both machines was greater. Deployment of the third fax machine created the potential to send faxes to three parties, so the fax machine was inherently more valuable still. To generalize, as the number of fax machines grew, the value of owning a fax machine grew.</p>
+<p>
+      IXPs exhibit the Network Externality effect as well, as shown in Figure 13-1.</p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/13-1-valueOfIXGraph.png" alt="Value of IXP"></p>
+    <p class="figure">Figure 13-1. The IXP network externality effect.</p>
+  </div>
+  <div id="left2">
+    <p>Figure 13-1 shows a plot of the value of the IXP as a function of the number of participants. As more participants connect to the exchange point, more participants can peer with each other. From the point of view of the participants, the value of the exchange point increases with each potential peer. The tough part is getting those first participants in, a phase called the &ldquo;Startup Hump.&rdquo;</p>
+    <h3>The IXP &ldquo;Startup Hump&rdquo;</h3>
+    <p>An IXP must somehow attract those first participants when there is no one else to peer with at the IXP. The &ldquo;IXP Startup Hump&rdquo; is where the real heavy lifting occurs, because it can sell only the concept of a successful IXP, without the immediate demonstrable value. Every IXP has to make its way through these first sales gauntlets.</p>
+<p>
+      When at first two ISPs at the IXP peer with each other, they both derive some value from the IXP. Their traffic is exchanged directly and perhaps redundantly, and it is typically settlement-free. This traffic may bypass a more expensive transit alternative. Perhaps the traffic is between two Tier 1 ISPs that find it more cost-effective to interconnect using cross-connects in a building instead of point-to-point circuits. In any case, when these two parties peer with each other, they both derive value from their participation at the IXP. </p>
+<p>
+      When the third ISP joins the IXP, three ISPs can potentially peer with each other. As a result, the value of the IXP to the participants increases. To generalize, the more populated the IXP, the more traffic that can potentially be exchanged, and therefore, the more valuable the IXP. </p>
+<p>
+      The rest of this chapter deals with navigating through this initial phase.</p>
+  </div>
+  <div class="NotesFromTheField" id="right2">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      The Equinix Start-Up Hump</p>
+<p>
+      To demonstrate the Startup Hump, consider Equinix, whose first customer was an electronic greeting card company called &ldquo;Blue Mountain Arts.&rdquo; At the time, our first building in Ashburn, Virginia, had just finished construction and had no carriers, no ISPs, and no content companies. It was as valuable as an empty house on an uninhabited, uncharted island. </p>
+<p>
+      The primary contact at Blue Mountain Arts had seen my presentation at a peering event and asked if we had any more space left at the facility. It was still the boom years, and the economy was humming. Blue Mountain Arts was on a tight deployment schedule and wanted to get the paperwork started as early as possible. With this first customer we had something tangible to talk to carriers and other ISPs about – this customer represented circuit and transit sales potential. This first sale took months, but then there was a real story to tell, some credibility, and a reason to build in. Ashburn was no longer a data center island.</p>
+  </div>
+  <div id="center1">
+    <p>We have discussed the value of the IXP, but from a participant perspective, the cost of peering must be considered. An ISP may need to purchase a circuit into the IXP, lease colocation space and a port on a Public Peering fabric, purchase equipment, etc. The ISP must be able to justify these costs with the value it believes they will derive. The cost of peering is shown as a horizontal line in Figure 13-1.</p>
+<p>
+      Where the value of the IXP and the cost of participation intersect is a key point called the &ldquo;IXP Critical Mass Point.&rdquo;</p>
+<p>
+      Definition: The IXP Critical Mass Point is where the derived value of the IXP exactly equals the cost of participation.</p>
+<p>
+      Beyond the Critical Mass Point, the IXP has a provable value proposition since it provides more value than it costs. As a result, the IXP often experiences exponential growth in the number of participants. </p>
+    <h3>The IXP Exponential Growth</h3>
+    <p>Why does the IXP value curve show an exponential growth? The growth is exponential because there are n peers that can peer with (n-1) other peers, leading to the IXP facilitating n(n-1) connections with peers. Up to n(n-1)/2 interconnections are possible if you don&rsquo;t include both sides. Since the value is so much higher than the cost of participation, it gets easier to sell and the value grows for everyone as more people join. </p>
+<p>
+      Life is good for the IXP when in this situation. Salespeople become order takers, the sales cycle is compressed, customers want the service, the IXP can increase prices, and ISPs will not move out. This cycle continues until the IXP runs out of capacity.</p>
+<p>
+      Not surprisingly, all new IXPs want to get to and past the Critical Mass Point.</p>
+    <h3>The IXP Is Full</h3>
+    <p>The IXP may reach a point at which it is out of capacity and can&rsquo;t expand – or chooses not to expand. The number of peers in this scenario stays constant. Over time more traffic may be peered, but the inability to add additional peers results in a sustained but flat value proposition.</p>
+    <br clear="all">
+  </div>
+  <div id="center2">
+    <h2>A Simple Calculation of the Financial Value of an IXP</h2>
+    <p>We can estimate the aggregate value of an IXP to its population by calculating the amount of traffic that is freely peered instead of traversing transit. For the sake of simplicity, we assume that all traffic peered at the IXP is exchanged, as the next-best alternative, across a commodity Internet Transit at market prices.</p>
+<p>
+      valueOfIXP = mbpsExchanged * avgTransitPrice - CostOfPeering</p>
+<p>
+      Example 1. The DE-CIX passed about 1Tbps (1,000,000 Mbps) of traffic in 2010. Assume that it charges $3500 per month uniformly across its 350 participants, and that the market price for transit is $2/Mbps.</p>
+    <ul >
+      <li>What is the      value of the DE-CIX? </li>
+      <li>What is the      per-user value derived from peering?</li>
+      <li>Is the DE-CIX      past the Critical Mass Point?</li>
+    </ul>
+    <p>Answers</p>
+<p>
+       a) To calculate the value derived by this population, we need to multiply that peered traffic volume by the market price of transit, its next-best alternative.</p>
+<p>
+      valueOfDE-CIX = mbpsExchanged * avgTransitPrice - CostOfPeering</p>
+<p>
+      valueOfDE-CIX = 1,000,000 Mbps * $2/Mbps - 350 members * $3500/month</p>
+<p>
+      valueOfDE-CIX = $2,000,000 - $1,225,000 = $775,000/month</p>
+<p>
+      From this calculation we can see that the DE-CIX is saving its peering population about $775,000 per month. The value of this IXP is $775,000 per month to its peering population.</p>
+<p>
+      b) To calculate the per-user value of the IXP, we simply divide the value of the IXP across the number of participants. The DE-CIX per-user value, therefore, is $775,000/350 = $2214/month</p>
+<p>
+      From this calculation we can say that on average, the DE-CIX participant saves $2214 per month from participation.</p>
+<p>
+      c) Since the per-user value of the IXP is greater than $0/month, this IXP must be past the Critical Mass Point. </p>
+<p>&nbsp;</p>
+  </div>
+  <div id="left3">
+    <p>Example 2. As of 2010, the Kenya IXP (KIXP) had only 28 members, each paying $300 per month for a port on the switch. In this Internet Region the price of transit is high ($400/Mbps) and the amount of traffic exchanged at the KIXP is low (only a few Mbps). This scenario may lead one to believe the KIXP is not as valuable as the large IXPs in Europe where the amount of traffic peered is measured in Tbps. </p>
+    <p> a) If the market price for Internet Transit in Kenya is $400/Mbps and the value of the traffic peered at the KIXP is $40,000 per month as shown in Figure 13-2, how much traffic is peered at the KIXP? What is the Peering Break-Even point at the KIXP?</p>
+    <p> Answer</p>
+    <p> a) The value of the peered traffic is $40,000 per month, and with the price of transit at $400/Mbps we can see that the members of this IXP peer ($40,000/$400/Mbps) 100 Mbps per month.</p>
+    <p> The price of transit is so high that it takes only 0.75Mbps ($300/$400/Mbps) of free peering traffic for peering to make financial sense at the KIXP!</p>
+    <p>To the population that peers there, the KIXP provides ($40,000 per month/28 members) $1128 per month in surplus value on average, as shown in Figure 13-2.</p>
+</div>
+  <div id="right3">
+    <p class="figure"><img src="img/13-2-valueOfKIXPGraph.png" alt="Value of KIXP"></p>
+    <p class="figure">Figure 13-2. Value of the Kenya IXP (KIXP).</p>
+  </div>
+  <div id="center3">
+    <p>Example 3. The Belgium Neutral Internet Exchange (BNIX) is located in the outskirts of Brussels. In 2010 it had 44 participants that collectively peered about 30Gbps (30,000Mbps) in a market where the price of transit is about 5 euros per Mbps. The cost of peering, ignoring the transport, colocation, and equipment costs, is 1000 euros/month. <br>
+      a) What is the value of the BNIX to its population?<br>
+      Answer <br>
+      a) The value of the BNIX is <br>
+      valueOfBNIX = mbpsExchanged * avgTransitPrice - CostOfPeering<br>
+      valueOfBNIX =30,000Mbps * 5euros/Mbps - 44*1000euros/month = 106K euros<br>
+      European examples were chosen here because the European IXPs freely share their public switch traffic statistics on the Internet. Why not? It helps to demonstrate their value.<br>
+      Consider Table 13-1, which compares several large IXPs.</p>
+  </div>
+  <div id="table1">
+    <p class="figure">Table 13-1. Several large IXPs with the calculated (estimated) per-user derived value (Source: Wikipedia, July 2012).</p>
+    <p class="figure"><img src="img/t13-1-Competitive-IX-Markets.png" alt="IXP value estimates"></p>
+  </div>
+  <div id="left4">
+    <p>We added the column &ldquo;Per-Member Transit Saved@$2/Mbps&rdquo; column to show that each of these IXPs is beyond the Critical Mass Point. </p>
+  </div>
+  <div id="left5">
+    <h3>Criticisms of the Simple Calculation</h3>
+    <p>Some people consider the IXP traffic volume calculation to be flawed in a variety of ways.<br>
+      The strongest criticism is that IXP value rankings such as this one ignore the traffic that traverses Private Peering sessions. A few years ago, the LINX started migrating some of its larger traffic exchangers from public to Private Peering. This migration extended the useful life of the LINX public switch technology, but in this ranking makes them appear less valuable.<br>
+      This criticism is a valid one. IXPs typically have no visibility into Private Peering sessions and, therefore, can make no claims about how much traffic is exchanged across them. They can make estimates only about the amount of traffic that is peered. The financial value of the IXP model understates the value of these IXPs.<br>
+      The second batch of criticisms focuses on the underlying assumptions in the simple model. In particular, the model assumes that <br>
+      a) The traffic across the switch is all peering traffic.  However in reality there could be transit traffic mixed in as well. <br>
+      b) The traffic is the type of peering traffic that is bypassing the transit service, but it could be Tier 1 ISP-to-Tier 1 ISP peering.<br>
+      c) The next-best alternative is transit where often the next-best alternative is peering elsewhere.<br>
+      d) The cost of transport, equipment, and colocation is ignored when it could be a significant component of the cost of peering.<br>
+      e) The uniqueness of the routes is ignored in the model, while an ISP would not build in to receive the same routes it received elsewhere.<br>
+      f) The focus is on the &ldquo;average&rdquo; ISP, where all ISPs are different and will derive different value.<br>
+       All of these criticisms of the simple financial value of the IXP model are valid.<br>
+      This discussion leads us to a slightly more complex value model, but one that is not intended to lead us to an absolute value. The next model focuses on the parameters that make up the value of the IXP. In this model we enumerate the components of the value proposition and use them to classify the manipulations that help grow the value of the IXP.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch13-0-0-IXP-Playbook/ch13-0-0-IXP-Playbook.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>The IXP Playbook</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch13-0-2-IXP-Playbook-Tactics/ch13-0-2-IXP-Playbook-Tactics.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>The IXP Playbook Tactics</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

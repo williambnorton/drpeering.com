@@ -1,0 +1,261 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Tactic 1. The Extended Direct Approach</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch11-0-The-ISP-Peering-Playbook/ch11-0-The-ISP-Peering-Playbook.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Ch11 - The ISP Peering Playbook</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch11-02-Internet-Transit-With-Peering-Migration/ch11-02-Internet-Transit-With-Peering-Migration.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Tactic 2 - Internet Transit with Peering Migration</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Tactic 1. The Extended Direct Approach</h1>
+	<p class="quote">&ldquo;Success is the ability to go from one failure to another with no loss of enthusiasm.&rdquo; </p>
+	<span class="attribution"> – Winston Churchill</span></div>
+  <div id="left1">
+    <p>The most common way to obtain peering is to simply ask for it (Figure 11-8). </p>
+    <p>The trick here is how to request peering. </p>
+<p>
+It is important to understand the internal motivations of the target ISP. The handling of peering requests is often seen as not &ldquo;real network engineering&rdquo; within many ISP network engineering teams. As a result, many ISPs allocate this duty as an on-duty weekly rotation. Many of the network engineers have learned that if they ignore peering requests during their week, the requestor will resend the request next week and someone else will have to deal with it. As a result, there are no shortages of excuses why a peering request could have been ignored. Don&rsquo;t make it easy to drop the peering request. </p>
+    <p>The extended direct approach tactic here is to: </p>
+    <ul >
+      <li>Identify the      right contact.</li>
+      <li>Know the target      peering prerequisites.</li>
+      <li>Communicate the      right information.</li>
+      <li>Use the best      method for contact.</li>
+      <li>Use social      engineering to make the request as easy as possible for the ISP to act      upon.</li>
+    </ul>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/11-8-Peering-Requests.png" alt="request"></p>
+    <p class="figure">Figure 11-8. Tactic 1 - The Direct Approach.</p>
+  </div>
+  <div id="left2">
+    <h3>The Right Contact<h3>
+    <p>The following material is an excerpt from Chapter 4 – Internet Peering and is repeated here for convenience. </p>
+    <h4>Top 10 ways seasoned peering coordinators contact target ISPs</h4>
+    <ol start="1" type="1">
+      <li>Face-to-face at      informal meetings in an &ldquo;open&rdquo; Internet Operations forums like NANOG, IETF, RIPE, APNIC,      AFNOG, etc. (Here &ldquo;open&rdquo; means anyone can attend.)</li>
+      <li>Face-to-face at      &ldquo;selective&rdquo; commercially-sponsored peering forums like the Global Peering      Forum (Here &ldquo;selective&rdquo; means there are some prerequisites to attend, like      being a customer of a GPF IXP sponsor.)</li>
+      <li>Face-to-face at &ldquo;selective&rdquo;      IXP Member Meetings like DE-CIX, LINX, or AMS-IXP member meetings</li>
+      <li>Via introductions      made through an IXP Chief Technical Liaison or a peer that knows the right      contact </li>
+      <li>Via electronic      mail, using the pseudo standard peering@ispdomain.net or a personal      contact</li>
+      <li>From contacts      listed on an exchange point participant list, or peeringdb registrations</li>
+      <li>With tech-c or      admin-c from DNS or ASN registries</li>
+      <li>Through a search      for &ldquo;peering contact $ASN peering&rdquo;</li>
+      <li>From the target      ISP sales force, at trade show or as part of sales process </li>
+      <li>From the target      ISP NOC</li>
+    </ol>
+    <p>We will start by exploring the direct peering approach along with the back-door alternatives that seasoned peering coordinators use. </p>
+  </div>
+  <div id="left3">
+    <h3>1A - E-mail Peering Requests</h3>
+<p>
+      The direct by-the-rules approach is to send e-mail to peering@ispdomain.net as shown in Figure 11-9. Alternatively, there are many ways to find the e-mail address for an individual peering person. Dealing directly with an identifiable person as opposed to a role account may help increase the chances of a response (also shown in Figure 11-9). It is socially harder to ignore a person-to-person e-mail than to ignore a person-to-role e-mail.</p>
+    <p>While these conferences can be a lot of fun, you are there to seek information about your target peers. For example, &ldquo;Whom do they peer with now?&rdquo; If they were involved with a de-peering, what was the cause? </p>
+<p>
+      General information about the particular Internet Peering Ecosystem is important to discover, and it is easy in face-to-face meetings. You want to find out who the key players are and what the market prices are for transit, transport, colocation, etc. Assembling the business case for peering in the region is a critical stage for the initiator, and doing so provides credibility to the target. Familiarity with the region is important and can help maximize the likelihood of acceptance of a peering request. Most of this information is freely and readily exchanged among peering people within the community.</p>
+<p>
+    As a general rule, I estimate the travel budget to cost around $1000 for each domestic conference, $5000 to attend a nearby international conference, and $10,000 for far-away international conferences. A travel budget for introduction into a region might include five domestic, five international, and three far-away international conferences, for about $50,000 per year.</p>
+<p>&nbsp;</p>
+  </div>
+  <div id="right3">
+    <p class="figure"><img src="img/11-10-AttendForums.png" alt="email bypass tactic"></p>
+    <p class="figure">Figure 11-9. Communicating with a person, not an alias.</p>
+  </div>
+  <div id="left4">
+    <p>The Problems with E-mail Peering Requests</p>
+<p>
+      E-mail is a tough communications medium for peering interactions. It is not clear how much information is needed for the interaction, or whether the target will be receptive to the overtures. </p>
+<p>
+      Here are the top problems with e-mailing peering requests:</p>
+    <ul >
+      <li>Which e-mail address? In some      cases it is not at all clear which peering e-mail address to use when      communicating with the target ISP. In some regions ISPs use <a href="mailto:peering@ispdomain.net">peering@ispdomain.net</a> as an alias for      peering requests, while others use <a href="mailto:netops@ispdomain.net">netops@ispdomain.net</a> or <a href="mailto:peering.coordinator.name@ispdomain.net">peering.coordinator.name@ispdomain.net</a>,      etc. </li>
+      <li>Not enough information in the peering      request. One peering coordinator complained about constantly receiving      peering requests without the basic information like AS#,      amount of traffic involved, where the requester wants to peer, etc. </li>
+      <li>Poor grammar. Others complained      that some peering requests were very hard to decipher, and the      peering coordinator lamented that the peering discussion that might ensue      would similarly be difficult to decipher. (We examined a sample poor      peering request in chapter 4.) These e-mail peering requests will      ultimately drop through the cracks. </li>
+      <li>Too much information in peering request.      Still others complained that too much information made the peering request      seem too burdensome to process. </li>
+      <li>Ignorance of the peer. The notion      of a &ldquo;peer&rdquo; includes the idea that both networks are of similar scope and      scale of infrastructure and would benefit about equally from the      relationship. The target peering coordinator may not know enough about the      initiating ISP, so may not see the initiating ISP as a true &ldquo;peer.&rdquo; This      ignorance may result in the target&rsquo;s being unmotivated to pursue the      relationship. Startup ISPs tend to be somewhat optimistic about their      traffic growth futures, and since so many ISPs use intuition to determine      whom to peer with, it is difficult for these unknown companies to be seen      as true &ldquo;peers.&rdquo; </li>
+      <li>Cultural issues. One Japanese ISP      shared that it was common in Japanese ISPs to have a person with the job      of translating the &ldquo;rude&rdquo; English peering request into a &ldquo;polite&rdquo; Japanese      peering request. E-mail misunderstandings go in both directions.</li>
+    </ul>
+    <p>Because of these challenges, person-to-person (ideally face-to-face) discussions help speed things along.</p>
+  </div>
+  <div id="left5">
+    <h3>1B Maximize Face Time</h3>
+<p>
+      Since face-to-face conversations improve the likelihood of obtaining peering, a popular strategy is to attend as many Internet operations conferences as possible (Figure 11-10).</p>
+<p>
+      The goals of attending the conferences are to: </p>
+    <ul >
+      <li>Collect peering      intelligence.</li>
+      <li>Maximize the      chances of meeting the peering coordinator&rsquo;s target ISPs.</li>
+      <li>Be seen as a      regular in the peering coordinator community.</li>
+    </ul>
+    <p>While these conferences can be a lot of fun, you are there to seek information about your target peers. For example, &ldquo;Whom do they peer with now?&rdquo; If they were involved with a de-peering, what was the cause? </p>
+<p>
+      General information about the particular Internet Peering Ecosystem is important to discover, and it is easy in face-to-face meetings. You want to find out who the key players are and what the market prices are for transit, transport, colocation, etc. Assembling the business case for peering in the region is a critical stage for the initiator, and doing so provides credibility to the target. Familiarity with the region is important and can help maximize the likelihood of acceptance of a peering request. Most of this information is freely and readily exchanged among peering people within the community.</p>
+<p>
+    As a general rule, I estimate the travel budget to cost around $1000 for each domestic conference, $5000 to attend a nearby international conference, and $10,000 for far-away international conferences. A travel budget for introduction into a region might include five domestic, five international, and three far-away international conferences, for about $50,000 per year.</p>
+</div>
+  <div id="right5">
+    <p class="figure"><img src="img/11-10-AttendForums.png" alt="Attend Forums"></p>
+    <p class="figure">Figure 11-10. Getting face time at Internet operations meetings.</p>
+  </div>
+  <div id="lefty">
+    <h3>1C - Leverage the IXP Resources</h3>
+<p>
+      Here we really leverage the IXP&rsquo;s aligned interests to get you peering. The successful IXP has a person tasked with maximizing the value of its IXP by facilitating peering. This person performs this task with introductions, by meeting with customers and sharing contact information, by establishing a relationship with the peering coordinators to maximizing their peering, and by evangelizing peering at forums. This person is in a good position to provide introductions and promote you in the peering community (Figure 11-11).</p>
+  </div>
+  <div id="righty">
+    <p class="figure"><img src="../ch11-0-The-ISP-Peering-Playbook/img/11-11-IX-CTL.png" alt="CTL"></p>
+    <p class="figure">Figure 11-11. Leverage someone who knows everyone.</p>
+  </div>
+  <div class="NotesFromTheField" id="center6">
+    <p class="NotesFromTheFieldLabel">Notes from the field.</p>
+<p class="NotesFromTheFieldTitle">
+      Chief Technical Liaison Role</p>
+<p>
+      In the early days of Equinix, I would join the newbie peering coordinator to make a half dozen peering calls. I would start with people I knew would be receptive to the conversation, people who would be pleasant if not enthusiastically affirmative. After these calls the peering coordinator felt comfortable enough with the process to start making calls and meet these people face-to-face at peering forums. He would eventually became a peering consultant, helping a bunch of smaller ISPs and content companies get their peering infrastructure and sessions in place.</p>
+<p>
+      As Co-Founder and Chief Technical Liaison, I spent 90% of my time on the road doing research, introducing peering people to each other (hundreds of these), and running peering forums. All of these activities exposed me to peering people I could introduce to others. </p>
+  </div>
+  <div id="center7">
+    <p>If the direct approach yields no answer, the peering coordinator might reach out to an internal advocate at the target ISP, as described in the next tactic.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch11-0-The-ISP-Peering-Playbook/ch11-0-The-ISP-Peering-Playbook.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Ch11 - The ISP Peering Playbook</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch11-02-Internet-Transit-With-Peering-Migration/ch11-02-Internet-Transit-With-Peering-Migration.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Tactic 2. Internet Transit with Peering Migration</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

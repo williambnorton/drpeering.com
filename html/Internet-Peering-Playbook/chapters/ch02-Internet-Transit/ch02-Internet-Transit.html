@@ -1,0 +1,252 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Chapter 2 - Internet Transit</title>
+
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch02-1.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="css/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch01-introduction/ch01-Introduction.html"> <img src="../../commonimg/back.png" width="40" height="42" alt="back">
+  <p>Back to Chapter 1 - Introduction</p>
+</a> </div>
+<div id="toprightnav"><a href="ch02.1-Internet-Transit-Prices.html"> <img src="../../commonimg/forward.png" width="40" height="42" alt="forward">
+  <p>2.1 Internet Transit Prices Historical and Projected</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Chapter 2 - Internet Transit</h1>
+	<p>In this chapter you will learn about Internet Transit, a service that provides access to the global Internet. We introduce the definitions and the service model, and then describe how Internet Transit service is offered, priced, and metered.</p>
+</div>
+  <div id="left1">
+    <h2>Introduction to Internet Transit</h2>
+    <p>The Internet is a network of networks. </p>
+    <p>To get connected to the Internet, an entity must attach itself to an entity that is already connected to the Internet. It usually accomplishes this connection by purchasing a service called “Internet Transit.” </p>
+    <p><span class="definitionLabel">Definition</span>: <span class="definition">Internet Transit </span>is the business relationship whereby an Internet Service Provider provides (usually sells) access to the global Internet. </p>
+    <p>From a high-level perspective, Internet Transit can be thought of as a pipe in the wall that says “Internet this way.” Customers connect their networks to their Transit Provider, and the Transit Provider does the rest. </p>
+    <p><span class="definitionLabel">Definition</span>: An<span class="definition"> Internet Service Provider (ISP)</span>, also called a “Transit Provider,” is an entity that provides (usually sells) access to the Internet. </p>
+    <p>The primary business of an Internet Service Provider is to market, sell, and operate the Internet Transit service described next.</p>
+  </div>
+  <div id="right1">
+    <h3>The Internet Transit Service Model</h3>
+    <p>The Internet Transit service has two primary functions:</p>
+    <ol>
+      <li>to announce Internet routes to the customer, and</li>
+      <li>to announce the customer routes to the rest of the Internet</li>
+    </ol>
+  </div>
+  <div id="left2">
+    <p>To illustrate, consider a customer (ISP A) purchasing the Internet Transit service from Transit Provider B as shown in Figure 2-1.</p>
+    <p class="center"><a href="anim/transit v2.html"><img class="shadow" src="/Internet-Peering-Playbook/img/2-Internet-Transit/2-1-Transit-Diagram.gif" alt="Internet Transit Service Diagram" width="400" height="319"></a></p>
+    <p class="center figure">Figure 2-1: The Internet Transit Service Model</p>
+    <p>We will use graphical notations throughout this book.  The different colored clouds represent networks attached to the Internet.  The &lsquo;T&rsquo; next to a line represents an Internet Transit relationship. The routing advertisements box describes which routes are &ldquo;announced&rdquo; between the Internet Transit customer (ISP A) and the upstream Transit Provider B. The arrows signify the direction of the routing announcement.</p>
+    <p>These routing announcements are propagated across the Internet. Transit Provider B announces to the ISP A the routes to reach the entire Internet (shown as many colored networks to the right of the Transit Providers). The ISPs across the Internet propagate this ISP A route so that all networks know how to reach the ISP A.</p>
+    <p>In summary, through the Internet Transit service, all Internet attachments know how to reach ISP A, and ISP A knows how to reach the rest of the Internet.</p>
+  </div>
+  <div id="right2">
+    <p>For convenience, we will also use the following equivalent notations (Figure 2-2) to indicate a transit relationship between a customer and the upstream transit provider.</p>
+    <p><span class="center"><img src="/Internet-Peering-Playbook/img/2-Internet-Transit/2-2-Transit-Diagram-Equiv.png" width="227" height="109" alt="Internet Transit equivalent notation" /></span></p>
+    <p class="center figure">Figure 2-2. Equivalent Internet Transit service notations.</p>
+    <p>The black circle is shorthand for a default route to reach the rest of the Internet. This typical and default arrangement can be inferred by identifying the two parties in the relationship with the &ldquo;T&rdquo; and the &ldquo;$&rdquo; symbol describing which party is being paid for the Internet Transit service.</p>
+  </div>
+  <div id="left3">
+    <h3>The Internet Transit Pricing Model </h3>
+    <p>The Internet Transit service is typically a metered service outside of the residential market. The unit price for Internet Transit services varies widely, but the service itself is typically priced on a per-megabit-per-second (Mbps) basis, metered using the 95th percentile traffic sampling technique.</p>
+    <p><strong>Definition</strong>: The <strong><em>95th</em></strong><strong><em> Percentile Measurement Method</em></strong> (also called 95/5) identifies a single measurement (the 95th percentile 5-minute sample for the month) to determine the transit service volume for monthly transit fee calculation. </p>
+    <p>The 95th Percentile Measurement Method is typically a three-step process, as follows (diagrammed in Figure 2-3):</p>
+    <ul>
+      <li>Every 5 minutes the meter on the service is sampled.</li>
+      <li>The delta is calculated between the two adjacent samples and the result is stored. (It is in this step that corrections are made for wrapped counters, counter resets from reboots, anomalies in the measurement on the metering device, etc.)</li>
+      <li>At the end of the month, the 5-minute deltas are converted into Mbps and stacked lowest to highest. It is the 95th percentile value that is used to calculate the traffic volume for the month. </li>
+    </ul>
+  </div>
+  <div id="right3">
+    <p class="center"><img src="/Internet-Peering-Playbook/img/2-Internet-Transit/2-3-95th-percentile-measurement.png" alt="" width="508" height="439" /></p>
+    <p class="center figure">Figure 2-3. Calculating the monthly cost of Internet Transit using the 95th percentile measurement methodology.</p>
+  </div>
+  <div id="left4">
+    <p>The basic Internet Transit billing model is simple:</p>
+    <p><strong><em>Monthly Bill = Internet Transit Volume * Internet Transit Unit Price</em></strong></p>
+    <p>Example:</p>
+    <p>If you signed an Internet Transit contract with a negotiated price of $5/Mbps (measured at the 95th percentile), and at the end of the month you sent 500Mbps (measured at the 95th percentile), what would be your transit cost that month?</p>
+    <p>Answer: 500Mbps * $5/Mbps = $2500 per month</p>
+  </div>
+  <div id="right4">
+    <h4>The Origin of the 95th Percentile Measurement</h4>
+    <p>How did the 95th percentile come into existence? </p>
+    <p>The Internet Transit pricing model went through three  pricing phases:</p>
+    <ul>
+      <li><strong>1990: Internet Transit was sold by access capacity. </strong>In the      early Internet days, Internet Transit was billed on a circuit-capacity      basis. You would purchase a T1 circuit (1.544 Mbps) to the Internet and      pay as if you used the entire circuit capacity 24 hours a day. But if you      didn&rsquo;t use very much of this capacity, you were still paying as if you      did. At the time, this reality made Internet Transit tough to sell to some      low-volume prospects.</li>
+      <li><strong>1992:  Internet Transit sold by average usage.</strong> One of the      early ISP pioneers started charging based on average use, but this measure      ended up being skewed by the burst nature of Internet traffic.  Customers who used only a little transit      were paying as if they used much more because the average was skewed      upwards by these occasional peaks.</li>
+      <li><strong>1994-today: Internet Transit sold by 95/5 model. </strong>To address this      situation, one ISP adopted the 95th percentile measure to prevent overly      punishing a customer for the occasional spike in traffic volume, while      still allowing the ISP to bill based on the load placed on its network.      This approach seemed palatable to the market and sold well. The rest of      the industry adopted this pricing model, and within a year or so 95/5 became      the pricing paradigm for the Internet Transit service.</li>
+    </ul>
+  </div>
+  <div id="left5">
+    <h4>The Origin of the 95th Percentile Measurement</h4>
+    <p>How did the 95th percentile come into existence? </p>
+    <p>The Internet Transit pricing model went through three  pricing phases:</p>
+    <ul>
+      <li><strong>1990: Internet Transit was sold by access capacity. </strong>In the      early Internet days, Internet Transit was billed on a circuit-capacity      basis. You would purchase a T1 circuit (1.544 Mbps) to the Internet and      pay as if you used the entire circuit capacity 24 hours a day. But if you      didn&rsquo;t use very much of this capacity, you were still paying as if you      did. At the time, this reality made Internet Transit tough to sell to some      low-volume prospects.</li>
+      <li><strong>1992:  Internet Transit sold by average usage.</strong> One of the      early ISP pioneers started charging based on average use, but this measure      ended up being skewed by the burst nature of Internet traffic.  Customers who used only a little transit      were paying as if they used much more because the average was skewed      upwards by these occasional peaks.</li>
+      <li><strong>1994-today: Internet Transit sold by 95/5 model. </strong>To address this      situation, one ISP adopted the 95th percentile measure to prevent overly      punishing a customer for the occasional spike in traffic volume, while      still allowing the ISP to bill based on the load placed on its network.      This approach seemed palatable to the market and sold well. The rest of      the industry adopted this pricing model, and within a year or so 95/5 became      the pricing paradigm for the Internet Transit service.</li>
+    </ul>
+  </div>
+  <div id="right5">
+    <h4>Measurement Direction</h4>
+    <p>One question always comes up at this point in the peering workshops:</p>
+    <p>&ldquo;Is 95/5 measuring traffic coming into the network or out of the network?&rdquo; </p>
+    <p>The 95th percentile measurement uses the greater of in versus out, as shown in the following equation:</p>
+    <p><strong><em>Monthly Bill = max(inAt95th,outAt95th) * Internet Transit Unit Price</em></strong></p>
+    <p>But for the sake of simplicity, when we introduce equations from here forward, we will not clutter the equations with this in-vs.-out nuance. When we say 95th percentile, we know that what we really mean is the 95th percentile of the larger of in vs. out.</p>
+    <p>The Internet Transit pricing model gets only slightly more complicated when adding &quot;commits&quot;.</p>
+  </div>
+  <div id="center6">
+    <h3>Internet Transit Pricing with Commits</h3>
+    <p>To encourage the use of the Internet Transit service, and to compete more aggressively in the market, most ISPs provide pricing discounts for pre-committing to certain volumes of traffic (Table 2-1).</p>
+    <p class="center figure">Table 2-1. Sample Internet Transit with Commits Pricing Table</p>
+    <p class="center"><img src="/Internet-Peering-Playbook/img/2-Internet-Transit/T2-1-Sample-Tiered-Pricing.png" alt="tiered pricing table for Internet Transit"></p>
+    <p>&nbsp;</p>
+    <p>Here we see an ISP that offers a price of $12 per Mbps for a monthly commit of 10Mbps, and a price of $5 per Mbps with a monthly commit of 100Mbps. These price points guarantee that the monthly transit fee will be at least $120 and $500 per month, respectively.</p>
+  </div>
+  <div id="center7">
+    <p>What happens if customers commit to 100Mbps but don&rsquo;t use all of the 100Mbps in a particular month?</p>
+    <p>They are still required to pay as if they had used the full 100Mbps.</p>
+    <p>What happens if they use more than the 100Mbps in a particular month?</p>
+    <p>They generally will have to pay the metered rate on the volume of traffic they actually used. This rate is sometimes referred to as the &quot;burst rate&quot;, but it is generally the same price as the commit rate.</p>
+    <p>We can describe this model formulaically as:</p>
+    <p><strong><em>Monthly Bill = max(TransitVolumeAt95th*Price, Commit Volume*Price)</em></strong></p>
+    <p>The Internet Transit with commits model typically involves contracts that state the price point for the agreed-upon commit level and the duration of the agreement. So, for example, a 1Gbps commit at $3.50 per Mbps might have a 1-year term. This is how the Internet Transit service is sold today.</p>
+  </div>
+  <div id="overflow"></div>
+  <div id="bottomleftnav"> <a href="../ch01-introduction/ch01-Introduction.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/back.png" width="40" height="42" alt="back">
+    <p>Back to Chapter 1 - Introduction</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="ch02.1-Internet-Transit-Prices.html"> <img src="../../commonimg/forward.png" width="40" height="42" alt="forward">
+  <p>2.1 Internet Transit Prices Historical and Projected</p>
+</a></div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

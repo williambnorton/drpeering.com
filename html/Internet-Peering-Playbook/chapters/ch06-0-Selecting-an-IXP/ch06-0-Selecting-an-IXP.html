@@ -1,0 +1,373 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Chapter 6 - Selecting an Internet Exchange Point</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/2_ipp_topnav.lbi" -->
+<div id="topleftnav"> 
+	<a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  	<p>Back to Table Of Contents</p></a>
+</div>
+  
+<div id="toprightnav">
+<a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  	<p>Back to Table Of Contents</p></a>
+</div><!-- #EndLibraryItem --><div id="title">
+
+<!-- #3 Change title -->
+	<h1>Chapter 6 - Selecting an IXP</h1>
+	<p>During my years working with the peering coordinator community, I asked them about peering, their peering processes, and in particular, what they looked for in Internet Exchange Points (IXPs). Naturally, given my role as Co-Founder and Chief Technical Liaison for Equinix, I wanted to understand when and why they used IXPs. I asked for the types of questions they asked of IXPs and I tried to understand their decision processes. After hundreds of conversations and taking lots of notes, I had documented the collective peering community view of IXPs. To the ISP and IXP community, the information in this chapter is valuable. In this chapter I enumerate the top ten selection criteria that ISPs use when choosing an IXP, along with the types of questions they said that they ask the IXPs to determine their strengths in each of these critical areas.</p>
+</div>
+  <div id="left1">
+    <h2>Introduction</h2>
+    <p>The first thing to point out is that the ISPs generally have the following goals with respect to setting up peering:</p>
+    <ul>
+      <li>Get peering set up as soon as      possible</li>
+      <li>Minimize the cost of the interconnection      and transit costs</li>
+      <li>Maximize the benefits of a      systematic approach to peering</li>
+      <li>Execute the regional operations      plan as strategy dictates </li>
+      <li>Fulfill obligations of a larger      business arrangement</li>
+    </ul>
+  </div>
+  <div id="right1">
+    <p>The ISPs said that they selected IXPs based on the following criteria:</p>
+    <ol start="1" type="1">
+      <li>How will I get      transport into the IXP? (Telecommunications access)</li>
+      <li>How will I get      equipment into the IXP? (Ease of deployment)</li>
+      <li>Am I and my      target peer both in the IXP already? (Current presences)</li>
+      <li>How easy will it      be for me to operate at the IXP? (Operations support)</li>
+      <li>Will a      competitor benefit from my participation at the IXP? (Business alignment)</li>
+      <li>How much will it      cost to peer at the IXP? (Cost issues)</li>
+      <li>Will the IXP be      successful? (Credibility issues)</li>
+      <li>Whom else can I      peer with at the IXP? (Exchange population issues)</li>
+      <li>Does the IXP      exist today? (Existing vs. new IXP?)</li>
+      <li>What routes will      I pick up at the IXP? (Regional route strength)</li>
+    </ol>
+    <p>Let&rsquo;s expand briefly on each of these criteria by presenting the types of questions the ISPs ask during the selection process. </p>
+  </div>
+  <div id="left2">
+    <h2>1 – Telecommunications Access</h2>
+    <p>One of the first issues ISPs explore is how they will establish their telecommunications services in the exchange. Here are the types of questions they ask:</p>
+<p>
+      What carriers service the IXP? Some ISPs have volume deals with certain carriers and therefore prefer exchanges where their carrier of choice can quickly provision circuits as part of an existing agreement.</p>
+<p>
+      How fast can my circuits be brought into the colocation center? This question goes to the goal of fast deployment once the IXP selection is made.</p>
+<p>
+      How many carriers compete for my business for circuits back to my local POP? Multiple competing carriers lead to lower costs and faster deployment. </p>
+<p>
+      For facilities-based ISPs, what is the cost of building into the exchange (how far away are they and what obstacles present themselves)?</p>
+<p>
+      Do dark-fiber providers need to go through a meet-me room or can they connect directly to the ISP equipment? Every cut in the fiber causes some signal loss.</p>
+<p>
+      What fiber services are available from which vendors? Is there a vendor that will sell or lease dark fiber? Wavelengths? Circuits? Some ISPs have preferred transport models. These issues are shown graphically in Figure 6-1.</p>
+  </div>
+  <div id="right2">
+    <p class="figure"><img src="img/6-1-Telecom-Access.png" alt="Telecom access issues" width="75%"></p>
+    <p><span class="figure">Figure 6-1. Telecommunications Access Issues. </span></p>
+<p>
+      Access into the IXP data center is one of the most important issues that peers explore when selecting an IXP.</p>
+  </div>
+  <div id="left3">
+    <h2>2 – Deployment Process</h2>
+    <p>Deploying telecommunications equipment into an IXP has proven to be difficult in some instances. Questions that highlight these issues include:</p>
+<p>
+      How do I get my equipment into the exchange (assuming it supports colocation)? Some IXPs used to allow only circuits to connect remotely – colocation was not supported. </p>
+<p>
+      Can I drop-ship equipment in or do I have to bring it with me for an install? Some equipment manufacturers allow you to ship from manufacturer directly to the colocation provider.</p>
+<p>
+      Will someone act as remote hands and eyes to get the equipment into the racks or do I have to do the installation myself? The installation process, called &ldquo;rack and stack,&rdquo; can take days or months to complete. Some ISPs deploy equipment preloaded in a rack and simply need someone to plug it in and turn it on, and perhaps help debug things when they break. Some IXPs offer and facilitate these services and some do not. </p>
+<p>
+      Does the exchange have sufficient space, power, air conditioning, etc. for my current and future needs? Running out of power remains a significant problem as equipment power requirements continue to increase. Many colocation providers sell racks with power equivalents, so if you need more power you have to buy more racks whether you use them or not!</p>
+<p>
+      In summary, when comparing exchange environments, what processes and costs are associated with deployment (shipping, installation, travel, staff time, etc.) into the IXP? The answers to these questions impact the speed of deployment and the costs of peering.</p>
+  </div>
+  <div id="left4">
+    <h2>3 – ISP Current Presences</h2>
+    <p>The most expedient (and inexpensive) peering arrangements are the ones made between ISPs that are already located at the same exchange (Table 6-1).</p>
+    <p class="figure">Table 6-1. ISP Current Presences Preferences.</p>
+    <p class="figure"><img src="img/t6-1-Current-Presences.png" alt="ISP current precenses table" width="75%"></p>
+    <p>&nbsp;</p>
+    <p>For peers within the same exchange, cross-connects and switching fabric connections can be made within a few hours. Peering sessions can be established a few hours after that.</p>
+<p>
+    This fact may seem obvious, but ISPs tend to prefer to peer at IXPs where one or both ISPs are already present. </p>
+</div>
+  <div id="left5">
+    <h2>4 – Operations Support</h2>
+    <p>The ISPs said that when evaluating IXPs they also consider the ongoing operations environment within the exchange. They ask questions like these:</p>
+<p>
+      How is the real estate protected? How is access and security handled at the facility? Some IXPs run by telephone companies allowed access only between 9am and 6pm and required escorts during the installation.</p>
+<p>
+      How are data center operations handled? The reliability of the infrastructure and the time to repair failures was cited as a critical issue.</p>
+<p>
+      Is a 24/7 NOC monitoring the switch? For those that depend on the peering fabric for the value they derive from the IXP cited, this criterion is a critical one.</p>
+<p>
+      How will I be notified for outages or issues related to the IXP or underlying services? ISPs can forgive the occasional failure provided proper notification and updates are made.</p>
+<p>
+      The rings of data center operations support services are shown in Figure 6-2. We will discuss this data center operations model in more detail in Chapter 11 - Taxonomy of Data Centers.</p>
+  </div>
+  <div id="right5">
+    <p class="figure"><img src="img/6-2-IDC-Model.png" alt="Data Center Operations" width="75%"></p>
+    <p class="figure">Figure 6-2 Internet Data Center (IDC) operations.</p>
+    <p>&nbsp;</p>
+  </div>
+  <div id="center6">
+    <p>Beyond the basic data center operations, ISPs are interested in the interconnection services and ask questions such as the following:</p>
+<p>
+      Do the colocation facilities allow private network interconnections? How long will it take to add private interconnections? Fiber cross-connects in some IXPs in Japan require the approval of the ISP that owns the exchange. It may take months to process a cross-connect in these cases. Facilities in the U.S. provision cross-connects within 24 hours.</p>
+<p>
+      Are there requirements to connect to a central switch? At the Hong Kong Internet Exchange (HKIX) customers must connect to the switch fabric and sign a Multi-Lateral Peering Agreement (MLPA) agreeing to peer with all participants. Some get around this requirement to peer with everyone by announcing only a subset of routes to everyone.</p>
+<p>
+      Is there sufficient power, HVAC, capacity at the switch, space for additional racks, real-time staff support, and legal time for contract review? For a variety of reasons, it may take time to provision new racks, or there may be a long lead time for the allocation of internal resources to install new customers.</p>
+<p>
+      Will I have a Right-of-First-Refusal, the ability to lease adjacent available racks should others want to lease them? During times of limited supply of racks, this option is a valuable one to have. Expanding into another area of the colocation center or building into another colocation center results in a more costly and difficult-to- maintain deployment.</p>
+<p>
+      ISPs prefer operations-friendly exchanges over those with operations restrictions. In any case they seek to understand the processes used to maintain and grow their presence at the IXP.</p>
+  </div>
+  <div id="left10">
+    <h2>5 – Business Alignment</h2>
+    <p>One important nontechnical issue is business alignment. </p>
+<p>
+      Will using this exchange directly or indirectly support a competitor? When the NAPs were owned by carriers, there was significant concern about handing over money to competitors. Building into a competitor&rsquo;s exchange point supported that competitor.</p>
+<p>
+      A carrier-neutral exchange (defined as an IXP that is not owned or aligned with any particular carrier, fiber provider, or ISP) provides an open, distortion-free marketplace for carrier and ISP services.</p>
+<p>
+      Market distortions often result when an exchange is owned by one of its participants. This ownership manifests itself as a constraint (can&rsquo;t interconnect to a particular party, for example) or as a requirement (a particular carrier or ISP service is required). These business clashes effectively constrain the market for services within an exchange. </p>
+<p>
+      Since it is difficult and disruptive to move equipment out of an exchange, ISPs prefer a neutrally operated exchange environment that will not suffer from market distortions or limitations due to business conflicts of interest.</p>
+    <p>ISPs prefer an IXP that is not owned or operated by a competitor.</p>
+</div>
+  <div class="NotesFromTheField" id="right10">
+    <p><span class="NotesFromTheFieldLabel">Notes from the field.</span></p>
+<p>
+      <span class="NotesFromTheFieldTitle">Why is Carrier-Neutrality Important?</span></p>
+<p>
+      Here are a few examples of business alignment clashes:</p>
+<p>
+      A large network-savvy content provider installed at the JPIX peered openly. The provider requested a cross-connect to another ISP in the building. The colocation provider refused since it might adversely impact its business by bypassing it. (KDDI owns the building and KDDI also sells transit.) </p>
+<p>
+      Another example of a business alignment issue is MAE-East. In the late 1990s, WorldCom, a large ISP at the time, owned MAE-East, a large IXP on the east cost of the U.S. Building into MAE-East supported a competitor (WorldCom) and required purchasing WorldCom circuits. Peering at MAE-East meant paying money to your competitor, supporting its peering business, and reinforcing its position as a central component of the Internet in North America. </p>
+<p>
+      Finally, in the days of Exodus (the company), upper management sign-off was required for any in-building cross-connects within its data center. Too many hosted companies were bypassing the Exodus network, so Exodus felt it was missing out on a transit revenue opportunity with every cross-connect run within its building.</p>
+<p>
+    The fact that the colocation company can see who comes and goes was also raised as a concern to some ISPs. If your competitor gets to see all of your prospective customers, that competitor is in a position to offer its services directly. These issues are the types of issues that come up in discussions on the topic.</p>
+  </div>
+  <div id="left11">
+    <h2>6 – Cost</h2>
+    <p>As discussed in Chapter 4 - The Business Case for Peering, the cost of an exchange point can affect whether peering makes sense.</p>
+<p>
+      Discussions along this dimension generally include the following questions:</p>
+<p>
+      What are the rack fees, power fees, in- and inter-building cross-connect fees, peering port fees, and installation fees? </p>
+<p>
+      What are the parameters surrounding these fees?</p>
+<p>
+      What is the cost and value of this IXP? </p>
+<p>
+      All else being equal, ISPs seek to minimize the peering costs, particularly the initial costs, associated with the interconnection for peering. Waiving initial (nonrecurring) fees is common in this industry.</p>
+  </div>
+  <div id="left13">
+    <h2>7 – Credibility</h2>
+    <p>The credibility issue is twofold.</p>
+<p>
+      First, credibility goes to the survivability of the exchange. Does the IXP have the financial backing to exist in the future? During the early stages of the exchange, ISPs are asked to make a leap of faith that the IXP will be valuable to them. ISPs therefore prefer an exchange that has strong financial backing and will likely survive.</p>
+<p>
+      Second, credibility goes to the current and future value of the exchange. </p>
+<p>
+      Will the IXP deliver the anticipated peering value? To explore this &ldquo;peering value&rdquo; notion, we first take a detour and discuss network externality.</p>
+<p>
+      Network externality is the economist&rsquo;s term for when the value of the product or service is proportional to the number of users of the product or service. The classic example is the fax machine – the first fax machine has no value, but when two fax machines exist, they can send and receive faxes with one another. The more fax machines in the world, the greater the potential value you can derive from having one. </p>
+<p>
+      IXPs exhibit network externality characteristics as well. The value of an exchange point is proportional to the number and type of other potential peers at the exchange. </p>
+<p>
+      The primary question is: Does this exchange operator have the financial backing and credibility to attract the peering candidates that are valuable? </p>
+<p>
+      Additional questions include:</p>
+<p>
+      Does this exchange have the peering community support? </p>
+<p>
+      Who in the community champions this exchange?</p>
+<p>
+      Is there a peering facilitator who helps me find peers? </p>
+<p>
+      What potential peers are building in, and why?</p>
+<p>
+      The answers to these questions signal the credibility and survivability of the exchange. ISPs prefer an exchange that is financially stable and likely to attract the most desirable peering candidates.</p>
+  </div>
+  <div id="center7">
+    <h2>8 – Exchange Population</h2>
+    <p>The Internet Service Providers said that one of the most important selection criteria is the exchange point population. </p>
+<p>
+      Exchange points often have a publicly accessible participants list. After all, the primary value delivered by the exchange is the peering population. Look at the Belgium Neutral Internet Exchange (BNIX) web site for a very good example of a participants list (http://www.bnix.net/participants). BNIX includes all relevant information for each peer and makes it very easy to become a member.</p>
+<p>
+      The traffic volume statistics are also a good source of information about the peering population. A successful exchange point is like a well-attended party. If you hear people having a good time inside, chances are that it is a good party. There are no guarantees, of course, but when a large amount of traffic is peered across a public switch fabric, other peers are deriving value there.</p>
+<p>
+      To some participants, perhaps more important is the question of sales potential. Are transit sales possible at the exchange? Sales potential is a particularly strong motivation. Stated more eloquently,</p>
+<p>
+      Cost savings are cool, but revenue generation is sexy.</p>
+<p>
+      All things being equal, ISPs prefer an IXP populated with a large base of potential peering partners and transit sales potential. </p>
+  </div>
+  <div id="left14">
+    <h2>9 – Existing vs. Emerging Exchange</h2>
+    <p>Simply put, ISPs generally prefer an existing exchange to an emerging one. </p>
+<p>
+      The U.S. has dozens of successful exchange points where the value derived from participating exceeds the cost of participating.</p>
+<p>
+      There are many emerging exchange points that may someday be successful, but there is no guarantee that the value derived will exceed the cost of participating.</p>
+<p>
+      ISPs prefer an existing exchange to an emerging one.</p>
+  </div>
+  <div id="overflow">
+    <h2>10 – Regional Route Strength</h2>
+    <p>IXPs tend to be strong in some routes and less strong in other routes. For example, if you want Eastern European or Middle East routes, you might prefer to connect to the DE-CIX, a large exchange in Frankfurt, Germany. If you want to reach Western Europe and the U.S., the LINX in London and the AMS-IX in Amsterdam are particularly strong. </p>
+<p>
+      Some ISPs prefer to peer at exchange points with a regional coverage matching their traffic profile.</p>
+    <h2>One Final Note</h2>
+    <p>The ISPs tend to value the criteria differently. The most important criteria to some ISPs is cost, while others care most about strategic business alignment. Still others are most concerned about telecommunications access, deployment, operations issues, and the cost of power and the effect of latency. How these criteria are weighted tend to be different across all peers.</p>
+    <h3>Peering Workshop Practice Questions</h3>
+    <p>Here are a few practice questions from the Internet Peering Workshop:</p>
+<p>
+      1.  What are some of the challenges that a carrier or ISP faces when they decide to launch their own IXP in their data center?</p>
+<p>
+      2.  Under what circumstances might an ISP prefer a more expensive IXP?</p>
+<p>
+      3.  Assume you are a salesperson for a brand new IXP. During a sales call, which selection criteria might you want to talk about with ISP prospects and which would you want to avoid?</p>
+    <p>Answers to these questions are in the <a href="#AnswersToPracticeQuestionsCh06">answer key</a> in the back of the book.</p>
+<p>&nbsp;</p>
+  </div><!-- #BeginLibraryItem "/Library/1_ipp_bottom_nav.lbi" --><div id="bottomleftnav">
+<a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  	<p>Back to Table Of Contents</p></a>
+</div>
+<div id="bottomrightnav">
+<a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+  	<p>Back to Table Of Contents</p></a>
+</div><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

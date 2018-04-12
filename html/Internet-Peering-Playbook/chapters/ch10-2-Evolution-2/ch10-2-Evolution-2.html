@@ -1,0 +1,199 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Chapter 10 – The 21st Century Internet Peering Ecosystem</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch10-1-Evolution-1/ch10-1-Evolution-1.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Evolution #1 - Cable Cpmpanies Peer with Each Other</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch10-3-Evolution-3/ch10-3-Evolution-3.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Evolution #3 - Large cale Network Savvy Content Providers Peer with Cable Companies</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Evolution #2 – Large Scale Network Savvy Content Providers Peer</h1>
+	<p>&nbsp;</p>
+</div>
+<div id="center1">
+  <h2>&nbsp;</h2>
+  <p>Around the same time, a small group of Large-Scale Network-Savvy Content Providers emerged as large volume peers.</p>
+<p>
+Definition: A Large-Scale Network-Savvy Content Provider (LSNSCP) is a content provider that sees networking as strategic enough to build a backbone and peer.</p>
+<p>
+Most of the LSNSCPs peer at least bi-coastally, and some peer more broadly across the country. The dominant three motivations to peer are similar to the Tier 2 ISP motivations to peer:</p>
+  <ul >
+    <li>To improve the end-user experience.      Yahoo! for example sees the end-user experience as mission-critical. The      company applies considerable resources monitoring (in real-time!) its      application network performance characteristics. It identifies congestion,      notes the network path, and alters its interconnections so that traffic      traverses an alternative network path to improve the end-user experience. Around      the world, this motivation is the #1 motivation that leads Content      Providers to peer.</li>
+    <li>To reduce transit costs. Any      traffic that can be sent directly to the access-heavy (also called      eyeball) network is traffic that doesn&rsquo;t have to go over the metered      transit connection. In a related way, e-mail service providers such as MSN      HotMail and Yahoo! can exchange e-mail without incurring any transit      charges.</li>
+    <li>They needed to move to a new data      center anyway. Many colocation and data centers were going out of      business. Given the opportunity, some content players chose a data center      where they could peer as well as buy transit in an open market.</li>
+  </ul>
+  <p>&nbsp;</p>
+</div>
+  <div id="left1">
+    <p>Large-scale content players have always purchased transit to deliver their content to the end users on the Internet. Therefore, their role and behavior in the Peering Ecosystem is similar to the Tier 2 ISPs with the exceptions that Content Players:</p>
+    <ul >
+      <li>do not sell      transit</li>
+      <li>focus on content      creation, and if they do operate a network it is for exactly one customer:      themselves</li>
+      <li>have visibility      into the end-to-end performance characteristics (Tier 2 ISPs see packets, while      LSNSCPs can see packets and flows)</li>
+    </ul>
+    <p>The model for the Network-Savvy Large-Scale Content Provider is shown in Figure 10-3.</p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/10-3-Large-Scale-Network-Savvy-Content-Provider.png" alt="LSNSCP"></p>
+    <p class="figure">Figure 10-3. The Large-Scale Network-Savvy Content Provider model. </p>
+<p class="figure">&nbsp;</p>
+  </div>
+  <div id="left2">
+    <p>These players still purchase transit (generally from the Tier 1 ISPs), but they supplement it by peering openly with anyone and everyone. </p>
+<p>
+      Examples of these Large-Scale Content Players are Yahoo!, Google, Microsoft, Amazon, Walmart.com, Apple, Electronic Arts, and Sony Online.</p>
+<p>
+      This evolution represents a significant change to the Peering Ecosystem because: </p>
+    <ul >
+      <li>The volume of      traffic being diverted to peering was huge, and it represented traffic      that previously was sent through and available only from the Tier 1 ISPs.</li>
+      <li>The LSNSCPs had      an Open Peering Policy, and even actively      promoted peering with them so this large amount of traffic would be freely      available to peers.</li>
+      <li>These leading      players paved the way for other Large Scale Content Companies and      Enterprise companies to examine Peering as a cost reducing / performance      improving strategy.</li>
+    </ul>
+    <br clear="all">
+    <p>We can see a graphic depiction of this evolution below in Figure 10-4.</p>
+  </div>
+  <div id="right2">
+    <p class="figure"><img src="img/10-4-LSNSCP-Peer.png" alt="LSNSCP Emerge"></p>
+    <p class="figure">Figure 10-4. The Large-Scale Network-Savvy Content Providers peer openly.</p>
+<p class="figure">&nbsp;</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch10-1-Evolution-1/ch10-1-Evolution-1.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Evolution #1 - Cable Companies Peer with Each Other</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch10-3-Evolution-3/ch10-3-Evolution-3.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Evolution #3 - Large Scale Network Savvy Content Providers Peer with Cable Companies</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Peering vs. Transit Economics</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch05-0-The-Business-Case-for-Peering/ch05-0-The-Business-Case-for-Peering.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>The Business Case for Peering</p>
+</a> </div>
+<div id="toprightnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Back to Table Of Contents</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Peering vs. Transit Economics</h1>
+	<p>Four key peering metrics describe the effectiveness of peering:</p>
+    <ul >
+      <li>The Peering Break-Even Point answers      the question, &ldquo;How much traffic do I have to peer for free to save enough      money to cover the cost of peering?&rdquo; </li>
+      <li>The Effective Peering Bandwidth      answers the question, &ldquo;What is the maximum amount of traffic I can      realistically push through the peering infrastructure?&rdquo;</li>
+      <li>The Effective Peering Range answers      the question, &ldquo;Where is the peering sweet spot – the peering bandwidth      range where peering is financially rational?&rdquo;</li>
+      <li>The Minimum Cost for Traffic Exchange answers the      question, &ldquo;What is the best possible unit cost for peering?&rdquo;</li>
+    </ul>
+    <p>I will walk through each of these peering vs. transit calculations in turn.</p>
+</div>
+  <div id="left1">
+    <h3><a name="_Toc204407584"></a><a name="_Toc167976560">The Peering Break-Even Point</a></h3>
+    <p>To determine if peering makes sense, we need to identify the point at which the cost of peering equals the cost of transit. At this point, an ISP is financially indifferent between peering and simply sending that traffic through a transit provider. To calculate this metric, we first add the costs of peering and allocate those costs across the capacity of the peering infrastructure. The result is the curve in the Peering Break-Even graph shown in Figure 5-2. </p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/5-2-Peering-Break-Even-Point.png" alt="Peering vs Transit" width="75%"></p>
+    <p class="figure">Figure 5-2 The Peering Break-Even Point</p>
+  </div>
+  <div id="Discussion">
+    <p>In this graph we also plotted the cost of the next-best alternative for offloading that same traffic, the market price of Internet Transit. (We assume for simplicity that the price of transit is fixed, not tiered.)</p>
+<p>
+      The point at which these two lines intersect is called the Peering Break-Even Point.</p>
+<p>
+      Definition: The Peering Break-Even Point is the point at which the unit cost of peering exactly equals the unit price for Internet Transit.</p>
+<p>
+      To calculate the Peering Break-Even Point, we allocate the monthly costs of peering across the market price for transit. </p>
+<p>
+      PeeringBreakEvenPoint = MonthlyCostofPeering/UnitPriceofTransit</p>
+<p>
+      Beyond the Peering Break-Even Point (see Figure 5-2), the ISP peers more than enough traffic to completely cover the cost of peering. The monthly transit bill is lowered more than the total cost of peering. </p>
+<p>
+      Savings = (MbpsPeered-PeeringBreakEvenPoint)*MarketTransitPrice</p>
+<p>
+      To the left of the Peering Break-Even Point is an area I call &ldquo;Peering Risk.&rdquo; The risk here is of not peering enough traffic for free to offset the monthly cost of peering. When the unit price of transit is less than the unit cost of peering, peering does not provably make financial sense. This situation is where many of the smaller ISPs find themselves today.</p>
+<p>
+      The Peering Break-Even Point helps make the business case for peering objective and clear – if an ISP can peer more traffic than indicated by the Peering Break-Even Point, then the ISP should prefer to peer instead of solely purchasing transit from an upstream ISP.</p>
+  </div>
+  <div id="Application">
+    <h3><a name="_Toc204407585"></a><a name="_Toc167976561">Application of the Peering Break-Even Point</a></h3>
+    <p>Let&rsquo;s continue with our previous example and further assume that the market price for Internet Transit is $3.50 per Mbps. </p>
+<p>
+      From a strictly financial position, peering makes sense when the unit cost of peering is less than the cost of transit; that is, when more than $11,000/$3.50 = 3,143Mbps can be peered at this exchange point (Table 5-3). </p>
+  </div>
+  <div id="left2">
+    <p>Remember the context – in this example, the prospective peer is building into the IXP from across a continent. The Peering Break-Even Point is lower for those who are &ldquo;near&rdquo; or &ldquo;local&rdquo; to the IXP, as shown in the other columns in the spreadsheet.</p>
+<p>
+      We are also assuming that the ISP is not already present in the colocation space. If the ISP already has a Point of Presence (POP) there, the business case for peering is much easier to make.</p>
+  </div>
+  <div id="right2">
+    <p class="figure">Table 5-3. The break-even analysis with different transport costs into the IXP.</p>
+    <p class="figure"><img src="img/t5-3-Breakeven-Point-Across-Transports.png" alt="Table Summary"></p>
+  </div>
+  <div id="EffectivePeeringBandwidth">
+    <h3><a name="_Toc204407586"></a><a name="_Toc167976562">Effective Peering Bandwidth</a></h3>
+    <p>How much traffic can I send over the peering infrastructure?</p>
+<p>
+      Definition: The Effective Peering Bandwidth is the maximum amount of traffic that can be safely transported (without packet loss) across peering infrastructure.</p>
+<p>
+      The general rule is that the Effective Peering Bandwidth is about 70% of the smallest-sized physical layer capacity in the path to the peer. This rule accounts for framing overhead, some need to burst, and the sinusoidal nature of Internet traffic. So for these sample calculations, we assume that we can maximally use about 7Gbps of the 10Gbps capacity. This assumption seems to resonate with the peering coordinator community. </p>
+<p>
+      Effective Peering Bandwidth = 70% * 10Gbps = 7000Mbps</p>
+<p>
+      So when modeling using the service, one should not expect to be able to use more than 70% of the peering capacity.</p>
+  </div>
+  <div id="MinimumCost">
+    <h3><a name="_Toc204407587"></a><a name="_Toc167976563">Minimum Cost</a> for Traffic Exchange</h3>
+    <p>What is the lowest cost for peering?</p>
+<p>
+      Definition: The Minimum Cost for Traffic Exchange is the lowest unit cost obtainable in a peering infrastructure deployment.</p>
+<p>
+      To calculate the lowest cost for traffic exchange, we simply divide the monthly cost of peering by the Effective Peering Bandwidth. </p>
+<p>
+      MinimumCostofTrafficExchange=MonthlyCostofPeering/Effective PeeringBW</p>
+<p>
+      In the best-case scenario we can use all of the effective peering bandwidth for our peering traffic exchanges with peers. Some would call this &ldquo;running the peering interconnect hot.&rdquo;</p>
+<p>
+      At this maximum utilization point, peering can cost about $1.57/Mbps:</p>
+<p>
+      MinimumCostofTrafficExchange=$11,000/7,000Mbp = $1.57/Mbps</p>
+<p>
+      This metric helps us identify if peering is even interesting. Will peering save enough money to be worth the effort?</p>
+  </div>
+  <div id="EffectivePeeringRange">
+    <h3><a name="_Toc204407588"></a><a name="_Toc167976564">Effective Peering Range</a></h3>
+    <p>With the analysis we have done, we proved that peering makes sense financially if you can peer more traffic than the Peering Break-Even Point, and that we can peer up to the Effective Peering Bandwidth. </p>
+<p>
+      Definition: The Effective Peering Range is the range of peering traffic exchange that makes sense financially.</p>
+<p>
+      The Effective Peering Range is the &ldquo;Sweet Spot,&rdquo; or to use an aircraft analogy, the landing strip that a peering coordinator must land on to save the company money by peering. It is measured as a range (in Mbps) between the Peering Break-Even Point and the Effective Peering Bandwidth.</p>
+  </div>
+  <div id="center6" class="NotesFromTheField">
+    <h2><a name="_Toc204407589"></a><a name="_Toc177273692"></a><a name="_Toc172603986"></a><a name="_Toc171221747"></a><a name="_Toc167976565">Tracking Peering Effectiveness</a></h2>
+    <p>After the business case has been approved and executed, this story suggests that the peering analysis should be on-going and adjusted based on market criteria.</p>
+<p>
+      Notes from the field. </p>
+<p>
+      Periodically Review Peering Analysis</p>
+<p>
+      At an early Gigabit Peering Forum, Bryan Garrett (BellSouth at the time) shared a good process tip. After the business case is made and accepted, it is a good idea to bring forward quarterly updates applying the same logic, terminology, and metrics. Peering can be a provably valuable alternative to simply purchasing transit, and it is important to track whether it remains a good strategy given the market price for transit.</p>
+  </div>
+  <div id="center7">
+    <h3><a name="_Toc204407590">Peering Workshop Practice Questions</a><a name="ch05PracticeQuestions"></a></h3>
+    <p>Here are a few practice questions from the Internet Peering Workshop:</p>
+<p>
+      1.  What is the monthly bill if you buy 1.5Gbps of transit at $2/Mbps and also peer 1Gbps at an IXP with a monthly peering cost of $5000/month?</p>
+<p>
+      2.  You have 5Gbps of video traffic to push and your price of transit is $2/Mbps with a 2G commit. Does it make sense to build into the Michuki Internet Exchange (aka &ldquo;The MIX&rdquo;) if the circuit in costs $3000/month, colocation costs $1000/month, the 10Gbps peering port costs $3000/month, and you think you can peer away 2Gbps for free at the IXP? </p>
+<p>
+      3.  You have 6Gbps of video traffic to push, and you have just started a two-year contract in which you pay transit fees of $2 per Mbps with a 2G commit. Does it make sense to build into the K-Rose Internet Exchange (aka &ldquo;The KRIX&rdquo;) if you can peer 2Gbps, with the only cost being port costs of $2500/month for a 10G port?</p>
+<p>
+      4.  What is the effective peering range for question 1 if the peering infrastructure is a 10G Ethernet?</p>
+    <p>&nbsp;</p>
+    <p>Answers to these questions are in the <a href="#AnswersToPracticeQuestionsCh05">answer key</a> in the back of the book.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch05-0-The-Business-Case-for-Peering/ch05-0-The-Business-Case-for-Peering.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>The Business Case for Peering</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Back to Table Of Contents</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

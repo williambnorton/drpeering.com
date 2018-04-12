@@ -1,0 +1,188 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Tactic 5. Buy Transit from Restrictive Tier 1 ISP</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch11-04-Bundle-Internet-Transit-with-Peering/ch11-04-Bundle-Internet-Transit-with-Peering.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Tactic 4 .Bundle Internet Transit with Peering</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch11-06-Transitional-Paid-Peering/ch11-06-Transitional-Paid-Peering.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Tactic 6. Transitional Paid Peering</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Tactic 5. Buy Transit from Restrictive Tier 1 ISP </h1>
+	<p>&nbsp;</p>
+</div>
+  <div id="left1">
+    <p>This tactic leverages the player motivations in the Internet Peering Ecosystem.</p>
+<p>
+      When peering requests are received, the target ISP looks to see if the proposed peer&rsquo;s routes are already learned through a current peer (i.e., is the prospective peer a customer of a current peer?). If this is the case, peering is usually denied. No amount of &ldquo;your customers&rsquo; performance will be better&rdquo; arguments will help. They already receive your routes for free.</p>
+<p>
+      To maximize your chances of obtaining peering, with this tactic you purchase transit from the Tier 1 ISP with the most Restrictive Peering Policy in the ecosystem (see Figure 11-15).</p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/11-15-TransitFromAssholes.png" alt="TransitAHole"></p>
+<p>
+    Figure 11-15. Buy from the most restrictive Tier 1 ISP.</p>
+  </div>
+  <div id="left2">
+    <p>Why? By purchasing transit from the least peered Tier 1 ISP you minimize the chances that the target already learns your routes for free. Only those that were able to obtain peering from your restrictive upstream will deny peering because they already learn your routes for free.</p>
+<p>
+      Let&rsquo;s walk through Figure 11-15 to illustrate this tactic. Let&rsquo;s assume that you (ISP A) choose to purchase from the most restrictive Tier 1 ISP, ISP S. Your target, ISP B, does not already see your routes through a peer since you are not a customer of its peers. The restrictive Tier 1 doesn&rsquo;t peer with many others.</p>
+<p>
+      If instead you bought transit from ISP L, a widely peered Tier 1 ISP, there is a greater chance that the target already peers with your upstream. ISP B will say it already learns your routes for free through its peering with ISP L. </p>
+<p>
+      By buying from the most restrictive Tier 1 ISP, you minimize the chances that your target ISP will already learn your routes for free.</p>
+  </div>
+  <div class="NotesFromTheField" id="right2">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+  &ldquo;Once a Customer, Never a Peer&rdquo;</p>
+<p>
+      There is an expression in the peering community: &ldquo;Once a Customer, Never a Peer.&rdquo; Becoming a customer may make you an unacceptable peering candidate, so relationships must be timed and managed carefully with potential peers.</p>
+<p>
+      One UK ISP grew larger than its upstream ISP and requested that the transit relationship be migrated to a peering relationship. Naturally, this request was denied. The ISP disconnected from upstream and dual homed to two larger ISPs and again requested peering from its former upstream ISP. This request was denied, and in fact peering wasn&rsquo;t accepted for 18 months after the transit relationship ended. This scenario is not uncommon, highlighting that the transit selection strategy is important. </p>
+  </div>
+
+  <div id="center6">
+    <p>A related tactic is to buy only from the largest Tier 2 ISPs. </p>
+<p>
+      Being a customer of a Tier 1 ISP will effectively prevent peering with that Tier 1 ISP at a future date. It is often more cost-effective and strategically more effective to purchase transit from a large Tier 2 ISP. Not being a direct customer of the Tier 1 ISP means that no direct revenue is lost by peering, and therefore there is one less obstacle to overcome. There is, of course, the indirect loss of revenue if the large Tier 2 ISP is a downstream customer of the Tier 1 ISP, but this objection is an easier one to overcome than being a direct customer.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch11-04-Bundle-Internet-Transit-with-Peering/ch11-04-Bundle-Internet-Transit-with-Peering.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Tactic 4. Bundle Internet Transit with Peering</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch11-06-Transitional-Paid-Peering/ch11-06-Transitional-Paid-Peering.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Tactic 6. Transitional Paid Peering</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

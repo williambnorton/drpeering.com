@@ -1,0 +1,244 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>The Data Center Real Estate Model</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> 
+  <p><a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back"></a></p>
+  <p><a href="../ch12-0-Taxonomy-of-Data-Centers/ch12-0-Taxonomy-of-Data-Centers.html">Ch 12 - Data Center Taxonomy</a></p>
+</div>
+<div id="toprightnav"> <a href="../ch12-2-Security/ch12-2-Security.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>The Security Systems Model</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>The Data Center Real Estate Model</h1>
+	<p>&nbsp;</p>
+</div>
+<div id="left3">
+    <h2>Real Estate</h2>
+    <p>At the core of every data center is real estate, which is, as the expression goes, all about location. However, for real estate destined to be a networked data center, proximity to fiber is critical, as fiber is what the tenants will ride in on (Figure 12-3). If the colocation center is far from fiber, then the cost of building in is higher. The most desirable real estate is located near fiber nexus points. </p>
+  </div>
+  <div id="right3">
+    <p class="figure"><img src="img/12-3-RealEstate.png" alt="Real Estate"></p>
+    <p class="figure">Figure 12-3. Real Estate for a data center.</p>
+  </div>
+  <div class="NotesFromTheField" id="left4">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      Hunt for Real Estate incognito</p>
+<p>
+      One telco exec shared that when traveling to a real estate site inspection his group travelled as stealthily as possible to decrease the chances of competitors knowing the site was available and bidding the price up. They registered for rooms under assumed names, did not disclose their trips on their calendars, etc. Many times the real estate owner is not aware of the inherent value of fiber proximity or the value potential of building infrastructure on the site. Since fiber often runs along preexisting rights-of-way along railroad tracks, real estate that opens up near these locations often comes up as key IDC locations.</p>
+  </div>
+  <div id="right4">
+    <p>Some Real Estate Selection Criteria</p>
+<p>
+      Selection of location is absolutely critical for Internet Data Centers since it has a direct impact on the cost of the facility and the ultimate cost of participation. Here are a few of the selection criteria that colocation providers shared as key to their location search:</p>
+<p>
+      <strong>1. Fiber. </strong>Ideal sites will be near or on fiber paths, or within a couple miles of dark fiber and telephone company Points of Presences (POPs). Fiber entrance facilities run the gamut from tying fiber to the wall of an alley, as shown in Figure 12-4, to cement-encased fiber entrances, as shown in Figures 12-5 and 12-6.</p>
+  </div>
+  <div id="left5">
+    <p class="figure"><img src="img/12-4-FiberEntrance.jpg" alt="Bad Fiber Entrance"></p>
+    <p class="figure">Figure 12-4. A bad fiber entrance system.</p>
+  </div>
+  <div id="right5">
+    <p class="figure"><img src="img/12-5-NOTA-Entrance-2.jpg" alt="Good Fiber Entrance"></p>
+    <p class="figure">Figure12-5. Cement-encased fiber entrance. The Terremark Miami Facility.</p>
+  </div>
+  <div id="lefty">
+    <p><strong>2. Size, floor loading, configuration, expandability</strong>. Sites must be large enough to support the intended operations, with floor loading sufficient for the equipment expected. Shared Internet Data Center operators must prepare for random customer equipment, while a single customer (enterprise) data center may know in advance what types of equipment will be placed in the space. There are many other issues regarding fitness for purpose, including weather (earthquakes, hurricanes, floods, etc.), proximity to hospitals, etc. Why proximity to hospitals? If a national disaster occurs, the hospital power grids will be repaired most quickly, so being near a hospital means your data center utility power feed also comes back up from a national disaster more quickly.</p>
+<p>
+    Large data centers are often constructed outside of major metropolitan areas. For example, the Docklands in the U.K. has several large-scale data centers (Figure 12‑7) that house some of the largest network providers on the continent.</p>
+</div>
+  <div id="righty">
+    <p class="figure"><img src="img/12-6-NOTA-Entrance.jpg"></p>
+    <p class="figure">Figure 12-6. Fiber extended in through the core of the building.</p>
+  </div>
+  <div id="lefty2">
+    <p class="figure"><img src="img/12-7-Telehouse2.jpg" alt="telehouse mote"></p>
+    <p class="figure">Figure 12-7. Telehouse, London, U.K.</p>
+  </div>
+  <div class="NotesFromTheField" id="righty2">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      Cermack Printing Facility Becomes Core of Internet in Chicago</p>
+<p>
+      With respect to floor loading, one large multi-tenant colocation center in Chicago used to house a heavy newspaper printing press operation, with floor loading capable of supporting many tons of paper rolls and processing equipment. This type of venue is more than adequate for any data center needs. </p>
+  </div>
+  <div id="center6">
+    <p><strong>3. Utility power availability and price.</strong> Dual grid feeds are desirable, but the requirement for 3,000 amps at 480 volts per 50,000 are typically required for operations. Around 2008, power availability and unit price became critical selection criteria. </p>
+<p>
+      <strong>4. Facilities yard.</strong> There is often a requirement for space at ground level or on the roof for fuel tank(s), generators, chillers, etc. Space required varies, but generally at least 5200 square feet for the first 50,000 square feet of facility is needed. Even when some wholesale data center providers provide reliable power (such as Telehouse shown in Figure 12-7), some customers prefer to own and maintain their own Uninterruptable Power Supply (UPS) in their own private cage.</p>
+<p>
+      <strong>5. Local government support</strong>. Local, state, and federal governments often provide incentives for data center construction in distressed areas. Examples include tax abatements, ease of permitting, expedited access to rights-of-way, power, and support for fiber access that might otherwise require more extensive government, corporate, and community interactions. In some cases, discussion of the number of parking spaces, off-ramp development, signage, etc. are uncovered only at a very late stage of real estate selection. </p>
+<p>
+      A perfect example is Terremark&rsquo;s Technology of the Americas Building in Miami, Florida. The company constructed a six-floor building in a &ldquo;Federal Empowerment Zone&rdquo; in downtown Miami, and along with other government programs, received several million dollars in support. </p>
+<p>
+      Equinix received similar support for the original Ashburn, Virginia, facility when it was still a corn field. Today Ashburn, Virginia, is known as a telecommunications hub for the U.S.</p>
+<p>
+      <strong>6. Location of customers and support staff.</strong> Since these data centers will ultimately be used by customers and support engineers, it is important that local talent be available. Building a data center in the middle of nowhere would make it difficult to attract and retain people to support the equipment and infrastructure in such a building. </p>
+<p>
+      <strong>7. Cost of real estate.</strong> The location of the IDC to a large degree dictates the cost of the IDC. </p>
+  </div>
+  <div class="NotesFromTheField" id="center7">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      I Don&rsquo;t Want My Equipment In New Jersey!</p>
+<p>
+      When comparing IDCs in New York and New Jersey, some customers insisted on having their equipment housed in New York. They wanted their gear to have a New York address, and they also said that they didn&rsquo;t want to travel into New Jersey. The latency is negligible, and the bits don&rsquo;t care, but to some of these guys the address was more important than the cost of the IDC location.</p>
+<p>
+      There is a demographic of so-called &ldquo;Server-Huggers&rdquo; that care where their equipment is located for convenience. These people anticipate visiting the location fairly often and perhaps consider each location to be their personal workspace.</p>
+<p>
+      For a while, the area surrounding a popular carrier hotel at 165 Halsey Street in New Jersey was considered a dangerous part of town. The running joke in the peering community was that guns are not allowed in the facility, but are handed out by the security guards so you can make your way safely back to your car.</p>
+  </div>
+  <div id="overflow">
+    <p>Many criteria must be evaluated with respect to suitability of real estate. For example, all others things being equal, if there is sufficient lead time, many prefer a &ldquo;greenfield&rdquo; (brand new) building over an existing building. Time-to-market issues may dictate retrofitting existing facilities (to meet seismic standards, appropriate bracing for floor loading, drainage systems, etc.). Sometimes, demolition and retrofitting can save valuable time to market.</p>
+<p>
+      Hidden charges and unexpected delays affect deployment. For example, some telco hotels require interconnection of its tenants via risers to &ldquo;meet-me&rdquo; rooms. Some fiber providers have complained that every splice of fiber causes signal loss and meet-me rooms lead to another splice. Further, the expense of running a cross-connect within a building and the time to delivery are not always known. </p>
+<p>
+      When considering the buy decision it is important to ensure sufficient space is available for expansion and sufficient time remains on the IDC lease.</p>
+<p>
+      Among the core systems, real estate cost is the most variable and may have the largest overall impact on the cost of the facility.</p>
+<p>
+      <strong>8. Large data centers</strong>. According to Roy Earle, for shared colocation facilities there is a trend away from the smaller traditional telco hotel sizes (typically 20,000 sq ft) towards the warehouse-sized facilities (on the order of 300,000 sq ft). While this model allows scaling of infrastructure, it also dramatically reduces the choice for sites. The data center build choice doesn&rsquo;t suffer from this ailment since smaller amounts of space are easier to find. This effect is compounded by the fact that large warehouses suitable for data centers are typically outside of the major metropolitan areas and therefore likely far away from telco and fiber provider Points of Presence (POPs).</p>
+<p>
+      Fire suppression is included in the real estate model as many buildings require sprinkler systems and/or other fire-suppression technologies (dual-trigger activated sprinklers, FM-200, etc.) regardless of the application of the building. </p>
+<p>
+      Some large IDC operators interviewed have real estate teams that rate possible locations by hundreds of metrics; they consider these selection-criteria documents to be highly proprietary – their real estate team &ldquo;secret sauce.&rdquo;</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch12-0-Taxonomy-of-Data-Centers/ch12-0-Taxonomy-of-Data-Centers.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Ch 12 - Data Center Taxonomy</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch12-2-Security/ch12-2-Security.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>The Security Systems Model</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

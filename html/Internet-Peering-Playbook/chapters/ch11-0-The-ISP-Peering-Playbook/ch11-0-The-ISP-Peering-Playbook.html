@@ -1,0 +1,272 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Chapter 11 – The ISP Peering Playbook</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>Back to Table Of Contents</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch11-01-The-Extended-Direct-Approach/ch11-01-The-Extended-Direct-Approach.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>Tactic 1. The Extended Direct Approach</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>Chapter 11 – The ISP Peering Playbook</h1>
+	<p>This chapter presents twenty-seven &ldquo;tricks of the trade&rdquo; used by some of the most seasoned peering coordinators in the world. These tactics range from the practical to the clever – and even into the unethical. While these maneuvers are not necessarily recommended, they are described in order to exercise the lexicon and illustrate the types of manipulations that occur in the Internet Peering Ecosystems around the world. You should understand and be able to recognize each of these tactics.</p>
+</div>
+<div id="Introduction">
+  <h2>Introduction</h2>
+  <p>Sometimes peering is requested and agreed to straight away. </p>
+<p>
+    But what happens when a peering coordinator sends a peering request that results in a &ldquo;No&rdquo; answer? Or, more commonly, what happens when a peering request doesn&rsquo;t get a response? Do peering coordinators just give up and go on to the next peering target?</p>
+<p>
+    As it turns out, the answer is no, seasoned peering coordinators don&rsquo;t give up; they have their own &ldquo;tricks of the trade&rdquo; for obtaining peering where they otherwise might not have been able to.</p>
+<p>
+    This chapter enumerates these tactics. Most of these tactics have been used to obtain peering where they otherwise would not be able to. A handful of additional ones are primarily defensive in nature, intended to defend a power position in a region.</p>
+  <br clear="all">
+  <h2>The Graphical Representation of the Plays</h2>
+  <p>To describe each tactic we will apply the graphical notation employed throughout this book to highlight the relevant characteristics of the players and their actions. </p>
+  <h3>&nbsp;</h3>
+</div>
+  <div id="left1">
+    <h3>The Players</h3>
+    <p>Every play in the playbook has at least two players. The initiator ISP (the one who seeks peering) we will call &ldquo;ISP A,&rdquo; and the target of the peering we will call &ldquo;ISP B.&rdquo;</p>
+<p>
+      Throughout this chapter we will show the initiator as a cloud labeled &ldquo;A&rdquo; and the target ISP will always be a cloud labeled &ldquo;B&rdquo; (Figure 11-1). </p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/11-1-Main-Players.png" alt="Players"></p>
+    <p class="figure">Figure 11-1. The initiator and the target of the peering tactic.</p>
+  </div>
+  <div id="left2">
+    <p>If the play involves specific roles within the initiator or the target organization, we will show that role in subscript. For example, in Figure 11-2 we show that we are involving the Peering coordinators for ISP A and ISP B.</p>
+  </div>
+  <div id="right2">
+    <p class="figure"><img src="img/11-2-Roles.png" alt="roles"></p>
+    <p class="figure">Figure 11-2. The peering coordinator roles are specified with this notation.</p>
+  </div>
+  <div id="left3">
+    <h3>Route Announcements</h3>
+    <p>Routing announcements are the mechanism for propagating reachability information between networks, and we use the color and/or the name of the network to graphically (Figure 11-3) represent these announcements. </p>
+    <p>Note that the solid black marker in the routing announcement indicates a default route, the route that can be used to reach any destination in the Internet.</p>
+</div>
+  <div id="right3">
+    <p class="figure"><img src="img/11-3-Announcements.png" alt="announcements"></p>
+    <p class="figure">Figure 11-3. Internet Peering, Paid Peering, Internet Transit graphical notation.</p>
+  </div>
+  <div id="left4">
+    <h3>The ISP Customers</h3>
+    <p>The customers of the initiator and the customers of the target are shown as smaller clouds attached to the ISPs as shown in Figure 11-4.</p>
+    <p>The &ldquo;T&rdquo; marking on the interconnection indicates that this relationship is a customer relationship, and the &ldquo;$&rdquo; indicates which side is getting paid. If the &ldquo;$&rdquo; is absent, it is assumed that the network that is higher in the diagram is the upstream ISP receiving the compensation for the transit relationship.</p>
+</div>
+  <div id="right4">
+    <p class="figure"><img src="img/11-4-Customers.png" alt="customers"></p>
+    <p class="figure">Figure 11-4. ISP Customers.</p>
+  </div>
+  <div id="left5">
+    <h3>Interconnection Relationships</h3>
+    <p>ISPs can have transit relationships with other ISPs. Figure 11-5 shows a few equivalent graphical notations for transit relationships.</p>
+    <p>A &ldquo;P&rdquo; is used to denote an established peering relationship. The diagrams in Figure 11-6 show three notations for a peering relationship. The first two are equivalent notations of free peering relationships and the last is a Paid Peering notation.</p>
+</div>
+  <div id="right5">
+    <p class="figure"><img src="img/11-5-Internet-Transit-Notations.png"></p>
+    <p class="figure">Figure 11-5. Equivalent Internet Transit notations.</p>
+  </div>
+  <div id="rightyrighty">
+    <p class="figure"><img src="img/11-6-Peering Sessions.png" alt="peering sessions"></p>
+    <p class="figure">&nbsp;</p>
+    <p class="figure">Figure 11-6. Graphical notation of peering relationships.</p>
+  </div>
+  <div id="left13">
+    <h3>Traffic Flow Notations</h3>
+    <p>To demonstrate traffic traversing an interconnection, we use a directed line as shown in Figure 11-7. The directed line is colored to represent traffic destined to a particular ISP. For example, traffic destined to a purple ISP C is shown as a directed purple arrow. If packet loss is relevant to a particular tactic, it is denoted as a dashed line. If the traffic destination is not relevant, the color black is used. The thickness of the line represents the amount of traffic. </p>
+  </div>
+  
+<div id="right13">
+    <p class="figure"><img src="img/11-7-Traffic-flow.png" alt="traffic flow"></p>
+    <p class="figure">Figure 11-7. Traffic flow notations.</p>
+  </div>
+  <div id="centerFinish">
+    <h2>The Internet Service Provider Peering Playbook</h2>
+    <p>To make it into the ISP Peering Playbook chapter, the tactic had to have been effective in: </p>
+    <ul>
+      <li>obtaining peering where      the ISP would have otherwise not been able to obtain peering, or</li>
+      <li>defending one&rsquo;s peering      position</li>
+    </ul>
+    <p>This litmus test has been applied to each of these tactics.</p>
+<p>
+      We neither endorse nor condone any of these tactics; we are simply documenting them for the benefit of the community. If you are involved in peering on the Internet, then you should be aware of these maneuvers.</p>
+<ol>
+  <li><a href="../ch11-01-The-Extended-Direct-Approach/ch11-01-The-Extended-Direct-Approach.html">The Extended Direct Approach</a></li>
+  <li><a href="../ch11-02-Internet-Transit-With-Peering-Migration/ch11-02-Internet-Transit-With-Peering-Migration.html">Internet Transit with Peering Migration</a></li>
+  <li><a href="../ch11-03-End-Run-Maneuver/ch11-03-End-Run-Maneuver.html">The End-Run Maneuver</a></li>
+  <li><a href="../ch11-04-Bundle-Internet-Transit-with-Peering/ch11-04-Bundle-Internet-Transit-with-Peering.html">Bundle Internet Transit with Peering</a></li>
+  <li><a href="../ch11-05-Buy-Transit-from-the-most-Restrictive-Tier-1-ISP/ch11-05-Buy-Transit-from-the-most-Restrictive-Tier-1-ISP.html">Buy Transit from the most Restrictive Tier 1 ISP</a></li>
+  <li><a href="../ch11-06-Transitional-Paid-Peering/ch11-06-Transitional-Paid-Peering.html">Transitional Paid Peering</a></li>
+  <li><a href="../ch11-07-Partial-Route-Internet-Transit/ch11-07-Partial-Route-Internet-Transit.html">Partial-Route Internet Transit</a></li>
+  <li><a href="../ch11-08-Play-Chicken/ch11-08-Play-Chicken.html">Play Chicken</a></li>
+  <li><a href="../ch11-09-Traffic Manipulation/ch11-09-Traffic Manipulation.html">Traffic Manipulation</a></li>
+  <li><a href="../ch11-10-Bluff-Issues/ch11-10-Bluff-Issues.html">Bluff Issues</a></li>
+  <li><a href="../ch11-11-Be-Open-Loudly/ch11-11-Be-Open-Loudly.html">Be Open. Loudly.</a></li>
+  <li><a href="../ch11-12-Be-Everywhere/ch11-12-Be-Everywhere.html">Be Everywhere</a></li>
+  <li><a href="../ch11-13-Get-Traffic/ch11-13-Get-Traffic.html">Get Traffic</a></li>
+  <li><a href="../ch11-14-Friendship-Based-Peering/ch11-14-Friendship-Based-Peering.html">Friendship-based Peering</a></li>
+  <li><a href="../ch11-15-Spam-Peering-Requests/ch11-15-Spam-Peering-Requests.html">Spam Peering Requests</a></li>
+  <li><a href="../ch11-16-The-Honey-Approach-Be-Sweet/ch11-16-The-Honey-Approach-Be-Sweet.html">The Honey Approach - Be Sweet</a></li>
+  <li><a href="../ch11-17-Purchase-a-Well-Peered-ISP/ch11-17-Purchase-a-Well-Peered-ISP.html">Purchase a well-peered ISP</a></li>
+  <li><a href="../ch11-18-Bait-and-Switch/ch11-18-Bait-and-Switch.html">Bait-n-Switch</a></li>
+  <li><a href="../ch11-19-False-Peering-Outage/ch11-19-False-Peering-Outage.html">False Peering Outage</a></li>
+  <li><a href="../ch11-20-Leverage-Broader-Business-Arrangements/ch11-20-Leverage-Broader-Business-Arrangements.html">Leverage Broader Business Arrangement</a></li>
+  <li><a href="../ch11-21-Overseas-Power-Play/ch11-21-Overseas-Power-Play.html">Overseas Power Play</a></li>
+  <li><a href="../ch11-22-Construct-Peering-From-Transit/ch11-22-Construct-Peering-From-Transit.html">Construct Peering from Transit</a></li>
+  <li><a href="../ch11-23-Do-Not-Peer-in-Your-Home-Market/ch11-23-Do-Not-Peer-in-Your-Home-Market.html">Defensive Tactic - Do Not Peer in Your Home Market</a></li>
+  <li><a href="../ch11-24-Protect-Peering-Policy/ch11-24-Protect-Peering-Policy.html">Defensive Tactic - Protect Peering Policy</a></li>
+  <li><a href="../ch11-25-Change-and-Escalate-Peering-Prerequisites/ch11-25-Change-and-Escalate-Peering-Prerequisites.html">Change and Escalate Peering Prerequisites</a></li>
+  <li><a href="../ch11-26-MILD-Defensive-Tactic/ch11-26-MILD-Defensive-Tactic.html">MILD Defensive Tactic</a></li>
+  <li><a href="../ch11-27-Congest-Transit-Pipes/ch11-27-Congest-Transit-Pipes.html">Congest Transit Pipes</a></li>
+</ol>
+<p>&nbsp; </p>
+  </div>
+  <div class="NotesFromTheField" id="CallingByName">
+    <p class="NotesFromTheFieldLabel">Notes from the field.</p>
+<p class="NotesFromTheFieldTitle">
+      ISPs Calling Playbook Tactics By Number</p>
+<p>
+      I was introduced to the VP of Internet Operations for a large European ISP who shared that the ISP&rsquo;s engineering teams were so well versed with these tactics that they referred to them by number. As in, &ldquo;Good morning, Geoff. We had another 19 (False NOC Outage) last night!&rdquo; </p>
+  </div>
+  <div id="bottomleftnav"> <a href="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/ipptoc.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Back to Table Of Contents</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch11-01-The-Extended-Direct-Approach/ch11-01-The-Extended-Direct-Approach.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>Tactic 1 - The Extended Direct Approach</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

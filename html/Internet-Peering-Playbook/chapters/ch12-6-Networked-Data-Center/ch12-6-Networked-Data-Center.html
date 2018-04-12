@@ -1,0 +1,240 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>The Networked Data Center Model</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch12-5-Data-Center-Operations/ch12-5-Data-Center-Operations.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>The Data Center Operations Model</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch12-7-Internet-Data-Center/ch12-7-Internet-Data-Center.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>The Internet Data Center Model</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>The Networked Data Center Model</h1>
+	<p>Data Centers can be operated by several different types of players, including carriers, ISPs, providers of colocation services, and completely neutral entities. This section will help you understand some of the differences between them, particularly with respect to the U.S. vs. European IXP models.</p>
+</div>
+  <div id="left1">
+    <h2>Carrier Data Center</h2>
+    <p>As stated before, without a network, a data center is an island. If a carrier owns the data center, we call it either a: </p>
+    <ul >
+      <li>Carrier      Point-of-Presence (POP) or </li>
+      <li>Carrier      colocation space</li>
+    </ul>
+    <p>The carrier ring in the model (Figure 12-13) demonstrates the ability for multiple competing carriers to offer connectivity within a building.</p>
+    <p><span class="definitionLabel">Definition</span>: <span class="definition">Carriers</span> are layer 2 transport providers.</p>
+<p>
+      When we say carriers, we are referring to the folks that bring in layer 1 and layer 2 – dark fiber, lit fiber services, and circuits for the tenants to use to get bits into and out of the data center. </p>
+<p>
+    Most carrier data centers do not allow competitive providers to sell transport to their customers in their space. Some companies have referred to carrier data centers as &ldquo;telco jails&rdquo; since they can&rsquo;t get their content out of the building unless the carrier data center owner sells them transport services.</p>
+</div>
+  <div id="right1">
+    <p class="figure"><img src="img/12-13-CarriersSecuredPoweredHVACRealEstate.png" alt="Carrier Ring of the Data Center"></p>
+    <p class="figure">Figure 12-13. The carrier ring of the data center model. Multiple carriers selling services, or just one?</p>
+  </div>
+  <div id="left2">
+    <h3>The Carrier Point-of-Presence (POP)</h3>
+    <p>Definition: A Carrier POP is space within a carrier data center that is operated solely for the use of the carrier itself.</p>
+<p>
+      A Carrier POP is a relatively small footprint in a data center. This space is a data center space with only one customer – the carrier itself.</p>
+    <h3>The Carrier Hosting Facility</h3>
+    <p>Definition: A Carrier Hosting Facility is space within a carrier data center that is purpose-built for the use of hosting the carrier and its customers.</p>
+<p>
+      Carriers may also lease data center space from others and use it for a POP or hosting space. </p>
+    <h3>Carrier-Neutral Data Center</h3>
+    <p>Definition: A Carrier-Neutral Data Center is a data center that is neither owned nor operated by a company that offers carrier services.</p>
+<p>
+      A Carrier-Neutral Data Center does not compete with its carriers for transport (circuits) and, therefore, carriers generally do not have a disincentive to build in and support this business model. The Carrier-Neutral Data Center brings in multiple carriers for the customers to choose from, creating an open market for transport services in the building.  </p>
+  </div>
+  <div class="NotesFromTheField" id="right2">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      Specific Carrier Required</p>
+<p>
+      Some customers insist on being in a building with multiple carriers for redundancy and resiliency reasons. Some customers have dollar volume terms with certain carriers so they can more easily build into a building that has a certain carrier present.</p>
+  </div>
+  <div class="NotesFromTheField" id="right3">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      Denver Rivals Won&rsquo;t POP Each Others Facilities</p>
+<p>
+    Level 3 and Qwest are both based in Denver, Colorado, and are huge rivals. To quote a high-level Qwest executive, &ldquo;there is no way we will build Qwest fiber into a Level 3 Gateway [Level 3&rsquo;s name for its data center], and there is no way we will allow Level 3 fiber into our Qwest CyberCenters [Qwest&rsquo;s branded data centers].&rdquo; Thus, the Carrier-Neutral Data Centers serve a market that insists upon carrier neutrality and diversity.</p>
+  </div>
+  <div id="right4">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>What happens when a carrier acquires a Carrier-Neutral Colocation company?</p>
+  </div>
+  <div class="NotesFromTheField" id="left5">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      When Carrier-Neutral Colo is Acquired By Carrier</p>
+<p>
+      Terremark hosted a NANOG meeting in Miami shortly after its acquisition by Verizon was announced. A representative made a few statements during the opening of the meeting and during the peering track that Terremark was to continue operating as &ldquo;business as usual.&rdquo; He suggested that there are many new Terremark IXPs to be built out with the same business model as before. </p>
+<p>
+      Will this scenario work? ISPs and carriers have purchased carrier-neutral colocation facilities before, so there are some historical precedents to consider.</p>
+<p>
+      In 1999, AboveNet acquired the Palo Alto Internet Exchange (PAIX) of Palo Alto, California, and the community raised great concern of the form:</p>
+<p>
+  &ldquo;The PAIX is no longer neutral.&rdquo;</p>
+<p>
+      The rumblings continued that ISPs would move out and that AboveNet would leverage the ownership of the PAIX to its advantage. People suggested that a new neutral exchange point would arise and take over as the peering hub for the Bay Area. Others suggested that the ISPs would not expand their presence there.</p>
+<p>
+      However, none of these things actually happened. </p>
+<p>
+      The PAIX has changed hands several times since then without significant disruptions to the business. The PAIX continued to be operated as it always did, and continued to provide a quantifiable peering value to its customers. </p>
+<p>
+      All IXPs go through the network externality &ldquo;S&rdquo; curve as shown in Figure 12-14, and the PAIX in Palo Alto was already well past critical mass – the value of peering there greatly exceeded the cost of building in and operating peering infrastructure at the PAIX. The carrier neutrality &ldquo;principle&rdquo; was not a strong enough force to make people move out and give up that derived peering value (where peeringValue=valueDerived-costOfPeering).</p>
+    <p class="figure">&nbsp;</p>
+</div>
+  <div id="ValueofIX">
+    <p class="figure"><img src="img/12-14-valueOfIXGraph.png" alt="Value of an IXP"></p>
+    <p class="definitionLabel"> Figure 12-14. The value of an Internet Exchange.</p>
+  </div>
+  <div id="center6">
+    <p>So if history is any indication, Terremark&rsquo;s facility in Miami will probably continue to contain a strong ecosystem moving forward.</p>
+<p>
+      However, the new Terremark buildings present a different situation altogether. Even if the Terremark buildings are operated as a completely separate Verizon subsidiary, building in ultimately supports the parent company, Verizon. Since the new buildings have to go through the exact same &ldquo;start-up hump&rdquo; that all colocation facilities and IXPs have to go through (where the value of participation is so much lower than the cost of participation), they will have a harder time attracting the critical mass of carriers and ISPs. </p>
+<p>
+      The Terremark neutrality message will also no longer ring true, so all of the heavy lifting needed to attract ISPs and build the value proposition will be much more difficult. After all, might Verizon get to pitch connectivity first to the new Terremark colocation prospects? Might Verizon get to peek through the tour and visitor logs to find prospects for bandwidth? Wouldn&rsquo;t competitors prefer to see Verizon resources drain as a result of an over-built and unpopulated colocation facility? These questions are examples of concerns raised when carriers compared building into ISP-owned data centers against building into an open market Carrier-Neutral Data Center. </p>
+<p>
+      History has a way of repeating itself.</p>
+<p>
+      So most likely, Terremark colocation facilities built from now on will not be perceived as carrier or ISP neutral and will fail as colocation or IXP locations. They will probably be very-well-built data centers, though. I just don&rsquo;t see the success in Miami being duplicated elsewhere with this parent.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch12-5-Data-Center-Operations/ch12-5-Data-Center-Operations.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>The Data Center Operations Model</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch12-7-Internet-Data-Center/ch12-7-Internet-Data-Center.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>The Internet Data Center Model</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>

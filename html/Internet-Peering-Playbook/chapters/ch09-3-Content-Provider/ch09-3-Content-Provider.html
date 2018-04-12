@@ -1,0 +1,198 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- #1 - Change title -->
+<title>Content Provider</title>
+
+<link href="../../commoncss/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../../../../css/site.css" rel="stylesheet" type="text/css">
+<link href="../../commoncss/Internet-Peering-Playbook.css" rel="stylesheet" type="text/css">
+
+<!-- #2 - link this to the chapter specific area -->
+<link href="css/ch00.css" rel="stylesheet" type="text/css">
+
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="../../commonjs/respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer clearfix"><!-- #BeginLibraryItem "/Library/3_header.lbi" -->
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-3");
+pageTracker._trackPageview();
+} catch(err) {alert("GoogleAnalyticsFailure");}</script>
+
+<div id="header">
+	<div id="google_translate_element"></div>
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+  			new google.translate.TranslateElement({
+    			pageLanguage: 'en'
+  			}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	<div class="header-top">
+		<a href="/index.php"><img src="/img/pageLayoutIdea4.png" alt="drPeeringHeader4" width="1004" height="202" ></a>
+		<div class="nav1">
+  			<ul>
+    			<li><a href="/index.php" title="Go to Start page">Home</a></li>
+    			<li><a href="http://ask.DrPeering.net" title="ask DrPeering Monthly Blog">ask.DrPeering Blog</a></li>
+    			<li><a href="/about/about.html" title="Get to know who we are">About</a></li>
+    			<li><a href="/about/contactUs.html" title="Get in touch with us">Contact</a></li>
+  			</ul>
+		</div>
+		<div class="searchForm">
+			<div class="searchform">
+			    <form action="http://www.google.com/search" method="get" class="form">
+			    	<fieldset>
+        				<input value=" Search DrPeering site..." name="q" class="field" />
+        				<input  type="hidden"  name="sitesearch" value="drpeering.net" />
+        				<input type="submit" value="GO!" name="button" class="button" />
+      				</fieldset>
+    			</form>
+  			</div>
+		</div>
+		<nav> 
+        	<img src="/img/pageLayoutIdea4buttons.png" alt="navButtons" width="1000" height="50" usemap="#headerImageMap">
+    		<map name="headerImageMap" id="headerImageMap">
+      			<area shape="rect" coords="15,7,250,43" href="/white-papers/An-Internet-Peering-White-Papers-Index.html" alt="Internet Peering White Papers">
+      			<area shape="rect" coords="263,9,496,42" href="/Workshops/Internet-Peering-Workshop.html" alt="Internet Peering Workshops">
+      			<area shape="rect" coords="508,9,744,43" href="/Consulting/Consulting.html" alt="DrPeering Consulting">
+      			<area shape="rect" coords="754,10,989,42" href="/about/contactUs.html" alt="Contact DrPeering">
+    		</map>
+  		</nav>
+    </div> <!-- header-top -->
+</div> <!-- header -->
+<!-- END HEADER SECTION --><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/4_excerpts.lbi" -->
+<!--<div id="excerpts">
+	<div id="left">
+    	<p>Excerpts from <a href="../core/index.php">The Internet Peering Playbook</a>, available in hard copy from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> for the iPad. </p>
+    </div>
+	<div id="bookExcerptsBook">
+		<p><img src="../Internet-Peering-Playbook/Second-Edition/Source/imgsrc/FrontCoverOnlyMedJPG.jpg" alt="bookcoverimg" width="100"></p>
+    </div>
+	<div id="bookExcerptsRight">
+    	<p>Also available as a future-proof <a href="../core/buyTheBook.html">DropBox share</a>.</p>
+	</div>
+</div>
+--->
+<!-- #EndLibraryItem --><div id="topleftnav"> <a href="../ch09-2-Tier-2-ISP/ch09-2-Tier-2-ISP.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+  <p>The Tier 2 ISP</p>
+</a> </div>
+<div id="toprightnav"> <a href="../ch09-0-The-Global-Internet-Peering-Ecosystem/ch09-0-The-Global-Internet-Peering-Ecosystem.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg/forward.png" width="40" height="42" alt="back">
+  <p>The Global Internet Peering Ecosstem</p>
+</a> </div>
+<div id="title">
+
+<!-- #3 Change title -->
+	<h1>The Content Provider</h1>
+	<p>The last species of player that exists in every Internet Peering Ecosystem is the Content Provider. </p>
+</div>
+  <div id="left1">
+    <p>The basic Content Provider does not peer. A separate type of Content Provider, called a &ldquo;Large-Scale Network-Savvy Content Provider,&rdquo; has a strong network engineering team and does peer. We will discuss these peering content providers in the next chapter.</p>
+<p>
+      Definition: Content Providers are companies that operate an Internet-based service but do not sell transit within the Internet Peering Ecosystem.</p>
+<p>
+      The Content Provider&rsquo;s core competence is the creation and managing of content and the relationships with those who use, enhance, or support the content. They are generally happy to purchase transit because operating a network is not strategic or core to their mission. These interests are shown graphically in Figure 9‑8.</p>
+  </div>
+  <div id="right1">
+    <p class="figure"><img src="img/9-8-Content-Provider.png" alt="content provider image" width="200"></p>
+    <p class="figure">Figure 9-8. The Content Provider model.</p>
+  </div>
+  <div id="left2">
+    <p>Content Provider model. The Content Provider model shows that this player simply purchases transit from an upstream provider and creates content as its core business.</p>
+<p>
+      Content Players include companies like Neopets, Visa, Staples.com, Avon.com, Hertz, Agilent, General Electric, etc.</p>
+<p>
+      Relationship of Content Providers with each other. Generally speaking, content providers act as independent players, with their only interplay with the ecosystem being the purchase of Internet Transit. There is little or no reason for them to exchange traffic. </p>
+<p>
+      Relationship of Content Providers with the other players. Content Providers generally see ISPs as vendors, and they select vendors along widely varying parameters, but increasingly they are looking at the underlying network and peering infrastructure of ISPs.</p>
+  </div>
+  <div id="left3">
+    <h3>Motivation and Behavior of Content Providers</h3>
+    <p>Most Content Providers do not peer – they have a &ldquo;No Peering&rdquo; policy. Their focus is on their core competence, and they pay others to handle the rest. Content providers I interviewed uniformly said that the most important thing was the end-user experience, although they also are motivated to reduce their Internet Transit costs, among others.</p>
+    <p>Now we can construct the most basic form of an Internet Peering Ecosystem.</p>
+</div>
+  <div class="NotesFromTheField" id="right3">
+    <p class="NotesFromTheFieldLabel">Notes from the field. </p>
+<p class="NotesFromTheFieldTitle">
+      A No-Peering Policy</p>
+<p>
+      I visited a content company based in Los Angeles that ran a web site that went viral, and we discussed peering. The CTO said that NTT Verio provided a perfectly good transit service and that there was no strategic need to explore Internet Peering. The company didn&rsquo;t want to hire network engineers. It didn&rsquo;t want the added head count, or the additional complexity. It was not the company&rsquo;s core competence and it was not critical to the delivery of the company&rsquo;s service. For this content company, Internet Transit was just fine. In effect, it made the strategic choice to have a No-Peering Policy.</p>
+  </div>
+  <div id="finish">
+    <h3>Peering Workshop Practice Questions</h3>
+    <p>Here are a few practice questions from the Internet Peering Workshop:</p>
+<p>
+      Let&rsquo;s assume that there is a simple Internet Peering Ecosystem with the players interconnected as shown in Figure 9-10. </p>
+    <p>Figure 9-10. A simple Internet Peering Ecosystem.</p>
+<p>
+      1.  What will the answer be when ISP B requests peering with ISP Y?</p>
+<p>
+      2.  What will the answer be when Content Provider C requests peering with ISP Y?</p>
+<p>
+      3.  What will the answer be when ISP A requests peering with ISP Y?</p>
+    <p>Answers to these questions are in the <a href="#AnswersToPracticeQuestionsCh09">answer key</a> in the back of the book.</p>
+  </div>
+  <div id="bottomleftnav"> <a href="../ch09-2-Tier-2-ISP/ch09-2-Tier-2-ISP.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//back.png" width="40" height="42" alt="back">
+    <p>Tier 2 ISP</p>
+  </a> </div>
+  <div id="bottomrightnav"> <a href="../ch09-0-The-Global-Internet-Peering-Ecosystem/ch09-0-The-Global-Internet-Peering-Ecosystem.html"> <img src="/a/Internet-Peering-Playbook/Second-Edition/Source/HTML_IPP/commonimg//forward.png" width="40" height="42" alt="back">
+    <p>The Global Internet Peering Ecosystem</p>
+  </a> </div><!-- #BeginLibraryItem "/Library/6_footer_ad.lbi" -->
+<div id="footerad">
+<p>This material is from <a href="../../../../../../../core/index.php">The Internet Peering Playbook</a>, available from <a href="http://www.amazon.com/The-Internet-Peering-Playbook-Connecting/dp/1937451054">Amazon.com</a> and on the <a href="https://itunes.apple.com/us/book/internet-peering-playbook/id570203583?ls=1">iBookStore</a> as an iTextbook.</p>
+</div>
+<script type="text/javascript"><!--
+google_ad_client = "pub-9876793312004476";
+/* 468x60, created 12/18/09 */
+google_ad_slot = "7818311111";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+<!-- Google Analytics Stuff for the page -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7883161-2");
+pageTracker._trackPageview();
+} catch(err) {}</script><!-- #EndLibraryItem --><!-- #BeginLibraryItem "/Library/5_footer.lbi" -->
+<div id="footer">
+  	<p class="center"><a href="http://DrPeering.net">Back To DrPeering Home</a></p>
+  	<p class="center"><a href="http://DrPeering.net">DrPeering.net &copy;2012</a> | <a href="/about/privacy.html" title="Dr.Peering Privacy Policy">Privacy Policy</a> | <a href="/about/terms.html" title="Dr.Peering Terms and Conditions">Terms and Conditions</a> | <a href="/about/about.html" title="About Dr.Peering">About Us</a> | <a href="/about/contactUs.html" title="Contact Dr.Peering">Contact Us</a></p>  
+</div><!-- #EndLibraryItem --></div>
+</body>
+</html>
