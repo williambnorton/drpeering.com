@@ -92,7 +92,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-22T20:16:10Z</date>
+	<date>2019-01-22T20:38:27Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -355,7 +355,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>125</string>
+			<string>122</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -374,7 +374,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{716, 2540}</string>
+					<string>{715, 2540}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -399,7 +399,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>120</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1}</string>
+					<string>{0, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -440,7 +440,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>123</string>
 					<key>scrollViewOffset</key>
-					<string>{3, 21}</string>
+					<string>{4, 27}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -846,7 +846,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;0The Internet Peering Playbook0&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
 &lt;h2 style="text-align: center;"&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
 &lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
 &lt;h2&gt;Chapter 1 - Introduction&lt;/h2&gt;
