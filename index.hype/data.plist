@@ -82,11 +82,17 @@ $(document).ready(function() {
 
 
 	&lt;/script&gt;
-	
+	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-9876793312004476",
+          enable_page_level_ads: true
+     });
+&lt;/script&gt;
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-22T20:09:34Z</date>
+	<date>2019-01-22T20:14:37Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -94,7 +100,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {2251, 1039}}</string>
+			<string>{{0, 0}, {1257, 1059}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -107,7 +113,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1980, 1039}}</string>
+					<string>{{0, 0}, {986, 1059}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -120,7 +126,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1039}}</string>
+							<string>{{0, 0}, {270, 1059}}</string>
 							<key>identifier</key>
 							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
@@ -133,7 +139,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1039}}</string>
+									<string>{{0, 0}, {270, 1059}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -143,7 +149,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {1709, 1039}}</string>
+							<string>{{271, 0}, {715, 1059}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -156,7 +162,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {1709, 158}}</string>
+									<string>{{271, 0}, {715, 279}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -169,7 +175,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {1709, 158}}</string>
+											<string>{{271, 0}, {715, 279}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -179,7 +185,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 159}, {1709, 880}}</string>
+									<string>{{271, 280}, {715, 779}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -192,7 +198,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 159}, {1709, 880}}</string>
+											<string>{{271, 280}, {715, 779}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -206,7 +212,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1981, 0}, {270, 1039}}</string>
+					<string>{{987, 0}, {270, 1059}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -219,7 +225,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1981, 0}, {270, 1039}}</string>
+							<string>{{987, 0}, {270, 1059}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -232,7 +238,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>34 313 2251 1083 0 0 2560 1417 </string>
+		<string>33 314 1257 1103 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -241,7 +247,7 @@ $(document).ready(function() {
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -349,7 +355,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>115</string>
+			<string>122</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -368,11 +374,11 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1711, 2069}</string>
+					<string>{715, 2540}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#FF7B00</string>
+						<string>#EBEEDC</string>
 						<key>breakpointWidth</key>
 						<real>320</real>
 						<key>name</key>
@@ -382,7 +388,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{320, 568}</string>
+						<string>{320, 2500}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -393,7 +399,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>120</string>
 					<key>scrollViewOffset</key>
-					<string>{2, 3}</string>
+					<string>{0, 1761}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -409,11 +415,11 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1710, 1933}</string>
+					<string>{1711, 1933}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#FF7B00</string>
+						<string>#7DF19C</string>
 						<key>breakpointWidth</key>
 						<real>768</real>
 						<key>name</key>
@@ -434,7 +440,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>123</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 0}</string>
+					<string>{2, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -450,11 +456,11 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{2279, 1932}</string>
+					<string>{2280, 1346}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#FFFFEE</string>
+						<string>#FFB937</string>
 						<key>breakpointWidth</key>
 						<real>1920</real>
 						<key>name</key>
@@ -475,7 +481,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>114</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 569}</string>
+					<string>{1, 129}</string>
 					<key>zoomFactor</key>
 					<real>0.75</real>
 				</dict>
@@ -822,7 +828,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1877px</string>
+							<string>2398px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -840,8 +846,8 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: right;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
-&lt;h2 style="text-align: right; "&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
+&lt;h2 style="text-align: center;"&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
 &lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
 &lt;h2&gt;Chapter 1 - Introduction&lt;/h2&gt;
 &lt;h2&gt;Chapter 2 - Internet Transit&lt;/h2&gt;
