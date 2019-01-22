@@ -86,11 +86,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-22T17:23:01Z</date>
+	<date>2019-01-22T19:00:45Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -232,7 +232,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>7 334 947 1078 0 0 2560 1417 </string>
+		<string>231 334 947 1078 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -531,7 +531,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: right;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
 &lt;h2 style="text-align: right; "&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
 &lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
 &lt;h2&gt;Chapter 1 - Introduction&lt;/h2&gt;
