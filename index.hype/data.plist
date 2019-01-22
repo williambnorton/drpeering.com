@@ -86,7 +86,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-22T20:06:17Z</date>
+	<date>2019-01-22T20:09:34Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -450,7 +450,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{2278, 1953}</string>
+					<string>{2279, 1932}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -464,7 +464,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1920, 1080}</string>
+						<string>{1920, 1299}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -475,7 +475,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>114</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 569}</string>
 					<key>zoomFactor</key>
 					<real>0.75</real>
 				</dict>
@@ -597,7 +597,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1877px</string>
+							<string>1289px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -634,8 +634,6 @@ $(document).ready(function() {
 &lt;h2&gt;Chapter 11 - The ISP Peering Playbook&lt;/h2&gt;
 &lt;h2&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/h2&gt;
 &lt;h2&gt;Chapter 13 - The IXP Playbook Playbook&lt;/h2&gt;
-
-
 &lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
 &lt;h2&gt;Chapter 14 - Remote Peering&lt;/h2&gt;
 &lt;h2&gt;Chapter 15 - International Peering&lt;/h2&gt;
