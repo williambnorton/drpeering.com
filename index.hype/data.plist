@@ -92,7 +92,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-22T21:32:13Z</date>
+	<date>2019-01-22T22:31:55Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1257, 1059}}</string>
+			<string>{{0, 0}, {1853, 1305}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -113,7 +113,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {986, 1059}}</string>
+					<string>{{0, 0}, {1582, 1305}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -126,7 +126,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1059}}</string>
+							<string>{{0, 0}, {270, 1305}}</string>
 							<key>identifier</key>
 							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
@@ -139,7 +139,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1059}}</string>
+									<string>{{0, 0}, {270, 1305}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -149,7 +149,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {715, 1059}}</string>
+							<string>{{271, 0}, {1311, 1305}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -162,7 +162,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {715, 277}}</string>
+									<string>{{271, 0}, {1311, 277}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -175,7 +175,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {715, 277}}</string>
+											<string>{{271, 0}, {1311, 277}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -185,7 +185,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 278}, {715, 781}}</string>
+									<string>{{271, 278}, {1311, 1027}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -198,7 +198,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 278}, {715, 781}}</string>
+											<string>{{271, 278}, {1311, 1027}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -212,7 +212,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{987, 0}, {270, 1059}}</string>
+					<string>{{1583, 0}, {270, 1305}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -225,7 +225,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{987, 0}, {270, 1059}}</string>
+							<string>{{1583, 0}, {270, 1305}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -238,7 +238,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>76 314 1257 1103 0 0 2560 1417 </string>
+		<string>76 68 1853 1349 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -374,11 +374,11 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1960, 1345}</string>
+					<string>{2622, 2840}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#FFB937</string>
+						<string>#FFFFFF</string>
 						<key>breakpointWidth</key>
 						<real>1920</real>
 						<key>name</key>
@@ -388,20 +388,20 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1920, 1299}</string>
+						<string>{1920, 2000}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
-						<false/>
+						<true/>
 					</dict>
 					<key>oid</key>
 					<string>115</string>
 					<key>rootSymbolControllerOid</key>
 					<string>114</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 150}</string>
+					<string>{0, 0}</string>
 					<key>zoomFactor</key>
-					<real>0.75</real>
+					<real>0.5</real>
 				</dict>
 			</array>
 		</dict>
@@ -497,7 +497,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>-6px</string>
+							<string>4px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -521,25 +521,25 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1289px</string>
+							<string>2773px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>AutoresizingMask</string>
 							<key>objectValue</key>
-							<string>303</string>
+							<string>111</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>41px</string>
+							<string>32px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;***The Internet Peering Playbook***&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: right;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: right;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
 &lt;h2 style="text-align: right; "&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
 &lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
 &lt;h2&gt;Chapter 1 - Introduction&lt;/h2&gt;
@@ -591,7 +591,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>scroll</string>
+							<string>auto</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
