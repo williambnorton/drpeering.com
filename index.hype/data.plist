@@ -92,7 +92,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-23T02:01:18Z</date>
+	<date>2019-01-23T02:02:56Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -100,7 +100,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1489, 1318}}</string>
+			<string>{{0, 0}, {1251, 580}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -113,7 +113,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1218, 1318}}</string>
+					<string>{{0, 0}, {980, 580}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -126,7 +126,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1318}}</string>
+							<string>{{0, 0}, {270, 580}}</string>
 							<key>identifier</key>
 							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
@@ -139,7 +139,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1318}}</string>
+									<string>{{0, 0}, {270, 580}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -149,7 +149,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {947, 1318}}</string>
+							<string>{{271, 0}, {709, 580}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -162,7 +162,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {947, 240}}</string>
+									<string>{{271, 0}, {709, 135}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -175,7 +175,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {947, 240}}</string>
+											<string>{{271, 0}, {709, 135}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -185,7 +185,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 241}, {947, 1077}}</string>
+									<string>{{271, 136}, {709, 444}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -198,7 +198,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 241}, {947, 1077}}</string>
+											<string>{{271, 136}, {709, 444}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -212,7 +212,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1219, 0}, {270, 1318}}</string>
+					<string>{{981, 0}, {270, 580}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -225,7 +225,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1219, 0}, {270, 1318}}</string>
+							<string>{{981, 0}, {270, 580}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -238,7 +238,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>0 55 1489 1362 0 0 2560 1417 </string>
+		<string>0 793 1251 624 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -247,7 +247,7 @@ $(document).ready(function() {
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -374,7 +374,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1960, 3202}</string>
+					<string>{1960, 3145}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -388,7 +388,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1920, 2000}</string>
+						<string>{1920, 2500}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -399,7 +399,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>114</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 524}</string>
+					<string>{0, 836}</string>
 					<key>zoomFactor</key>
 					<real>0.5</real>
 				</dict>
