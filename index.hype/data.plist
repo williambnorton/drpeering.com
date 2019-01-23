@@ -92,7 +92,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-23T02:13:44Z</date>
+	<date>2019-01-23T02:16:06Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -238,7 +238,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>79 234 1251 1183 0 0 2560 1417 </string>
+		<string>1 234 1251 1183 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -620,7 +620,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>auto</string>
+							<string>scroll</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
