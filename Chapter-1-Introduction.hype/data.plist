@@ -94,7 +94,7 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-24T02:55:05Z</date>
+	<date>2019-01-24T22:56:09Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -240,7 +240,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>716 66 1613 1322 0 0 2560 1417 </string>
+		<string>510 -81 1613 1322 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -357,7 +357,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>137</string>
+			<string>115</string>
 			<key>name</key>
 			<string>Chapter 1 - Introduction</string>
 			<key>oid</key>
@@ -376,7 +376,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1071, 5391}</string>
+					<string>{1073, 5040}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -390,7 +390,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{375, 5000}</string>
+						<string>{375, 4000}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -401,7 +401,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>135</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 3074}</string>
+					<string>{2, 2}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -417,7 +417,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1072, 2541}</string>
+					<string>{1072, 2540}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -442,7 +442,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>132</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1502}</string>
+					<string>{1, 3}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -751,7 +751,12 @@ Just as context is the most important part to this airplane story, the most impo
 				<key>onSceneSwipeLeftActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>type</key>
+							<integer>5</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
@@ -1052,7 +1057,16 @@ Just as context is the most important part to this airplane story, the most impo
 				<key>onSceneSwipeLeftActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>goToURL</key>
+							<string>http://drpeering.com</string>
+							<key>openInNewWindow</key>
+							<false/>
+							<key>type</key>
+							<integer>5</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
@@ -1116,9 +1130,7 @@ Just as context is the most important part to this airplane story, the most impo
 			<key>documentIdentifier</key>
 			<string>66B4A70C-ED64-41CB-BBE4-06D683635840-7065-00009109BAF70EC0</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>136</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -1353,7 +1365,16 @@ Just as context is the most important part to this airplane story, the most impo
 				<key>onSceneSwipeLeftActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>goToURL</key>
+							<string>http://drpeering.com</string>
+							<key>openInNewWindow</key>
+							<false/>
+							<key>type</key>
+							<integer>5</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeRightActionHandler</key>
 				<dict>
