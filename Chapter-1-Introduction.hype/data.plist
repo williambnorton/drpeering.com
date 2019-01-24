@@ -89,10 +89,12 @@ $(document).ready(function() {
           enable_page_level_ads: true
      });
 &lt;/script&gt;
-		
+	&lt;style&gt;
+.quote { text-align: center }
+	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-24T03:04:48Z</date>
+	<date>2019-01-24T02:55:05Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -100,7 +102,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {2421, 1313}}</string>
+			<string>{{0, 0}, {1613, 1278}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -113,7 +115,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {2150, 1313}}</string>
+					<string>{{0, 0}, {1342, 1278}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -126,7 +128,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1313}}</string>
+							<string>{{0, 0}, {270, 1278}}</string>
 							<key>identifier</key>
 							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
@@ -139,7 +141,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1313}}</string>
+									<string>{{0, 0}, {270, 1278}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -149,7 +151,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {1879, 1313}}</string>
+							<string>{{271, 0}, {1071, 1278}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -162,7 +164,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {1879, 248}}</string>
+									<string>{{271, 0}, {1071, 238}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -175,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {1879, 248}}</string>
+											<string>{{271, 0}, {1071, 238}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -185,7 +187,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 249}, {1879, 1064}}</string>
+									<string>{{271, 239}, {1071, 1039}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -198,7 +200,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 249}, {1879, 1064}}</string>
+											<string>{{271, 239}, {1071, 1039}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -212,7 +214,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{2151, 0}, {270, 1313}}</string>
+					<string>{{1343, 0}, {270, 1278}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -225,7 +227,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{2151, 0}, {270, 1313}}</string>
+							<string>{{1343, 0}, {270, 1278}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -238,7 +240,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>0 60 2421 1357 0 0 2560 1417 </string>
+		<string>716 66 1613 1322 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -287,7 +289,7 @@ $(document).ready(function() {
 	<key>monotypeProjectID</key>
 	<string>566BC1B6-8C4D-43AD-BB9F-50F477258C6E-29938-000231916AB72308</string>
 	<key>oidCounter</key>
-	<integer>132</integer>
+	<integer>137</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -355,9 +357,9 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>137</string>
 			<key>name</key>
-			<string>Table of Contents</string>
+			<string>Chapter 1 - Introduction</string>
 			<key>oid</key>
 			<string>113</string>
 			<key>scenes</key>
@@ -374,11 +376,11 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1879, 5040}</string>
+					<string>{1071, 5391}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#BFBEC0</string>
+						<string>#F9FFFA</string>
 						<key>breakpointWidth</key>
 						<real>320</real>
 						<key>name</key>
@@ -395,11 +397,11 @@ $(document).ready(function() {
 						<true/>
 					</dict>
 					<key>oid</key>
-					<string>128</string>
+					<string>137</string>
 					<key>rootSymbolControllerOid</key>
-					<string>126</string>
+					<string>135</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 3074}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -415,11 +417,11 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1880, 2540}</string>
+					<string>{1072, 2541}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#81FFE4</string>
+						<string>#F9FFFA</string>
 						<key>breakpointWidth</key>
 						<real>768</real>
 						<key>name</key>
@@ -436,11 +438,13 @@ $(document).ready(function() {
 						<true/>
 					</dict>
 					<key>oid</key>
-					<string>131</string>
+					<string>134</string>
 					<key>rootSymbolControllerOid</key>
-					<string>129</string>
+					<string>132</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 0}</string>
+					<string>{1, 1502}</string>
+					<key>userGuides</key>
+					<array/>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -454,13 +458,13 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{3758, 2290}</string>
+					<string>{2142, 2078}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
 						<string>#F9FFFA</string>
 						<key>breakpointWidth</key>
-						<real>1920</real>
+						<real>1024</real>
 						<key>name</key>
 						<string>Desktop</string>
 						<key>perspective</key>
@@ -468,7 +472,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1024, 2250}</string>
+						<string>{1024, 2000}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -508,7 +512,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>C540F3AD-F687-4B67-8499-EF0920D9B11D-7065-000092BF6CA44DF3</string>
+			<string>66B4A70C-ED64-41CB-BBE4-06D683635840-7065-00009109BAF70EC0</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>119</string>
@@ -577,7 +581,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>22px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -601,7 +605,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2206px</string>
+							<string>1984px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -613,64 +617,56 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>38px</string>
+							<string>32px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: right;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
-&lt;h2 style="text-align: right; "&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Almost all attachments to the Internet are made at the edge. We will begin our exploration here.&lt;/p&gt;&lt;p&gt;
-In section I, we introduce the “Internet Transit” service, how it is offered, priced, and metered. We exercise these definitions with a set of “Internet Transit Playbook” tactics that some of the smartest peering coordinators in the world have used to derive the maximum value from the Internet Transit service for the minimum cost. While many of these tactics are not recommended, they have been used in the field, they demonstrate the Internet Transit service, and they exercise the lexicon. In my peering workshops and consulting engagements, the Internet Transit Playbook chapter has proven to be very educational.&lt;/p&gt;&lt;p&gt;
-By the end of this section you will understand the Internet Transit service.
-Section I includes the following chapters:&lt;/p&gt;
-&lt;h2&gt;&lt;a href="../Chapter-1-Introduction/"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;Chapter 2 - Internet Transit&lt;/h2&gt;
-&lt;h2&gt;Chapter 3 - Internet Transit Playbook&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section II - Connecting to the Core of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Now that you understand how to connect to the edge of the Internet (the way 90% of connections are made) it’s time to learn how to do it better. The rest of this book is about Internet Peering, connecting your network at the core of the Internet. This section provides the necessary foundation for understanding the Internet Peering Ecosystem and Internet Peering Playbooks. 
-We will explore the&lt;/p&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;br&gt;&lt;/h1&gt;
+&lt;h1 style="text-align: center; "&gt;&lt;a href="../Chapter-1-Introduction/" style="font-size: 1.5em; font-weight: bold;"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;br&gt;&lt;/h1&gt;
+&lt;h2&gt;Context is Important&lt;/h2&gt;
+&lt;p&gt;I was waiting in the gate area for my flight from Detroit to Los Angeles. I had already been upgraded, so the flight was starting very well! The gate agent called me forward to tell me that my already-delayed flight would most likely be cancelled, and that she would like to rebook me on the next flight to LA, about 10 gates down the terminal. “Your flight will leave in 15 minutes.” I asked that my work colleagues be rebooked as well and she obliged, so the three of us walked to the new gate and boarded the plane, just in time for it to depart. Or so we thought.
+&lt;/p&gt;&lt;p&gt;
+The flight didn’t take off on time. For 30 minutes or so we witnessed some very stressed people getting on the plane, disheveled and complaining. These people were clearly distressed. After a dozen or so people headed back into coach, several came back to the front of the plane saying that their assigned seat was taken and they plopped down in first class. The flight attendant said, “OK, just sit anywhere. We have to leave now!”&lt;/p&gt;
 &lt;p&gt;
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Internet Peering Model&lt;/li&gt;
-&lt;li&gt;Business Case for Internet Peering&lt;/li&gt;
-&lt;li&gt;Top Ten Internet Exchange Point Selection Criteria&lt;/li&gt;
-&lt;li&gt;Public vs. Private Peering Tradeoffs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;By the end of this section you will understand the concept of Internet Peering. You will understand the Internet Peering model enough to prove – not convince – but prove when it makes sense to pursue peering and when it doesn’t, from a purely objective financial perspective. You will learn the processes of Internet Peering, the financial value derived from peering, and the processes proven most effective to find, contact, and negotiate with peers. We will walk through the ten criteria that ISPs have claimed were the most important to them when selecting among Internet Exchange Points. We will finish with a discussion of the benefits and drawbacks of Public Peering and Private Peering.
+If you have ever flown first class, you know that you never hear a flight attendant say, “just sit anywhere.” In any case, the door closed and we took off. I learned the story from the agitated people, after we were in the air.
+&lt;/p&gt;&lt;p&gt;
+As it turns out, shortly after we had left the original gate, the gate agent announced the cancellation of that first flight. She made the following announcement:
+&lt;/p&gt;&lt;p&gt;
+“Ladies and gentlemen, we regret to inform you that flight 234 to Los Angeles has been cancelled. We will work to rebook you on a later flight, but in the meantime, we have a flight to L.A. leaving in 10 minutes at gate 34, about a 5-minute walk from here. We can take the first 15 of you. If you would please progress to gate 34 in a calm and orderly fashion we will handle boarding or rebooking there. Please proceed to gate 34 in a calm and orderly fashion.”
 &lt;/p&gt;
-&lt;p&gt;Section II includes the following chapters:
+&lt;h2&gt;What Happens Next?&lt;/h2&gt;
+&lt;p&gt;Given this context, can you guess what happened? Isn’t it predictable what would happen?&lt;/p&gt;
+&lt;p&gt;Sure enough, the 154 passengers rushed to gate 34, many in a slight panic. The line developed at gate 34 and the gate agent processed people in order until people started circling around the gate agent to plead their special case. “My band plays tonight,” “I am already late to my sister’s wedding,” “My business meeting starts an hour after I land,” “I cannot be late to my next flight,” etc.&lt;/p&gt;
+&lt;p&gt;The orderly line turned into a “make-your-case” mob fest. Those who were the most convincing and/or aggressive were given a boarding pass, perhaps because the agent just wanted to get rid of them. Of course rewarding this behavior led to louder and more aggressive acts to get to the front of the line. Imagine the situation. The notion of fairness, engraved in our minds, kicked in and led to the airport police and the Detroit police being summoned to the gate to calm things down and restore order.
+&lt;/p&gt;&lt;p&gt;
+Who bears responsibility for this ugly scene? Before you state the obvious, that the airline bears the responsibility, do you place any blame on the passengers? Do they not have control of their actions? Or are we wound up like an involuntary muscle forced to act upon stimuli without applying higher-level thought?
 &lt;/p&gt;
-&lt;h2&gt;Chapter 4 - Internet Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 5 - The Business Case for Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 6 - Selecting an ISP&lt;/h2&gt;
-&lt;h2&gt;Chapter 7 - Public vs. Private Peering&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section III - The Global Internet Peering Ecosystem&lt;/font&gt;&lt;/h1&gt;
+&lt;p&gt;As the 1980s rock band Devo so eloquently put it,&lt;/p&gt;
+&lt;br&gt;
+&lt;p class="quote"&gt;“Are we not men?”&lt;/p&gt;
 &lt;p&gt;
-In this section we will explore the Internet operations context – the environment, the participants, and the dynamics at the core of the Internet.&lt;/p&gt;
-&lt;p&gt;We will start by quickly examining how we got here. We will learn about the first peering and how the government-funded NSFNET backbone evolved into the commercial model of today. &lt;/p&gt;
-&lt;p&gt;The Global Internet Peering Ecosystem model is introduced as a collection of Internet Regions, each with its own Internet Peering Ecosystem. We spotlight the categories of participants, their positions, and corresponding motivations. You will learn why their behavior is predictable in the ecosystem.&lt;/p&gt;
-&lt;p&gt;
-The section then brings us to the present day by walking through the addition of several key players in the ecosystem. These players embrace peering on a massive scale, creating a “fat middle” in the ecosystem. We finish with the emerging access power peering dynamic. This section contains the following chapters:
+I would like to think that if I were placed in that situation, I would sit in line, legs crossed in yoga pose, breathing deep breaths while chanting the words “calm blue ocean.”
+&lt;/p&gt;&lt;p&gt;
+It was interesting to find that while many in my European audiences also believed the airline was 100% responsible, a large other percentage of them believed that the airline was maybe 60% to 90% responsible for the riot. Some said the Europeans are more inclined towards personal responsibility, while others said that they are just more accustomed to waiting in lines.
+&lt;/p&gt;&lt;p&gt;
+In any case, everyone agreed that the outcome (the riot) was predominantly driven by the context (the way the airline had set up the situation).
+&lt;/p&gt;&lt;p&gt;
+Just as context is the most important part to this airplane story, the most important thing to understand about the Internet is its context.
 &lt;/p&gt;
+&lt;h2&gt;The Internet Operations Context Is Important&lt;/h2&gt;
+&lt;p&gt;In this book, I will share a generalized model for the “Global Internet Peering Ecosystem.” All species within an ecosystem react to their environment. We will learn how Internet Service Providers are driven by their position within their Internet Peering Ecosystem. Their positional power determines their motivations, which in turn drives their behavior. Much as the passenger behavior in the airplane story is predictable and driven by context, so too are the behaviors of the players in the Internet Peering Ecosystem. A decade of research has gone into documenting the Internet operations context described in this book.&lt;/p&gt;
+&lt;h2&gt;The Lexicon Is Important&lt;/h2&gt;
+&lt;p&gt;After leading hundreds of peering workshops and consulting engagements, I have learned that people don’t truly understand terminology until they use it themselves in actual applications.
+&lt;/p&gt;&lt;p&gt;To this end, the first few chapters will get you comfortable with the interconnection lexicon. First I will introduce the Internet Transit model and terminology used when attaching at the edge of the Internet. Then we will explore the model with some problem sets and manipulations of the system in the “Transit Playbook.” The playbook uses these definitions to describe the manipulations.&lt;/p&gt;
+&lt;p&gt;Then we introduce the local routing optimization called “Internet Peering.” We examine the terminology, the processes typically used in peering, and the business case for peering. The problem sets at the end of each chapter can help you determine if you absorbed the material.&lt;/p&gt;
+&lt;p&gt;Everyone will misuse the terminology a few times before they understand it. During the workshops the “ah-ha” moment generally occurs as we apply the terminology correctly.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2&gt;The Playbooks Are Important&lt;/h2&gt;
+&lt;p&gt;The first time you do anything, you make mistakes. The second time, perhaps you make different mistakes. After a few dozen more times, it is rare to make a mistake, and the process becomes systematic. With even more experience, you master a systematic process. In this book I will present three “playbooks” that demonstrate some mastery in the peering domain.&lt;/p&gt;
 
-&lt;h2&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/h2&gt;
-&lt;h2&gt;Chapter 9 - The Global Peering Ecosystem&lt;/h2&gt;
-&lt;h2&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this last section we present the tactics used by some of the smartest peering coordinators in the world. They shared some tactics that they have used to obtain peering where they otherwise would not have been able to. We briefly present the foundation of the IXP, the colocation facility, and then finish by sharing some of the tricks of the trade that the most successful IXPs in the world have used to build, grow, maintain, and defend their “critical mass.”
-&lt;/p&gt;&lt;p&gt;This section contains the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;Chapter 11 - The ISP Peering Playbook&lt;/h2&gt;
-&lt;h2&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/h2&gt;
-&lt;h2&gt;Chapter 13 - The IXP Playbook Playbook&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
-&lt;h2&gt;Chapter 14 - Remote Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 15 - International Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 16 - The Future&lt;/h2&gt;</string>
+&lt;p&gt;The tactics in the playbooks are not necessarily recommended tactics, or best practices. Rather, they are actual tactics (both good and bad, ethical and otherwise) that are in use in the real world. They are presented here to enable you to understand the interconnection paradigm by exploring the various manipulations of the system. Understanding the manipulations of the system helps us better understand the system.&lt;/p&gt;
+</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -688,7 +684,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>931px</string>
+							<string>939px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -817,10 +813,10 @@ In this last section we present the tactics used by some of the smartest peering
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>C540F3AD-F687-4B67-8499-EF0920D9B11D-7065-000092BF6CA44DF3</string>
+			<string>66B4A70C-ED64-41CB-BBE4-06D683635840-7065-00009109BAF70EC0</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>127</string>
+				<string>133</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -832,7 +828,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<array/>
 				<key>elements</key>
 				<dict>
-					<key>127</key>
+					<key>133</key>
 					<array>
 						<dict>
 							<key>identifier</key>
@@ -910,7 +906,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>4979px</string>
+							<string>1984px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -922,64 +918,56 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>14px</string>
+							<string>32px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
-&lt;h2 style="text-align: center;"&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Almost all attachments to the Internet are made at the edge. We will begin our exploration here.&lt;/p&gt;&lt;p&gt;
-In section I, we introduce the “Internet Transit” service, how it is offered, priced, and metered. We exercise these definitions with a set of “Internet Transit Playbook” tactics that some of the smartest peering coordinators in the world have used to derive the maximum value from the Internet Transit service for the minimum cost. While many of these tactics are not recommended, they have been used in the field, they demonstrate the Internet Transit service, and they exercise the lexicon. In my peering workshops and consulting engagements, the Internet Transit Playbook chapter has proven to be very educational.&lt;/p&gt;&lt;p&gt;
-By the end of this section you will understand the Internet Transit service.
-Section I includes the following chapters:&lt;/p&gt;
-&lt;h2&gt;Chapter 1 - Introduction&lt;/h2&gt;
-&lt;h2&gt;Chapter 2 - Internet Transit&lt;/h2&gt;
-&lt;h2&gt;Chapter 3 - Internet Transit Playbook&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section II - Connecting to the Core of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Now that you understand how to connect to the edge of the Internet (the way 90% of connections are made) it’s time to learn how to do it better. The rest of this book is about Internet Peering, connecting your network at the core of the Internet. This section provides the necessary foundation for understanding the Internet Peering Ecosystem and Internet Peering Playbooks. 
-We will explore the&lt;/p&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;br&gt;&lt;/h1&gt;
+&lt;h1 style="text-align: center; "&gt;&lt;a href="../Chapter-1-Introduction/" style="font-size: 1.5em; font-weight: bold;"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;br&gt;&lt;/h1&gt;
+&lt;h2&gt;Context is Important&lt;/h2&gt;
+&lt;p&gt;I was waiting in the gate area for my flight from Detroit to Los Angeles. I had already been upgraded, so the flight was starting very well! The gate agent called me forward to tell me that my already-delayed flight would most likely be cancelled, and that she would like to rebook me on the next flight to LA, about 10 gates down the terminal. “Your flight will leave in 15 minutes.” I asked that my work colleagues be rebooked as well and she obliged, so the three of us walked to the new gate and boarded the plane, just in time for it to depart. Or so we thought.
+&lt;/p&gt;&lt;p&gt;
+The flight didn’t take off on time. For 30 minutes or so we witnessed some very stressed people getting on the plane, disheveled and complaining. These people were clearly distressed. After a dozen or so people headed back into coach, several came back to the front of the plane saying that their assigned seat was taken and they plopped down in first class. The flight attendant said, “OK, just sit anywhere. We have to leave now!”&lt;/p&gt;
 &lt;p&gt;
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Internet Peering Model&lt;/li&gt;
-&lt;li&gt;Business Case for Internet Peering&lt;/li&gt;
-&lt;li&gt;Top Ten Internet Exchange Point Selection Criteria&lt;/li&gt;
-&lt;li&gt;Public vs. Private Peering Tradeoffs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;By the end of this section you will understand the concept of Internet Peering. You will understand the Internet Peering model enough to prove – not convince – but prove when it makes sense to pursue peering and when it doesn’t, from a purely objective financial perspective. You will learn the processes of Internet Peering, the financial value derived from peering, and the processes proven most effective to find, contact, and negotiate with peers. We will walk through the ten criteria that ISPs have claimed were the most important to them when selecting among Internet Exchange Points. We will finish with a discussion of the benefits and drawbacks of Public Peering and Private Peering.
+If you have ever flown first class, you know that you never hear a flight attendant say, “just sit anywhere.” In any case, the door closed and we took off. I learned the story from the agitated people, after we were in the air.
+&lt;/p&gt;&lt;p&gt;
+As it turns out, shortly after we had left the original gate, the gate agent announced the cancellation of that first flight. She made the following announcement:
+&lt;/p&gt;&lt;p&gt;
+“Ladies and gentlemen, we regret to inform you that flight 234 to Los Angeles has been cancelled. We will work to rebook you on a later flight, but in the meantime, we have a flight to L.A. leaving in 10 minutes at gate 34, about a 5-minute walk from here. We can take the first 15 of you. If you would please progress to gate 34 in a calm and orderly fashion we will handle boarding or rebooking there. Please proceed to gate 34 in a calm and orderly fashion.”
 &lt;/p&gt;
-&lt;p&gt;Section II includes the following chapters:
+&lt;h2&gt;What Happens Next?&lt;/h2&gt;
+&lt;p&gt;Given this context, can you guess what happened? Isn’t it predictable what would happen?&lt;/p&gt;
+&lt;p&gt;Sure enough, the 154 passengers rushed to gate 34, many in a slight panic. The line developed at gate 34 and the gate agent processed people in order until people started circling around the gate agent to plead their special case. “My band plays tonight,” “I am already late to my sister’s wedding,” “My business meeting starts an hour after I land,” “I cannot be late to my next flight,” etc.&lt;/p&gt;
+&lt;p&gt;The orderly line turned into a “make-your-case” mob fest. Those who were the most convincing and/or aggressive were given a boarding pass, perhaps because the agent just wanted to get rid of them. Of course rewarding this behavior led to louder and more aggressive acts to get to the front of the line. Imagine the situation. The notion of fairness, engraved in our minds, kicked in and led to the airport police and the Detroit police being summoned to the gate to calm things down and restore order.
+&lt;/p&gt;&lt;p&gt;
+Who bears responsibility for this ugly scene? Before you state the obvious, that the airline bears the responsibility, do you place any blame on the passengers? Do they not have control of their actions? Or are we wound up like an involuntary muscle forced to act upon stimuli without applying higher-level thought?
 &lt;/p&gt;
-&lt;h2&gt;Chapter 4 - Internet Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 5 - The Business Case for Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 6 - Selecting an ISP&lt;/h2&gt;
-&lt;h2&gt;Chapter 7 - Public vs. Private Peering&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section III - The Global Internet Peering Ecosystem&lt;/font&gt;&lt;/h1&gt;
+&lt;p&gt;As the 1980s rock band Devo so eloquently put it,&lt;/p&gt;
+&lt;br&gt;
+&lt;p class="quote"&gt;“Are we not men?”&lt;/p&gt;
 &lt;p&gt;
-In this section we will explore the Internet operations context – the environment, the participants, and the dynamics at the core of the Internet.&lt;/p&gt;
-&lt;p&gt;We will start by quickly examining how we got here. We will learn about the first peering and how the government-funded NSFNET backbone evolved into the commercial model of today. &lt;/p&gt;
-&lt;p&gt;The Global Internet Peering Ecosystem model is introduced as a collection of Internet Regions, each with its own Internet Peering Ecosystem. We spotlight the categories of participants, their positions, and corresponding motivations. You will learn why their behavior is predictable in the ecosystem.&lt;/p&gt;
-&lt;p&gt;
-The section then brings us to the present day by walking through the addition of several key players in the ecosystem. These players embrace peering on a massive scale, creating a “fat middle” in the ecosystem. We finish with the emerging access power peering dynamic. This section contains the following chapters:
+I would like to think that if I were placed in that situation, I would sit in line, legs crossed in yoga pose, breathing deep breaths while chanting the words “calm blue ocean.”
+&lt;/p&gt;&lt;p&gt;
+It was interesting to find that while many in my European audiences also believed the airline was 100% responsible, a large other percentage of them believed that the airline was maybe 60% to 90% responsible for the riot. Some said the Europeans are more inclined towards personal responsibility, while others said that they are just more accustomed to waiting in lines.
+&lt;/p&gt;&lt;p&gt;
+In any case, everyone agreed that the outcome (the riot) was predominantly driven by the context (the way the airline had set up the situation).
+&lt;/p&gt;&lt;p&gt;
+Just as context is the most important part to this airplane story, the most important thing to understand about the Internet is its context.
 &lt;/p&gt;
+&lt;h2&gt;The Internet Operations Context Is Important&lt;/h2&gt;
+&lt;p&gt;In this book, I will share a generalized model for the “Global Internet Peering Ecosystem.” All species within an ecosystem react to their environment. We will learn how Internet Service Providers are driven by their position within their Internet Peering Ecosystem. Their positional power determines their motivations, which in turn drives their behavior. Much as the passenger behavior in the airplane story is predictable and driven by context, so too are the behaviors of the players in the Internet Peering Ecosystem. A decade of research has gone into documenting the Internet operations context described in this book.&lt;/p&gt;
+&lt;h2&gt;The Lexicon Is Important&lt;/h2&gt;
+&lt;p&gt;After leading hundreds of peering workshops and consulting engagements, I have learned that people don’t truly understand terminology until they use it themselves in actual applications.
+&lt;/p&gt;&lt;p&gt;To this end, the first few chapters will get you comfortable with the interconnection lexicon. First I will introduce the Internet Transit model and terminology used when attaching at the edge of the Internet. Then we will explore the model with some problem sets and manipulations of the system in the “Transit Playbook.” The playbook uses these definitions to describe the manipulations.&lt;/p&gt;
+&lt;p&gt;Then we introduce the local routing optimization called “Internet Peering.” We examine the terminology, the processes typically used in peering, and the business case for peering. The problem sets at the end of each chapter can help you determine if you absorbed the material.&lt;/p&gt;
+&lt;p&gt;Everyone will misuse the terminology a few times before they understand it. During the workshops the “ah-ha” moment generally occurs as we apply the terminology correctly.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2&gt;The Playbooks Are Important&lt;/h2&gt;
+&lt;p&gt;The first time you do anything, you make mistakes. The second time, perhaps you make different mistakes. After a few dozen more times, it is rare to make a mistake, and the process becomes systematic. With even more experience, you master a systematic process. In this book I will present three “playbooks” that demonstrate some mastery in the peering domain.&lt;/p&gt;
 
-&lt;h2&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/h2&gt;
-&lt;h2&gt;Chapter 9 - The Global Peering Ecosystem&lt;/h2&gt;
-&lt;h2&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this last section we present the tactics used by some of the smartest peering coordinators in the world. They shared some tactics that they have used to obtain peering where they otherwise would not have been able to. We briefly present the foundation of the IXP, the colocation facility, and then finish by sharing some of the tricks of the trade that the most successful IXPs in the world have used to build, grow, maintain, and defend their “critical mass.”
-&lt;/p&gt;&lt;p&gt;This section contains the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;Chapter 11 - The ISP Peering Playbook&lt;/h2&gt;
-&lt;h2&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/h2&gt;
-&lt;h2&gt;Chapter 13 - The IXP Playbook Playbook&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
-&lt;h2&gt;Chapter 14 - Remote Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 15 - International Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 16 - The Future&lt;/h2&gt;</string>
+&lt;p&gt;The tactics in the playbooks are not necessarily recommended tactics, or best practices. Rather, they are actual tactics (both good and bad, ethical and otherwise) that are in use in the real world. They are presented here to enable you to understand the interconnection paradigm by exploring the various manipulations of the system. Understanding the manipulations of the system helps us better understand the system.&lt;/p&gt;
+</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -991,7 +979,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>332px</string>
+							<string>693px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1030,7 +1018,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<key>name</key>
 				<string>Scene Symbol 2</string>
 				<key>oid</key>
-				<string>126</string>
+				<string>132</string>
 				<key>onSceneDragActionHandler</key>
 				<dict>
 					<key>actions</key>
@@ -1126,10 +1114,10 @@ In this last section we present the tactics used by some of the smartest peering
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>C540F3AD-F687-4B67-8499-EF0920D9B11D-7065-000092BF6CA44DF3</string>
+			<string>66B4A70C-ED64-41CB-BBE4-06D683635840-7065-00009109BAF70EC0</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>130</string>
+				<string>136</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -1141,7 +1129,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<array/>
 				<key>elements</key>
 				<dict>
-					<key>130</key>
+					<key>136</key>
 					<array>
 						<dict>
 							<key>identifier</key>
@@ -1195,7 +1183,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>11px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1219,7 +1207,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2473px</string>
+							<string>4984px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1231,64 +1219,56 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>9px</string>
+							<string>12px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: right;"&gt;&lt;font color="#0433ff" size="5"&gt;(2019 Edition)&lt;/font&gt;&lt;/div&gt;
-&lt;h2 style="text-align: right; "&gt;&lt;font color="#053505"&gt;William B. Norton&lt;/font&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center; "&gt;&lt;font color="#0433ff"&gt;Section I - Connecting to the Edge of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Almost all attachments to the Internet are made at the edge. We will begin our exploration here.&lt;/p&gt;&lt;p&gt;
-In section I, we introduce the “Internet Transit” service, how it is offered, priced, and metered. We exercise these definitions with a set of “Internet Transit Playbook” tactics that some of the smartest peering coordinators in the world have used to derive the maximum value from the Internet Transit service for the minimum cost. While many of these tactics are not recommended, they have been used in the field, they demonstrate the Internet Transit service, and they exercise the lexicon. In my peering workshops and consulting engagements, the Internet Transit Playbook chapter has proven to be very educational.&lt;/p&gt;&lt;p&gt;
-By the end of this section you will understand the Internet Transit service.
-Section I includes the following chapters:&lt;/p&gt;
-&lt;h2&gt;Chapter 1 - Introduction&lt;/h2&gt;
-&lt;h2&gt;Chapter 2 - Internet Transit&lt;/h2&gt;
-&lt;h2&gt;Chapter 3 - Internet Transit Playbook&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section II - Connecting to the Core of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Now that you understand how to connect to the edge of the Internet (the way 90% of connections are made) it’s time to learn how to do it better. The rest of this book is about Internet Peering, connecting your network at the core of the Internet. This section provides the necessary foundation for understanding the Internet Peering Ecosystem and Internet Peering Playbooks. 
-We will explore the&lt;/p&gt;
+							<string>&lt;h1 style="text-align: center; "&gt;&lt;br&gt;&lt;/h1&gt;
+&lt;h1 style="text-align: center; "&gt;&lt;a href="../Chapter-1-Introduction/" style="font-size: 1.5em; font-weight: bold;"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;br&gt;&lt;/h1&gt;
+&lt;h2&gt;Context is Important&lt;/h2&gt;
+&lt;p&gt;I was waiting in the gate area for my flight from Detroit to Los Angeles. I had already been upgraded, so the flight was starting very well! The gate agent called me forward to tell me that my already-delayed flight would most likely be cancelled, and that she would like to rebook me on the next flight to LA, about 10 gates down the terminal. “Your flight will leave in 15 minutes.” I asked that my work colleagues be rebooked as well and she obliged, so the three of us walked to the new gate and boarded the plane, just in time for it to depart. Or so we thought.
+&lt;/p&gt;&lt;p&gt;
+The flight didn’t take off on time. For 30 minutes or so we witnessed some very stressed people getting on the plane, disheveled and complaining. These people were clearly distressed. After a dozen or so people headed back into coach, several came back to the front of the plane saying that their assigned seat was taken and they plopped down in first class. The flight attendant said, “OK, just sit anywhere. We have to leave now!”&lt;/p&gt;
 &lt;p&gt;
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Internet Peering Model&lt;/li&gt;
-&lt;li&gt;Business Case for Internet Peering&lt;/li&gt;
-&lt;li&gt;Top Ten Internet Exchange Point Selection Criteria&lt;/li&gt;
-&lt;li&gt;Public vs. Private Peering Tradeoffs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;By the end of this section you will understand the concept of Internet Peering. You will understand the Internet Peering model enough to prove – not convince – but prove when it makes sense to pursue peering and when it doesn’t, from a purely objective financial perspective. You will learn the processes of Internet Peering, the financial value derived from peering, and the processes proven most effective to find, contact, and negotiate with peers. We will walk through the ten criteria that ISPs have claimed were the most important to them when selecting among Internet Exchange Points. We will finish with a discussion of the benefits and drawbacks of Public Peering and Private Peering.
+If you have ever flown first class, you know that you never hear a flight attendant say, “just sit anywhere.” In any case, the door closed and we took off. I learned the story from the agitated people, after we were in the air.
+&lt;/p&gt;&lt;p&gt;
+As it turns out, shortly after we had left the original gate, the gate agent announced the cancellation of that first flight. She made the following announcement:
+&lt;/p&gt;&lt;p&gt;
+“Ladies and gentlemen, we regret to inform you that flight 234 to Los Angeles has been cancelled. We will work to rebook you on a later flight, but in the meantime, we have a flight to L.A. leaving in 10 minutes at gate 34, about a 5-minute walk from here. We can take the first 15 of you. If you would please progress to gate 34 in a calm and orderly fashion we will handle boarding or rebooking there. Please proceed to gate 34 in a calm and orderly fashion.”
 &lt;/p&gt;
-&lt;p&gt;Section II includes the following chapters:
+&lt;h2&gt;What Happens Next?&lt;/h2&gt;
+&lt;p&gt;Given this context, can you guess what happened? Isn’t it predictable what would happen?&lt;/p&gt;
+&lt;p&gt;Sure enough, the 154 passengers rushed to gate 34, many in a slight panic. The line developed at gate 34 and the gate agent processed people in order until people started circling around the gate agent to plead their special case. “My band plays tonight,” “I am already late to my sister’s wedding,” “My business meeting starts an hour after I land,” “I cannot be late to my next flight,” etc.&lt;/p&gt;
+&lt;p&gt;The orderly line turned into a “make-your-case” mob fest. Those who were the most convincing and/or aggressive were given a boarding pass, perhaps because the agent just wanted to get rid of them. Of course rewarding this behavior led to louder and more aggressive acts to get to the front of the line. Imagine the situation. The notion of fairness, engraved in our minds, kicked in and led to the airport police and the Detroit police being summoned to the gate to calm things down and restore order.
+&lt;/p&gt;&lt;p&gt;
+Who bears responsibility for this ugly scene? Before you state the obvious, that the airline bears the responsibility, do you place any blame on the passengers? Do they not have control of their actions? Or are we wound up like an involuntary muscle forced to act upon stimuli without applying higher-level thought?
 &lt;/p&gt;
-&lt;h2&gt;Chapter 4 - Internet Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 5 - The Business Case for Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 6 - Selecting an ISP&lt;/h2&gt;
-&lt;h2&gt;Chapter 7 - Public vs. Private Peering&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section III - The Global Internet Peering Ecosystem&lt;/font&gt;&lt;/h1&gt;
+&lt;p&gt;As the 1980s rock band Devo so eloquently put it,&lt;/p&gt;
+&lt;br&gt;
+&lt;p class="quote"&gt;“Are we not men?”&lt;/p&gt;
 &lt;p&gt;
-In this section we will explore the Internet operations context – the environment, the participants, and the dynamics at the core of the Internet.&lt;/p&gt;
-&lt;p&gt;We will start by quickly examining how we got here. We will learn about the first peering and how the government-funded NSFNET backbone evolved into the commercial model of today. &lt;/p&gt;
-&lt;p&gt;The Global Internet Peering Ecosystem model is introduced as a collection of Internet Regions, each with its own Internet Peering Ecosystem. We spotlight the categories of participants, their positions, and corresponding motivations. You will learn why their behavior is predictable in the ecosystem.&lt;/p&gt;
-&lt;p&gt;
-The section then brings us to the present day by walking through the addition of several key players in the ecosystem. These players embrace peering on a massive scale, creating a “fat middle” in the ecosystem. We finish with the emerging access power peering dynamic. This section contains the following chapters:
+I would like to think that if I were placed in that situation, I would sit in line, legs crossed in yoga pose, breathing deep breaths while chanting the words “calm blue ocean.”
+&lt;/p&gt;&lt;p&gt;
+It was interesting to find that while many in my European audiences also believed the airline was 100% responsible, a large other percentage of them believed that the airline was maybe 60% to 90% responsible for the riot. Some said the Europeans are more inclined towards personal responsibility, while others said that they are just more accustomed to waiting in lines.
+&lt;/p&gt;&lt;p&gt;
+In any case, everyone agreed that the outcome (the riot) was predominantly driven by the context (the way the airline had set up the situation).
+&lt;/p&gt;&lt;p&gt;
+Just as context is the most important part to this airplane story, the most important thing to understand about the Internet is its context.
 &lt;/p&gt;
+&lt;h2&gt;The Internet Operations Context Is Important&lt;/h2&gt;
+&lt;p&gt;In this book, I will share a generalized model for the “Global Internet Peering Ecosystem.” All species within an ecosystem react to their environment. We will learn how Internet Service Providers are driven by their position within their Internet Peering Ecosystem. Their positional power determines their motivations, which in turn drives their behavior. Much as the passenger behavior in the airplane story is predictable and driven by context, so too are the behaviors of the players in the Internet Peering Ecosystem. A decade of research has gone into documenting the Internet operations context described in this book.&lt;/p&gt;
+&lt;h2&gt;The Lexicon Is Important&lt;/h2&gt;
+&lt;p&gt;After leading hundreds of peering workshops and consulting engagements, I have learned that people don’t truly understand terminology until they use it themselves in actual applications.
+&lt;/p&gt;&lt;p&gt;To this end, the first few chapters will get you comfortable with the interconnection lexicon. First I will introduce the Internet Transit model and terminology used when attaching at the edge of the Internet. Then we will explore the model with some problem sets and manipulations of the system in the “Transit Playbook.” The playbook uses these definitions to describe the manipulations.&lt;/p&gt;
+&lt;p&gt;Then we introduce the local routing optimization called “Internet Peering.” We examine the terminology, the processes typically used in peering, and the business case for peering. The problem sets at the end of each chapter can help you determine if you absorbed the material.&lt;/p&gt;
+&lt;p&gt;Everyone will misuse the terminology a few times before they understand it. During the workshops the “ah-ha” moment generally occurs as we apply the terminology correctly.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2&gt;The Playbooks Are Important&lt;/h2&gt;
+&lt;p&gt;The first time you do anything, you make mistakes. The second time, perhaps you make different mistakes. After a few dozen more times, it is rare to make a mistake, and the process becomes systematic. With even more experience, you master a systematic process. In this book I will present three “playbooks” that demonstrate some mastery in the peering domain.&lt;/p&gt;
 
-&lt;h2&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/h2&gt;
-&lt;h2&gt;Chapter 9 - The Global Peering Ecosystem&lt;/h2&gt;
-&lt;h2&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this last section we present the tactics used by some of the smartest peering coordinators in the world. They shared some tactics that they have used to obtain peering where they otherwise would not have been able to. We briefly present the foundation of the IXP, the colocation facility, and then finish by sharing some of the tricks of the trade that the most successful IXPs in the world have used to build, grow, maintain, and defend their “critical mass.”
-&lt;/p&gt;&lt;p&gt;This section contains the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;Chapter 11 - The ISP Peering Playbook&lt;/h2&gt;
-&lt;h2&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/h2&gt;
-&lt;h2&gt;Chapter 13 - The IXP Playbook Playbook&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
-&lt;h2&gt;Chapter 14 - Remote Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 15 - International Peering&lt;/h2&gt;
-&lt;h2&gt;Chapter 16 - The Future&lt;/h2&gt;</string>
+&lt;p&gt;The tactics in the playbooks are not necessarily recommended tactics, or best practices. Rather, they are actual tactics (both good and bad, ethical and otherwise) that are in use in the real world. They are presented here to enable you to understand the interconnection paradigm by exploring the various manipulations of the system. Understanding the manipulations of the system helps us better understand the system.&lt;/p&gt;
+</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1306,7 +1286,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>727px</string>
+							<string>331px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1339,7 +1319,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<key>name</key>
 				<string>Scene Symbol 2</string>
 				<key>oid</key>
-				<string>129</string>
+				<string>135</string>
 				<key>onSceneDragActionHandler</key>
 				<dict>
 					<key>actions</key>
