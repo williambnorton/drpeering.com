@@ -92,11 +92,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-28T21:38:47Z</date>
+	<date>2019-01-28T21:40:55Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -325,7 +325,7 @@ $(document).ready(function() {
 	<key>monotypeProjectID</key>
 	<string>566BC1B6-8C4D-43AD-BB9F-50F477258C6E-29938-000231916AB72308</string>
 	<key>oidCounter</key>
-	<integer>209</integer>
+	<integer>212</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -608,7 +608,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1740, 1075}</string>
+					<string>{1742, 1077}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -633,7 +633,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{7, 8}</string>
+					<string>{9, 10}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -649,7 +649,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1735, 1208}</string>
+					<string>{1737, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -674,7 +674,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{2, 65}</string>
+					<string>{4, 65}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -701,7 +701,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1733, 5040}</string>
+					<string>{1733, 5045}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -726,7 +726,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0.8125}</string>
+					<string>{0, 0}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -3605,7 +3605,9 @@ $(document).ready(function() {
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>211</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -3807,6 +3809,339 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>#000000</string>
 						</dict>
 					</array>
+					<key>210</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'Times New Roman',Times,Baskerville,Serif</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>16px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>58px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>2473px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>71</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;br&gt;&lt;h2&gt;&lt;/h2&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>727px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>scroll</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+					</array>
+					<key>211</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SymbolOid</string>
+							<key>objectValue</key>
+							<string>200</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>-2px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>39</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>42px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>377px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandler</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>playInReverse</key>
+										<false/>
+										<key>timelineIdentifier</key>
+										<string>kTimelineDefaultIdentifier</string>
+										<key>type</key>
+										<integer>3</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Symbol</string>
+						</dict>
+					</array>
+					<key>212</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SymbolOid</string>
+							<key>objectValue</key>
+							<string>205</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>42px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>375px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>42px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandler</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>playInReverse</key>
+										<false/>
+										<key>timelineIdentifier</key>
+										<string>kTimelineDefaultIdentifier</string>
+										<key>type</key>
+										<integer>3</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Symbol</string>
+						</dict>
+					</array>
 				</dict>
 				<key>isPersistentSymbol</key>
 				<false/>
@@ -3901,7 +4236,118 @@ In this last section we present the tactics used by some of the smartest peering
 				<array>
 					<dict>
 						<key>animations</key>
-						<array/>
+						<array>
+							<dict>
+								<key>duration</key>
+								<real>5.5</real>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>211</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>playInReverse</key>
+												<false/>
+												<key>timelineIdentifier</key>
+												<string>kTimelineDefaultIdentifier</string>
+												<key>type</key>
+												<integer>3</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict>
+									<key>kTimelineDefaultIdentifier</key>
+									<dict>
+										<key>currentTime</key>
+										<real>0.0</real>
+										<key>duration</key>
+										<real>5.5</real>
+										<key>index</key>
+										<integer>0</integer>
+										<key>playInReverse</key>
+										<false/>
+										<key>playing</key>
+										<true/>
+									</dict>
+								</dict>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>3</integer>
+								<key>uuid</key>
+								<string>FBC13803-D238-4D01-95E8-2E4B50A2C2F9-1726-000013D4989A80EE</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>5.5</real>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>212</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>playInReverse</key>
+												<false/>
+												<key>timelineIdentifier</key>
+												<string>kTimelineDefaultIdentifier</string>
+												<key>type</key>
+												<integer>3</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict>
+									<key>kTimelineDefaultIdentifier</key>
+									<dict>
+										<key>currentTime</key>
+										<real>0.0</real>
+										<key>duration</key>
+										<real>5.5</real>
+										<key>index</key>
+										<integer>0</integer>
+										<key>playInReverse</key>
+										<false/>
+										<key>playing</key>
+										<true/>
+									</dict>
+								</dict>
+								<key>timingFunctionOid</key>
+								<string>a</string>
+								<key>type</key>
+								<integer>3</integer>
+								<key>uuid</key>
+								<string>B2CCA152-89B6-48B3-B7F0-B661A4E106B5-1726-000013D498EE1460</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+						</array>
 						<key>firstKeyframeIsRelative</key>
 						<false/>
 						<key>framesPerSecond</key>
@@ -3922,7 +4368,11 @@ In this last section we present the tactics used by some of the smartest peering
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>204</string>
+				<string>208</string>
+				<string>146</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -7747,7 +8197,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>47px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7783,7 +8233,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>770px</string>
+							<string>330px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8005,7 +8455,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>preferredSize</key>
-				<string>{770, 42}</string>
+				<string>{377, 42}</string>
 				<key>properties</key>
 				<dict>
 					<key>PhysicsGravityAngle</key>
@@ -8320,7 +8770,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;div style="text-align: center;"&gt;0.0 Table of Contents&lt;/div&gt;</string>
+							<string>&lt;div style="text-align: center;"&gt;Table of Contents&lt;/div&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8338,7 +8788,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>770px</string>
+							<string>375px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8604,7 +9054,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>-5px</string>
+							<string>-6px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8640,7 +9090,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>723px</string>
+							<string>329px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8727,7 +9177,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>preferredSize</key>
-				<string>{770, 42}</string>
+				<string>{375, 42}</string>
 				<key>properties</key>
 				<dict>
 					<key>PhysicsGravityAngle</key>
