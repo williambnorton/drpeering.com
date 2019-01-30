@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>139</string>
+	<string>113</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -92,17 +92,17 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-29T23:38:55Z</date>
+	<date>2019-01-30T23:13:26Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>5</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {2546, 1309}}</string>
+			<string>{{0, 0}, {1353, 953}}</string>
 			<key>identifier</key>
-			<string>container 191</string>
+			<string>container 160</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -113,9 +113,9 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {2275, 1309}}</string>
+					<string>{{0, 0}, {1082, 953}}</string>
 					<key>identifier</key>
-					<string>container 160</string>
+					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -126,22 +126,45 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {2004, 1309}}</string>
+							<string>{{0, 0}, {270, 953}}</string>
 							<key>identifier</key>
-							<string>container 186</string>
+							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<false/>
+							<true/>
 							<key>isVertical</key>
 							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1309}}</string>
+									<string>{{0, 0}, {270, 953}}</string>
 									<key>identifier</key>
-									<string>container 72</string>
+									<string>sceneSelectorCustomizableContainer</string>
+									<key>isCustomizableViewContainer</key>
+									<false/>
+								</dict>
+							</array>
+						</dict>
+						<dict>
+							<key>frame</key>
+							<string>{{271, 0}, {811, 953}}</string>
+							<key>identifier</key>
+							<string>container 73</string>
+							<key>isCustomizableViewContainer</key>
+							<true/>
+							<key>isCustomizableViewWrapper</key>
+							<false/>
+							<key>isVertical</key>
+							<false/>
+							<key>subviews</key>
+							<array>
+								<dict>
+									<key>frame</key>
+									<string>{{271, 0}, {811, 245}}</string>
+									<key>identifier</key>
+									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -152,9 +175,9 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {270, 1309}}</string>
+											<string>{{271, 0}, {811, 245}}</string>
 											<key>identifier</key>
-											<string>sceneSelectorCustomizableContainer</string>
+											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
 											<false/>
 										</dict>
@@ -162,87 +185,26 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {1733, 1309}}</string>
+									<string>{{271, 246}, {811, 707}}</string>
 									<key>identifier</key>
-									<string>container 73</string>
+									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
-									<false/>
+									<true/>
 									<key>isVertical</key>
-									<false/>
+									<true/>
 									<key>subviews</key>
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {1733, 310}}</string>
+											<string>{{271, 246}, {811, 707}}</string>
 											<key>identifier</key>
-											<string>container 4</string>
+											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
-											<true/>
-											<key>isCustomizableViewWrapper</key>
-											<true/>
-											<key>isVertical</key>
-											<true/>
-											<key>subviews</key>
-											<array>
-												<dict>
-													<key>frame</key>
-													<string>{{271, 0}, {1733, 310}}</string>
-													<key>identifier</key>
-													<string>timelineCustomizableContainer</string>
-													<key>isCustomizableViewContainer</key>
-													<false/>
-												</dict>
-											</array>
-										</dict>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 311}, {1733, 998}}</string>
-											<key>identifier</key>
-											<string>container 3</string>
-											<key>isCustomizableViewContainer</key>
-											<true/>
-											<key>isCustomizableViewWrapper</key>
-											<true/>
-											<key>isVertical</key>
-											<true/>
-											<key>subviews</key>
-											<array>
-												<dict>
-													<key>frame</key>
-													<string>{{271, 311}, {1733, 998}}</string>
-													<key>identifier</key>
-													<string>sceneEditorCustomizableContainer</string>
-													<key>isCustomizableViewContainer</key>
-													<false/>
-												</dict>
-											</array>
+											<false/>
 										</dict>
 									</array>
-								</dict>
-							</array>
-						</dict>
-						<dict>
-							<key>frame</key>
-							<string>{{2005, 0}, {270, 1309}}</string>
-							<key>identifier</key>
-							<string>container 185</string>
-							<key>isCustomizableViewContainer</key>
-							<true/>
-							<key>isCustomizableViewWrapper</key>
-							<true/>
-							<key>isVertical</key>
-							<true/>
-							<key>subviews</key>
-							<array>
-								<dict>
-									<key>frame</key>
-									<string>{{2005, 0}, {270, 1309}}</string>
-									<key>identifier</key>
-									<string>inspectorCustomizableContainer</string>
-									<key>isCustomizableViewContainer</key>
-									<false/>
 								</dict>
 							</array>
 						</dict>
@@ -250,9 +212,9 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{2276, 0}, {270, 1309}}</string>
+					<string>{{1083, 0}, {270, 953}}</string>
 					<key>identifier</key>
-					<string>container 159</string>
+					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -263,9 +225,9 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{2276, 0}, {270, 1309}}</string>
+							<string>{{1083, 0}, {270, 953}}</string>
 							<key>identifier</key>
-							<string>resourcesCustomizableContainer</string>
+							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
 							<false/>
 						</dict>
@@ -276,7 +238,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>98</real>
 		<key>mainWindowFrame</key>
-		<string>14 -40 2546 1353 0 0 2560 1417 </string>
+		<string>452 184 1353 997 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -289,7 +251,7 @@ $(document).ready(function() {
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<true/>
+		<false/>
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
@@ -589,7 +551,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>186</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -608,7 +570,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1740, 998}</string>
+					<string>{812, 783}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -633,7 +595,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{7, 0}</string>
+					<string>{1, 47}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -649,7 +611,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1739, 1208}</string>
+					<string>{844, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -674,7 +636,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{6, 210}</string>
+					<string>{33, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -682,7 +644,7 @@ $(document).ready(function() {
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>143</string>
+			<string>147</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -701,7 +663,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1733, 997}</string>
+					<string>{813, 709}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -726,7 +688,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{2, 2}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -740,7 +702,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1734, 2298}</string>
+					<string>{817, 1091}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -754,7 +716,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{768, 2200}</string>
+						<string>{768, 1024}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -765,7 +727,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>144</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 0}</string>
+					<string>{0, 5}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -1273,9 +1235,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>36px</string>
+							<string>48px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1335,7 +1303,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>218px</string>
+							<string>259px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1353,7 +1321,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>47px</string>
+							<string>35px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1480,9 +1448,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>121px</string>
+							<string>124px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1542,7 +1516,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>222px</string>
+							<string>235px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1560,7 +1534,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>121px</string>
+							<string>124px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3582,12 +3556,7 @@ $(document).ready(function() {
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>222</string>
-				<string>223</string>
-				<string>221</string>
-				<string>237</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -3622,7 +3591,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>16px</string>
+							<string>12px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3694,7 +3663,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+							<string>&lt;h1 style="text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/h1&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-1-Introduction"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-2-Internet-Transit"&gt;Chapter 2 - Internet Transit&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-3-Internet-Transit-Playbook"&gt;Chapter 3 - Internet Transit Playbook&lt;/a&gt;&lt;/h2&gt;
@@ -3712,9 +3681,9 @@ $(document).ready(function() {
 &lt;h1 style="text-align: center;"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/h1&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;
 &lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;font color="#000000"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;
 &lt;h1 style="text-align: center;"&gt;Section V - Advanced Peering Topics&lt;/h1&gt;
-&lt;/font&gt;&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
 &lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;
 &lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
 						</dict>
@@ -3857,7 +3826,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;div style="text-align: center;"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/div&gt;</string>
+							<string>&lt;div style="text-align: center;"&gt;Table of Contents&lt;/div&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4413,7 +4382,7 @@ $(document).ready(function() {
 										<key>sceneSymbol</key>
 										<integer>3</integer>
 										<key>transition</key>
-										<integer>1</integer>
+										<integer>7</integer>
 										<key>type</key>
 										<integer>1</integer>
 									</dict>
@@ -4544,7 +4513,9 @@ $(document).ready(function() {
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>225</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -4609,7 +4580,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>58px</string>
+							<string>85px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4633,7 +4604,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2184px</string>
+							<string>950px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4751,45 +4722,9 @@ In this last section we present the tactics used by some of the smartest peering
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>FontWeight</string>
+							<string>AutoresizingMask</string>
 							<key>objectValue</key>
-							<string>bold</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>18px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
+							<string>39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4799,27 +4734,33 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
+							<string>BorderStyleTop</string>
 							<key>objectValue</key>
 							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Top</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>53px</string>
+							<string>#FFFFFF</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontWeight</string>
+							<key>objectValue</key>
+							<string>bold</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4829,7 +4770,13 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorLeft</string>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
 						</dict>
@@ -4841,7 +4788,79 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>24px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Book Header</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;div style="text-align: center;"&gt;Table of Contents&lt;/div&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>32px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>53px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>9</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'Times New Roman',Times,Baskerville,Serif</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
 						</dict>
@@ -4853,15 +4872,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
+							<string>Width</string>
 							<key>objectValue</key>
-							<string>32px</string>
+							<string>669px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>AutoresizingMask</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>39</string>
+							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4877,15 +4896,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextAlign</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>&lt;div style="text-align: center;"&gt;Table of Contents&lt;/div&gt;</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4895,51 +4908,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleTop</string>
+							<string>Cursor</string>
 							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>669px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>9</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
+							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
 							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Book Header</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFFFF</string>
 						</dict>
 					</array>
 					<key>218</key>
@@ -5466,7 +5443,7 @@ In this last section we present the tactics used by some of the smartest peering
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>183</string>
+				<string>188</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -5890,6 +5867,12 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
 							<string>44px</string>
@@ -5952,7 +5935,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>327px</string>
+							<string>695px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7117,6 +7100,12 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
 							<string>144px</string>
@@ -7179,7 +7168,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>332px</string>
+							<string>381px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7197,7 +7186,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>389px</string>
+							<string>369px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7438,6 +7427,12 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>Height</string>
 							<key>objectValue</key>
 							<string>18px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>33</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
