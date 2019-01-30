@@ -92,11 +92,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-28T21:40:55Z</date>
+	<date>2019-01-29T23:38:55Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>5</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -175,7 +175,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {1733, 243.796875}}</string>
+											<string>{{271, 0}, {1733, 310}}</string>
 											<key>identifier</key>
 											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
@@ -188,7 +188,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {1733, 243.796875}}</string>
+													<string>{{271, 0}, {1733, 310}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -198,7 +198,7 @@ $(document).ready(function() {
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 244.796875}, {1733, 1064.203125}}</string>
+											<string>{{271, 311}, {1733, 998}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -211,7 +211,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 244.796875}, {1733, 1064.203125}}</string>
+													<string>{{271, 311}, {1733, 998}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -276,7 +276,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>98</real>
 		<key>mainWindowFrame</key>
-		<string>5 51 2546 1353 0 0 2560 1417 </string>
+		<string>14 -40 2546 1353 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -325,7 +325,7 @@ $(document).ready(function() {
 	<key>monotypeProjectID</key>
 	<string>566BC1B6-8C4D-43AD-BB9F-50F477258C6E-29938-000231916AB72308</string>
 	<key>oidCounter</key>
-	<integer>212</integer>
+	<integer>242</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -608,7 +608,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1742, 1077}</string>
+					<string>{1740, 998}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -633,7 +633,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{9, 10}</string>
+					<string>{7, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -643,13 +643,13 @@ $(document).ready(function() {
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>0.0</real>
+							<real>0.53333336114883423</real>
 						</dict>
 						<key>timescale</key>
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1737, 1208}</string>
+					<string>{1739, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -674,7 +674,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{4, 65}</string>
+					<string>{6, 210}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -684,7 +684,7 @@ $(document).ready(function() {
 			<key>currentSceneOid</key>
 			<string>143</string>
 			<key>name</key>
-			<string>Table of Contents Copy</string>
+			<string>Table of Contents</string>
 			<key>oid</key>
 			<string>139</string>
 			<key>scenes</key>
@@ -701,7 +701,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1733, 5045}</string>
+					<string>{1733, 997}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -715,7 +715,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{375, 5000}</string>
+						<string>{375, 667}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -740,7 +740,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1734, 2592}</string>
+					<string>{1734, 2298}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -754,7 +754,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{768, 1024}</string>
+						<string>{768, 2200}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -765,38 +765,9 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>144</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1}</string>
+					<string>{1, 0}</string>
 					<key>userGuides</key>
 					<array/>
-				</dict>
-				<dict>
-					<key>canvasSize</key>
-					<string>{0, 0}</string>
-					<key>hypeScene</key>
-					<dict>
-						<key>backgroundColor</key>
-						<string>#F9FFFA</string>
-						<key>breakpointWidth</key>
-						<real>1920</real>
-						<key>name</key>
-						<string>Desktop</string>
-						<key>perspective</key>
-						<real>600</real>
-						<key>sceneScalePercentageSize</key>
-						<string>{1, 1}</string>
-						<key>sceneSize</key>
-						<string>{1024, 2250}</string>
-						<key>shouldScaleSceneHeight</key>
-						<false/>
-						<key>shouldScaleSceneWidth</key>
-						<true/>
-					</dict>
-					<key>oid</key>
-					<string>150</string>
-					<key>rootSymbolControllerOid</key>
-					<string>148</string>
-					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -2793,6 +2764,12 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>33</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
 							<string>248px</string>
@@ -3606,7 +3583,10 @@ $(document).ready(function() {
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>211</string>
+				<string>222</string>
+				<string>223</string>
+				<string>221</string>
+				<string>237</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -3619,197 +3599,6 @@ $(document).ready(function() {
 				<key>elements</key>
 				<dict>
 					<key>141</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>16px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>4979px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>71</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>16px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;Table of Contents&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
-&lt;p&gt;Almost all attachments to the Internet are made at the edge. We will begin our exploration here.&lt;/p&gt;&lt;p&gt;
-In section I, we introduce the “Internet Transit” service, how it is offered, priced, and metered. We exercise these definitions with a set of “Internet Transit Playbook” tactics that some of the smartest peering coordinators in the world have used to derive the maximum value from the Internet Transit service for the minimum cost. While many of these tactics are not recommended, they have been used in the field, they demonstrate the Internet Transit service, and they exercise the lexicon. In my peering workshops and consulting engagements, the Internet Transit Playbook chapter has proven to be very educational.&lt;/p&gt;&lt;p&gt;
-By the end of this section you will understand the Internet Transit service.
-Section I includes the following chapters:&lt;/p&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-1-Introduction"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-2-Internet-Transit"&gt;Chapter 2 - Internet Transit&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-3-Internet-Transit-Playbook"&gt;Chapter 3 - Internet Transit Playbook&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section II - Connecting to the Core of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Now that you understand how to connect to the edge of the Internet (the way 90% of connections are made) it’s time to learn how to do it better. The rest of this book is about Internet Peering, connecting your network at the core of the Internet. This section provides the necessary foundation for understanding the Internet Peering Ecosystem and Internet Peering Playbooks. 
-We will explore the&lt;/p&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Internet Peering Model&lt;/li&gt;
-&lt;li&gt;Business Case for Internet Peering&lt;/li&gt;
-&lt;li&gt;Top Ten Internet Exchange Point Selection Criteria&lt;/li&gt;
-&lt;li&gt;Public vs. Private Peering Tradeoffs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;By the end of this section you will understand the concept of Internet Peering. You will understand the Internet Peering model enough to prove – not convince – but prove when it makes sense to pursue peering and when it doesn’t, from a purely objective financial perspective. You will learn the processes of Internet Peering, the financial value derived from peering, and the processes proven most effective to find, contact, and negotiate with peers. We will walk through the ten criteria that ISPs have claimed were the most important to them when selecting among Internet Exchange Points. We will finish with a discussion of the benefits and drawbacks of Public Peering and Private Peering.
-&lt;/p&gt;
-&lt;p&gt;Section II includes the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-4-Internet-Peering"&gt;Chapter 4 - Internet Peering&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-5-The-Business-Case-for-Peering"&gt;Chapter 5 - The Business Case for Peering&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-6-Selecting-an-ISP"&gt;Chapter 6 - Selecting an ISP&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-7-Public-vs.-Private-Peering"&gt;Chapter 7 Public vs. Private Peering&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section III - The Global Internet Peering Ecosystem&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this section we will explore the Internet operations context – the environment, the participants, and the dynamics at the core of the Internet.&lt;/p&gt;
-&lt;p&gt;We will start by quickly examining how we got here. We will learn about the first peering and how the government-funded NSFNET backbone evolved into the commercial model of today. &lt;/p&gt;
-&lt;p&gt;The Global Internet Peering Ecosystem model is introduced as a collection of Internet Regions, each with its own Internet Peering Ecosystem. We spotlight the categories of participants, their positions, and corresponding motivations. You will learn why their behavior is predictable in the ecosystem.&lt;/p&gt;
-&lt;p&gt;
-The section then brings us to the present day by walking through the addition of several key players in the ecosystem. These players embrace peering on a massive scale, creating a “fat middle” in the ecosystem. We finish with the emerging access power peering dynamic. This section contains the following chapters:
-&lt;/p&gt;
-
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-8-The-20th-Century-Internet-Peering-Ecosystem"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-9-The-Global-Peering-Ecosystem"&gt;Chapter 9 - The Global Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-10-The-21st-Century-Internet-Peering-Ecosystem"&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this last section we present the tactics used by some of the smartest peering coordinators in the world. They shared some tactics that they have used to obtain peering where they otherwise would not have been able to. We briefly present the foundation of the IXP, the colocation facility, and then finish by sharing some of the tricks of the trade that the most successful IXPs in the world have used to build, grow, maintain, and defend their “critical mass.”
-&lt;/p&gt;&lt;p&gt;This section contains the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>332px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>scroll</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-					</array>
-					<key>210</key>
 					<array>
 						<dict>
 							<key>identifier</key>
@@ -3863,7 +3652,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>58px</string>
+							<string>88px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3887,7 +3676,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2473px</string>
+							<string>563px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3899,13 +3688,35 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>9px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;br&gt;&lt;h2&gt;&lt;/h2&gt;</string>
+							<string>&lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-1-Introduction"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-2-Internet-Transit"&gt;Chapter 2 - Internet Transit&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-3-Internet-Transit-Playbook"&gt;Chapter 3 - Internet Transit Playbook&lt;/a&gt;&lt;/h2&gt;
+&lt;h1 style="text-align: center;"&gt;Section II - Connecting to the Core of the Internet&lt;/h1&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-4-Internet-Peering"&gt;Chapter 4 - Internet Peering&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-5-The-Business-Case-for-Peering"&gt;Chapter 5 - The Business Case for Peering&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-6-Selecting-an-ISP"&gt;Chapter 6 - Selecting an ISP&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-7-Public-vs.-Private-Peering"&gt;Chapter 7 Public vs. Private Peering&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h1 style="text-align: center;"&gt;Section III - The Global Internet Peering Ecosystem&lt;/h1&gt;
+
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-8-The-20th-Century-Internet-Peering-Ecosystem"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-9-The-Global-Peering-Ecosystem"&gt;Chapter 9 - The Global Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-10-The-21st-Century-Internet-Peering-Ecosystem"&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
+&lt;h1 style="text-align: center;"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/h1&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;font color="#000000"&gt;
+&lt;h1 style="text-align: center;"&gt;Section V - Advanced Peering Topics&lt;/h1&gt;
+&lt;/font&gt;&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3915,21 +3726,27 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>727px</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>Width</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>340px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>PaddingTop</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Locked</string>
+							<key>objectValue</key>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3950,7 +3767,578 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>#000000</string>
 						</dict>
 					</array>
-					<key>211</key>
+					<key>221</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>39</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#FFFFFF</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontWeight</string>
+							<key>objectValue</key>
+							<string>bold</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>18px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusTopRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Book Header</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;div style="text-align: center;"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/div&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>40px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>43px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>8</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>280px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>48px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusBottomRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusBottomLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderRadiusTopLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+					</array>
+					<key>222</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>Helvetica,Arial,Sans-Serif</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>36px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>36px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>35px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>-3px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>⬅️</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>37px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>9</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
+										<integer>2</integer>
+										<key>transition</key>
+										<integer>5</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>PrevChapter</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
+					<key>223</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>Helvetica,Arial,Sans-Serif</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>36px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>36px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>35px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>33</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>326px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>➡️</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>37px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>10</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
+										<integer>1</integer>
+										<key>transition</key>
+										<integer>4</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>NextChapter</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+					</array>
+					<key>237</key>
 					<array>
 						<dict>
 							<key>identifier</key>
@@ -3968,13 +4356,13 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>SymbolOid</string>
 							<key>objectValue</key>
-							<string>200</string>
+							<string>236</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>-2px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3998,130 +4386,45 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>377px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandler</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>playInReverse</key>
-										<false/>
-										<key>timelineIdentifier</key>
-										<string>kTimelineDefaultIdentifier</string>
-										<key>type</key>
-										<integer>3</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Symbol</string>
-						</dict>
-					</array>
-					<key>212</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>unnamed instance</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SymbolOid</string>
-							<key>objectValue</key>
-							<string>205</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
 							<string>375px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>11</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ActionHandler</string>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
 							<key>objectValue</key>
 							<dict>
 								<key>actions</key>
 								<array>
 									<dict>
-										<key>playInReverse</key>
-										<false/>
-										<key>timelineIdentifier</key>
-										<string>kTimelineDefaultIdentifier</string>
-										<key>type</key>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
 										<integer>3</integer>
+										<key>transition</key>
+										<integer>1</integer>
+										<key>type</key>
+										<integer>1</integer>
 									</dict>
 								</array>
 							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4131,9 +4434,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>AccessibilityRole</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>button</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4173,22 +4476,6 @@ In this last section we present the tactics used by some of the smartest peering
 				<dict>
 					<key>actions</key>
 					<array/>
-				</dict>
-				<key>onSceneSwipeDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array>
-						<dict>
-							<key>duration</key>
-							<real>1.1000000000000001</real>
-							<key>sceneSymbol</key>
-							<integer>2</integer>
-							<key>transition</key>
-							<integer>7</integer>
-							<key>type</key>
-							<integer>1</integer>
-						</dict>
-					</array>
 				</dict>
 				<key>onSceneSwipeLeftActionHandler</key>
 				<dict>
@@ -4236,118 +4523,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<array>
 					<dict>
 						<key>animations</key>
-						<array>
-							<dict>
-								<key>duration</key>
-								<real>5.5</real>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>211</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>playInReverse</key>
-												<false/>
-												<key>timelineIdentifier</key>
-												<string>kTimelineDefaultIdentifier</string>
-												<key>type</key>
-												<integer>3</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict>
-									<key>kTimelineDefaultIdentifier</key>
-									<dict>
-										<key>currentTime</key>
-										<real>0.0</real>
-										<key>duration</key>
-										<real>5.5</real>
-										<key>index</key>
-										<integer>0</integer>
-										<key>playInReverse</key>
-										<false/>
-										<key>playing</key>
-										<true/>
-									</dict>
-								</dict>
-								<key>timingFunctionOid</key>
-								<string>a</string>
-								<key>type</key>
-								<integer>3</integer>
-								<key>uuid</key>
-								<string>FBC13803-D238-4D01-95E8-2E4B50A2C2F9-1726-000013D4989A80EE</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>5.5</real>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>212</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>playInReverse</key>
-												<false/>
-												<key>timelineIdentifier</key>
-												<string>kTimelineDefaultIdentifier</string>
-												<key>type</key>
-												<integer>3</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict>
-									<key>kTimelineDefaultIdentifier</key>
-									<dict>
-										<key>currentTime</key>
-										<real>0.0</real>
-										<key>duration</key>
-										<real>5.5</real>
-										<key>index</key>
-										<integer>0</integer>
-										<key>playInReverse</key>
-										<false/>
-										<key>playing</key>
-										<true/>
-									</dict>
-								</dict>
-								<key>timingFunctionOid</key>
-								<string>a</string>
-								<key>type</key>
-								<integer>3</integer>
-								<key>uuid</key>
-								<string>B2CCA152-89B6-48B3-B7F0-B661A4E106B5-1726-000013D498EE1460</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-						</array>
+						<array/>
 						<key>firstKeyframeIsRelative</key>
 						<false/>
 						<key>framesPerSecond</key>
@@ -4368,11 +4544,7 @@ In this last section we present the tactics used by some of the smartest peering
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>204</string>
-				<string>208</string>
-				<string>146</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -4461,7 +4633,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2473px</string>
+							<string>2184px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4473,14 +4645,14 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>9px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
 							<string>
-&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;Contents&lt;/span&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
+&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
 &lt;p&gt;Almost all attachments to the Internet are made at the edge. We will begin our exploration here.&lt;/p&gt;&lt;p&gt;
 In section I, we introduce the “Internet Transit” service, how it is offered, priced, and metered. We exercise these definitions with a set of “Internet Transit Playbook” tactics that some of the smartest peering coordinators in the world have used to derive the maximum value from the Internet Transit service for the minimum cost. While many of these tactics are not recommended, they have been used in the field, they demonstrate the Internet Transit service, and they exercise the lexicon. In my peering workshops and consulting engagements, the Internet Transit Playbook chapter has proven to be very educational.&lt;/p&gt;&lt;p&gt;
 By the end of this section you will understand the Internet Transit service.
@@ -4488,7 +4660,7 @@ Section I includes the following chapters:&lt;/p&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-1-Introduction"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-2-Internet-Transit"&gt;Chapter 2 - Internet Transit&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-3-Internet-Transit-Playbook"&gt;Chapter 3 - Internet Transit Playbook&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section II - Connecting to the Core of the Internet&lt;/font&gt;&lt;/h1&gt;
+&lt;h1 style="text-align: center;"&gt;Section II - Connecting to the Core of the Internet&lt;/h1&gt;
 &lt;p&gt;Now that you understand how to connect to the edge of the Internet (the way 90% of connections are made) it’s time to learn how to do it better. The rest of this book is about Internet Peering, connecting your network at the core of the Internet. This section provides the necessary foundation for understanding the Internet Peering Ecosystem and Internet Peering Playbooks. 
 We will explore the&lt;/p&gt;
 &lt;p&gt;
@@ -4507,7 +4679,7 @@ We will explore the&lt;/p&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-6-Selecting-an-ISP"&gt;Chapter 6 - Selecting an ISP&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-7-Public-vs.-Private-Peering"&gt;Chapter 7 Public vs. Private Peering&lt;/a&gt;&lt;/h2&gt;
 
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section III - The Global Internet Peering Ecosystem&lt;/font&gt;&lt;/h1&gt;
+&lt;h1 style="text-align: center;"&gt;Section III - The Global Internet Peering Ecosystem&lt;/h1&gt;
 &lt;p&gt;
 In this section we will explore the Internet operations context – the environment, the participants, and the dynamics at the core of the Internet.&lt;/p&gt;
 &lt;p&gt;We will start by quickly examining how we got here. We will learn about the first peering and how the government-funded NSFNET backbone evolved into the commercial model of today. &lt;/p&gt;
@@ -4519,16 +4691,16 @@ The section then brings us to the present day by walking through the addition of
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-8-The-20th-Century-Internet-Peering-Ecosystem"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-9-The-Global-Peering-Ecosystem"&gt;Chapter 9 - The Global Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-10-The-21st-Century-Internet-Peering-Ecosystem"&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/font&gt;&lt;/h1&gt;
+&lt;h1 style="text-align: center;"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/h1&gt;
 &lt;p&gt;
 In this last section we present the tactics used by some of the smartest peering coordinators in the world. They shared some tactics that they have used to obtain peering where they otherwise would not have been able to. We briefly present the foundation of the IXP, the colocation facility, and then finish by sharing some of the tricks of the trade that the most successful IXPs in the world have used to build, grow, maintain, and defend their “critical mass.”
 &lt;/p&gt;&lt;p&gt;This section contains the following chapters:
 &lt;/p&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;
 &lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
+&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;font color="#000000"&gt;&lt;i&gt;
+&lt;h1 style="text-align: center;"&gt;Section V - Advanced Peering Topics&lt;/h1&gt;
+&lt;/i&gt;&lt;/font&gt;&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
 &lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;
 &lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
 						</dict>
@@ -4575,79 +4747,19 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>div</string>
 						</dict>
 					</array>
-					<key>204</key>
+					<key>217</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>FontWeight</string>
 							<key>objectValue</key>
-							<string>unnamed instance</string>
+							<string>bold</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SymbolOid</string>
-							<key>objectValue</key>
-							<string>200</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>-2px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>770px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandler</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>playInReverse</key>
-										<false/>
-										<key>timelineIdentifier</key>
-										<string>kTimelineDefaultIdentifier</string>
-										<key>type</key>
-										<integer>3</integer>
-									</dict>
-								</array>
-							</dict>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4657,18 +4769,81 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
+							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>Symbol</string>
+							<string>18px</string>
 						</dict>
-					</array>
-					<key>208</key>
-					<array>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayName</string>
+							<string>BorderColorBottom</string>
 							<key>objectValue</key>
-							<string>unnamed instance</string>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>53px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorLeft</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4678,21 +4853,69 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>SymbolOid</string>
+							<string>Height</string>
 							<key>objectValue</key>
-							<string>205</string>
+							<string>32px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>47px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
+							<string>BorderColorRight</string>
 							<key>objectValue</key>
-							<string>42px</string>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>&lt;div style="text-align: center;"&gt;Table of Contents&lt;/div&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>669px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>9</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthTop</string>
+							<key>objectValue</key>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4702,39 +4925,30 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
+							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>770px</string>
+							<string>Book Header</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Top</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>42px</string>
+							<string>#FFFFFF</string>
 						</dict>
+					</array>
+					<key>218</key>
+					<array>
 						<dict>
 							<key>identifier</key>
-							<string>ActionHandler</string>
+							<string>FontFamily</string>
 							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>playInReverse</key>
-										<false/>
-										<key>timelineIdentifier</key>
-										<string>kTimelineDefaultIdentifier</string>
-										<key>type</key>
-										<integer>3</integer>
-									</dict>
-								</array>
-							</dict>
+							<string>Helvetica,Arial,Sans-Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4744,242 +4958,164 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>36px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>37px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>Symbol</string>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>37px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>-3px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>⬅️</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>37px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>10</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
+										<integer>2</integer>
+										<key>transition</key>
+										<integer>5</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>PrevChapter</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
 						</dict>
 					</array>
-				</dict>
-				<key>expandedElementOids</key>
-				<array>
-					<string>191</string>
-				</array>
-				<key>isPersistentSymbol</key>
-				<false/>
-				<key>name</key>
-				<string>Scene Symbol 2</string>
-				<key>oid</key>
-				<string>144</string>
-				<key>onSceneDragActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyPressActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneLoadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeLeftActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeRightActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneTimelineCompleteActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneUnloadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onTopDuringSceneTransition</key>
-				<true/>
-				<key>properties</key>
-				<dict>
-					<key>PhysicsGravityAngle</key>
-					<real>180</real>
-					<key>PhysicsGravityForce</key>
-					<real>1</real>
-					<key>PhysicsGravityInheritFromParent</key>
-					<false/>
-					<key>PhysicsGravityUsesDeviceTilt</key>
-					<false/>
-				</dict>
-				<key>removeWhenNoLongerReferenced</key>
-				<true/>
-				<key>showInResourceLibrary</key>
-				<false/>
-				<key>timelines</key>
-				<array>
-					<dict>
-						<key>animations</key>
-						<array>
-							<dict>
-								<key>duration</key>
-								<real>5.5</real>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>204</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>playInReverse</key>
-												<false/>
-												<key>timelineIdentifier</key>
-												<string>kTimelineDefaultIdentifier</string>
-												<key>type</key>
-												<integer>3</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict>
-									<key>kTimelineDefaultIdentifier</key>
-									<dict>
-										<key>currentTime</key>
-										<real>0.0</real>
-										<key>duration</key>
-										<real>5.5</real>
-										<key>index</key>
-										<integer>0</integer>
-										<key>playInReverse</key>
-										<false/>
-										<key>playing</key>
-										<true/>
-									</dict>
-								</dict>
-								<key>timingFunctionOid</key>
-								<string>a</string>
-								<key>type</key>
-								<integer>3</integer>
-								<key>uuid</key>
-								<string>18F5872E-9F3E-417D-BC21-55B2D6F3A300-1726-0000133D9076495E</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>5.5</real>
-								<key>identifier</key>
-								<string>ActionHandler</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>208</string>
-								<key>startTime</key>
-								<real>0.0</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>ActionHandler</string>
-									<key>objectValue</key>
-									<dict>
-										<key>actions</key>
-										<array>
-											<dict>
-												<key>playInReverse</key>
-												<false/>
-												<key>timelineIdentifier</key>
-												<string>kTimelineDefaultIdentifier</string>
-												<key>type</key>
-												<integer>3</integer>
-											</dict>
-										</array>
-									</dict>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict>
-									<key>kTimelineDefaultIdentifier</key>
-									<dict>
-										<key>currentTime</key>
-										<real>0.0</real>
-										<key>duration</key>
-										<real>5.5</real>
-										<key>index</key>
-										<integer>0</integer>
-										<key>playInReverse</key>
-										<false/>
-										<key>playing</key>
-										<true/>
-									</dict>
-								</dict>
-								<key>timingFunctionOid</key>
-								<string>a</string>
-								<key>type</key>
-								<integer>3</integer>
-								<key>uuid</key>
-								<string>45E6658A-0D91-42BE-B773-ECA896FE073E-1726-000013448B886C06</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-						</array>
-						<key>firstKeyframeIsRelative</key>
-						<false/>
-						<key>framesPerSecond</key>
-						<integer>30</integer>
-						<key>hidden</key>
-						<false/>
-						<key>identifier</key>
-						<string>kTimelineDefaultIdentifier</string>
-						<key>name</key>
-						<string>Main Timeline</string>
-						<key>userDefinedDuration</key>
-						<real>0.0</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
-			<key>selectedObjects</key>
-			<array/>
-			<key>symbol</key>
-			<dict>
-				<key>addToNewSceneControllers</key>
-				<false/>
-				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
-				<key>customBehaviors</key>
-				<array/>
-				<key>elements</key>
-				<dict>
-					<key>149</key>
+					<key>219</key>
 					<array>
 						<dict>
 							<key>identifier</key>
@@ -5003,13 +5139,13 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>16px</string>
+							<string>36px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
+							<string>Cursor</string>
 							<key>objectValue</key>
-							<string>YES</string>
+							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5019,27 +5155,33 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>WordWrap</string>
 							<key>objectValue</key>
 							<string>break-word</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>22px</string>
+							<string>37px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>PaddingBottom</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5057,75 +5199,31 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2206px</string>
+							<string>47px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>AutoresizingMask</string>
 							<key>objectValue</key>
-							<string>71</string>
+							<string>33</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>38px</string>
+							<string>721px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center;"&gt;&lt;font color="#050505" style="font-weight: normal; font-size: 36px;"&gt;The&lt;/font&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;&lt;font color="#050505" size="7" style="font-weight: normal;"&gt; INTERNET PEERING&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color="#050505" size="7" style="font-weight: normal;"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color="#050505" size="7" style="font-weight: normal;"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7" style="font-weight: normal;"&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;h1 style="text-align: center; "&gt;&lt;font color="#050505" size="7" style="font-weight: normal;"&gt;PLAYBOOK&lt;/font&gt;&lt;/h1&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;Connecting to the Core of the Internet&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font size="4" color="#ffffff"&gt;William B. Norton&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font size="4" color="#ffffff"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#ffffff" size="2"&gt;2019 Edition&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-weight: bold; text-align: center; caret-color: rgb(5, 53, 5);"&gt;&lt;font color="#053505" size="4"&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="font-size: 2em; font-weight: bold; text-align: center;"&gt;Table of Contents&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style="text-align: center;"&gt;&lt;span style="color: rgb(4, 51, 255); font-size: 2em; font-weight: bold; text-align: center;"&gt;Section I - Connecting to the Edge of the Internet&lt;/span&gt;&lt;br&gt;&lt;/div&gt;
-&lt;p&gt;Almost all attachments to the Internet are made at the edge. We will begin our exploration here.&lt;/p&gt;&lt;p&gt;
-In section I, we introduce the “Internet Transit” service, how it is offered, priced, and metered. We exercise these definitions with a set of “Internet Transit Playbook” tactics that some of the smartest peering coordinators in the world have used to derive the maximum value from the Internet Transit service for the minimum cost. While many of these tactics are not recommended, they have been used in the field, they demonstrate the Internet Transit service, and they exercise the lexicon. In my peering workshops and consulting engagements, the Internet Transit Playbook chapter has proven to be very educational.&lt;/p&gt;&lt;p&gt;
-By the end of this section you will understand the Internet Transit service.
-Section I includes the following chapters:&lt;/p&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-1-Introduction"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-2-Internet-Transit"&gt;Chapter 2 - Internet Transit&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-3-Internet-Transit-Playbook"&gt;Chapter 3 - Internet Transit Playbook&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section II - Connecting to the Core of the Internet&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;Now that you understand how to connect to the edge of the Internet (the way 90% of connections are made) it’s time to learn how to do it better. The rest of this book is about Internet Peering, connecting your network at the core of the Internet. This section provides the necessary foundation for understanding the Internet Peering Ecosystem and Internet Peering Playbooks. 
-We will explore the&lt;/p&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;ul&gt;
-&lt;li&gt;Internet Peering Model&lt;/li&gt;
-&lt;li&gt;Business Case for Internet Peering&lt;/li&gt;
-&lt;li&gt;Top Ten Internet Exchange Point Selection Criteria&lt;/li&gt;
-&lt;li&gt;Public vs. Private Peering Tradeoffs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;By the end of this section you will understand the concept of Internet Peering. You will understand the Internet Peering model enough to prove – not convince – but prove when it makes sense to pursue peering and when it doesn’t, from a purely objective financial perspective. You will learn the processes of Internet Peering, the financial value derived from peering, and the processes proven most effective to find, contact, and negotiate with peers. We will walk through the ten criteria that ISPs have claimed were the most important to them when selecting among Internet Exchange Points. We will finish with a discussion of the benefits and drawbacks of Public Peering and Private Peering.
-&lt;/p&gt;
-&lt;p&gt;Section II includes the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-4-Internet-Peering"&gt;Chapter 4 - Internet Peering&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-5-The-Business-Case-for-Peering"&gt;Chapter 5 - The Business Case for Peering&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-6-Selecting-an-ISP"&gt;Chapter 6 - Selecting an ISP&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-7-Public-vs.-Private-Peering"&gt;Chapter 7 Public vs. Private Peering&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section III - The Global Internet Peering Ecosystem&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this section we will explore the Internet operations context – the environment, the participants, and the dynamics at the core of the Internet.&lt;/p&gt;
-&lt;p&gt;We will start by quickly examining how we got here. We will learn about the first peering and how the government-funded NSFNET backbone evolved into the commercial model of today. &lt;/p&gt;
-&lt;p&gt;The Global Internet Peering Ecosystem model is introduced as a collection of Internet Regions, each with its own Internet Peering Ecosystem. We spotlight the categories of participants, their positions, and corresponding motivations. You will learn why their behavior is predictable in the ecosystem.&lt;/p&gt;
-&lt;p&gt;
-The section then brings us to the present day by walking through the addition of several key players in the ecosystem. These players embrace peering on a massive scale, creating a “fat middle” in the ecosystem. We finish with the emerging access power peering dynamic. This section contains the following chapters:
-&lt;/p&gt;
-
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-8-The-20th-Century-Internet-Peering-Ecosystem"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-9-The-Global-Peering-Ecosystem"&gt;Chapter 9 - The Global Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-10-The-21st-Century-Internet-Peering-Ecosystem"&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/font&gt;&lt;/h1&gt;
-&lt;p&gt;
-In this last section we present the tactics used by some of the smartest peering coordinators in the world. They shared some tactics that they have used to obtain peering where they otherwise would not have been able to. We briefly present the foundation of the IXP, the colocation facility, and then finish by sharing some of the tricks of the trade that the most successful IXPs in the world have used to build, grow, maintain, and defend their “critical mass.”
-&lt;/p&gt;&lt;p&gt;This section contains the following chapters:
-&lt;/p&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;font color="#0433ff"&gt;Section V - Advanced Peering Topics&lt;/font&gt;&lt;/h1&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
+							<string>➡️</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5137,13 +5235,33 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>931px</string>
+							<string>37px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>11</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
+										<integer>1</integer>
+										<key>transition</key>
+										<integer>4</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5155,13 +5273,82 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>scroll</string>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Text</string>
+							<string>NextChapter</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
+					<key>225</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>SymbolOid</string>
+							<key>objectValue</key>
+							<string>224</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>42px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>6</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Symbol</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>768px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5171,12 +5358,16 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 					</array>
 				</dict>
+				<key>expandedElementOids</key>
+				<array>
+					<string>191</string>
+				</array>
 				<key>isPersistentSymbol</key>
 				<false/>
 				<key>name</key>
 				<string>Scene Symbol 2</string>
 				<key>oid</key>
-				<string>148</string>
+				<string>144</string>
 				<key>onSceneDragActionHandler</key>
 				<dict>
 					<key>actions</key>
@@ -5275,7 +5466,7 @@ In this last section we present the tactics used by some of the smartest peering
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>188</string>
+				<string>183</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -7329,7 +7520,12 @@ In this last section we present the tactics used by some of the smartest peering
 				<key>onSceneDragActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>type</key>
+							<integer>0</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneKeyDownActionHandler</key>
 				<dict>
@@ -7425,6 +7621,183 @@ In this last section we present the tactics used by some of the smartest peering
 					<dict>
 						<key>animations</key>
 						<array>
+							<dict>
+								<key>duration</key>
+								<real>0.53333336114883423</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict/>
+										</array>
+									</dict>
+								</dict>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>kTimelineDefaultIdentifier</string>
+								<key>startTime</key>
+								<real>0.0</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>symbolOid</key>
+												<string>174</string>
+												<key>timelineIdentifier</key>
+												<string>kTimelineDefaultIdentifier</string>
+												<key>type</key>
+												<integer>7</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>96C9C3EF-EFEC-46AC-A3CE-942A69F67401-1726-00001AE3BE31969B</string>
+								<key>zIndex</key>
+								<integer>1</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.46666663885116577</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>symbolOid</key>
+												<string>174</string>
+												<key>timelineIdentifier</key>
+												<string>kTimelineDefaultIdentifier</string>
+												<key>type</key>
+												<integer>7</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>kTimelineDefaultIdentifier</string>
+								<key>startTime</key>
+								<real>0.53333336114883423</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>duration</key>
+												<real>1.1000000000000001</real>
+												<key>sceneSymbol</key>
+												<integer>1</integer>
+												<key>transition</key>
+												<integer>6</integer>
+												<key>type</key>
+												<integer>1</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>0E2424ED-28AF-47AC-9C28-56F37DD8D99D-1726-00001AEC691643EE</string>
+								<key>zIndex</key>
+								<integer>2</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>11.966666221618652</real>
+								<key>endValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>playInReverse</key>
+												<false/>
+												<key>symbolOid</key>
+												<string>126</string>
+												<key>timelineIdentifier</key>
+												<string>kTimelineDefaultIdentifier</string>
+												<key>type</key>
+												<integer>3</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>identifier</key>
+								<string>ActionHandler</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>kTimelineDefaultIdentifier</string>
+								<key>startTime</key>
+								<real>1</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>ActionHandler</string>
+									<key>objectValue</key>
+									<dict>
+										<key>actions</key>
+										<array>
+											<dict>
+												<key>symbolOid</key>
+												<string>174</string>
+												<key>timelineIdentifier</key>
+												<string>kTimelineDefaultIdentifier</string>
+												<key>type</key>
+												<integer>7</integer>
+											</dict>
+										</array>
+									</dict>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>2</integer>
+								<key>uuid</key>
+								<string>273E68EB-6865-42D6-85B0-4F58D3BB1560-1726-00001AE814A4F1CA</string>
+								<key>zIndex</key>
+								<integer>3</integer>
+							</dict>
 							<dict>
 								<key>duration</key>
 								<real>1</real>
@@ -8020,7 +8393,7 @@ In this last section we present the tactics used by some of the smartest peering
 								<key>uuid</key>
 								<string>13145E57-CE52-4B6C-8F3C-52C984C7C662-734-00000BAC014F4F81</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -8072,7 +8445,9 @@ In this last section we present the tactics used by some of the smartest peering
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>226</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -8083,49 +8458,13 @@ In this last section we present the tactics used by some of the smartest peering
 				<array/>
 				<key>elements</key>
 				<dict>
-					<key>202</key>
+					<key>226</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>FontWeight</string>
+							<string>AutoresizingMask</string>
 							<key>objectValue</key>
-							<string>bold</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>18px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
+							<string>39</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8135,27 +8474,33 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
+							<string>BorderStyleTop</string>
 							<key>objectValue</key>
 							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Top</string>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#E6661F</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontWeight</string>
+							<key>objectValue</key>
+							<string>bold</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8165,93 +8510,27 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>47px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>The Internet Peering Playbook: Connecting to the Core of the Internet&lt;br&gt;&lt;div style="text-align: right;"&gt;&lt;br&gt;&lt;/div&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>330px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>BorderWidthTop</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Overflow</string>
+							<string>BorderColorBottom</string>
 							<key>objectValue</key>
-							<string>visible</string>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>18px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8261,42 +8540,21 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>The Internet Peering Playbook: Connecting to the Core of the Internet&lt;br&gt;&lt;div style="text-align: right;"&gt;&lt;br&gt;&lt;/div&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>Height</string>
 							<key>objectValue</key>
-							<string>#E6661F</string>
-						</dict>
-					</array>
-					<key>203</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>42px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderColorTop</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8306,51 +8564,33 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Cursor</string>
+							<string>TextAlign</string>
 							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
+							<string>center</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>-5px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingBottom</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Opacity</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
+							<string>BorderStyleBottom</string>
 							<key>objectValue</key>
-							<string>preserve</string>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8360,45 +8600,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
+							<string>BorderColorLeft</string>
 							<key>objectValue</key>
-							<string>31px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>⚙️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>31px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
+							<string>768px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8422,9 +8632,39 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingTop</string>
+							<string>ClassType</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>Rectangle</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorRight</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthLeft</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8432,30 +8672,32 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>objectValue</key>
 							<string>visible</string>
 						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>settingsIcon</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
 					</array>
 				</dict>
 				<key>isPersistentSymbol</key>
-				<false/>
+				<true/>
 				<key>name</key>
-				<string>ChapterHeader</string>
+				<string>Book Header</string>
 				<key>oid</key>
-				<string>200</string>
+				<string>224</string>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array>
+						<dict>
+							<key>playInReverse</key>
+							<false/>
+							<key>timelineIdentifier</key>
+							<string>kTimelineDefaultIdentifier</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>preferredSize</key>
-				<string>{377, 42}</string>
+				<string>{768, 42}</string>
 				<key>properties</key>
 				<dict>
 					<key>PhysicsGravityAngle</key>
@@ -8475,138 +8717,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<array>
 					<dict>
 						<key>animations</key>
-						<array>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>202</string>
-								<key>startTime</key>
-								<real>5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2B0B79A9-2721-4059-8D49-121DEBCC68E5-1726-000012EB2EBECDD0</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>203</string>
-								<key>startTime</key>
-								<real>5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E87CE1E4-A46B-49BA-BA69-8BF761EC7D30-1726-000012EDB12518EB</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>202</string>
-								<key>startTime</key>
-								<real>5.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>91AEA8B2-29CA-4BA0-9F35-0E14BFAC825D-1726-000012EB2ECF036F</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>203</string>
-								<key>startTime</key>
-								<real>5.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>3B0D49A1-4929-4739-8CA1-E5F427F25465-1726-000012EDB130D8C4</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-						</array>
+						<array/>
 						<key>firstKeyframeIsRelative</key>
 						<false/>
 						<key>framesPerSecond</key>
@@ -8627,19 +8738,51 @@ In this last section we present the tactics used by some of the smartest peering
 			<key>documentIdentifier</key>
 			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>238</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
-				<false/>
+				<true/>
 				<key>currentTimelineIdentifier</key>
 				<string>kTimelineDefaultIdentifier</string>
 				<key>customBehaviors</key>
 				<array/>
 				<key>elements</key>
 				<dict>
-					<key>206</key>
+					<key>238</key>
 					<array>
+						<dict>
+							<key>identifier</key>
+							<string>AutoresizingMask</string>
+							<key>objectValue</key>
+							<string>39</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleRight</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleTop</string>
+							<key>objectValue</key>
+							<string>None</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundColor</string>
+							<key>objectValue</key>
+							<string>#E6661F</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>0px</string>
+						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>FontWeight</string>
@@ -8648,15 +8791,33 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>BorderWidthTop</string>
 							<key>objectValue</key>
-							<string>#FFFFFF</string>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleLeft</string>
+							<key>objectValue</key>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8666,7 +8827,25 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorBottom</string>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>Book Header</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>The Internet Peering Playbook: Connecting to the Core of the Internet&lt;br&gt;&lt;div style="text-align: right;"&gt;&lt;br&gt;&lt;/div&gt;</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>42px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorTop</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
 						</dict>
@@ -8678,45 +8857,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Cursor</string>
+							<string>TextAlign</string>
 							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
+							<string>center</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8726,15 +8869,21 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderStyleLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>None</string>
+							<string>12</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderColorTop</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderStyleBottom</string>
+							<key>objectValue</key>
+							<string>None</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8744,9 +8893,41 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Height</string>
+							<string>BorderColorLeft</string>
 							<key>objectValue</key>
-							<string>42px</string>
+							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>375px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneOid</key>
+										<string>139</string>
+										<key>transition</key>
+										<integer>2</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Rectangle</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8762,102 +8943,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextAlign</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>&lt;div style="text-align: center;"&gt;Table of Contents&lt;/div&gt;</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>AccessibilityRole</string>
 							<key>objectValue</key>
 							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>375px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Book Header</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>207</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8867,313 +8961,32 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>-6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>26px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>-5px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>⬅️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>duration</key>
-										<real>1.1000000000000001</real>
-										<key>sceneOid</key>
-										<string>139</string>
-										<key>transition</key>
-										<integer>2</integer>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
 							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>settingsIcon</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>209</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>-6px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>47px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>329px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>➡️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>6</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>duration</key>
-										<real>1.1000000000000001</real>
-										<key>sceneOid</key>
-										<string>139</string>
-										<key>transition</key>
-										<integer>2</integer>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>settingsIcon</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
 				<key>isPersistentSymbol</key>
-				<false/>
+				<true/>
 				<key>name</key>
-				<string>Heading1Header</string>
+				<string>Symbol</string>
 				<key>oid</key>
-				<string>205</string>
+				<string>236</string>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array>
+						<dict>
+							<key>playInReverse</key>
+							<false/>
+							<key>timelineIdentifier</key>
+							<string>kTimelineDefaultIdentifier</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
+					</array>
+				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>preferredSize</key>
@@ -9197,138 +9010,7 @@ In this last section we present the tactics used by some of the smartest peering
 				<array>
 					<dict>
 						<key>animations</key>
-						<array>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>206</string>
-								<key>startTime</key>
-								<real>5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>2B0B79A9-2721-4059-8D49-121DEBCC68E5-1726-000012EB2EBECDD0</string>
-								<key>zIndex</key>
-								<integer>1</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.5</real>
-								<key>endValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>207</string>
-								<key>startTime</key>
-								<real>5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>1</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>E87CE1E4-A46B-49BA-BA69-8BF761EC7D30-1726-000012EDB12518EB</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>206</string>
-								<key>startTime</key>
-								<real>5.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>91AEA8B2-29CA-4BA0-9F35-0E14BFAC825D-1726-000012EB2ECF036F</string>
-								<key>zIndex</key>
-								<integer>3</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Opacity</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>207</string>
-								<key>startTime</key>
-								<real>5.5</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Opacity</string>
-									<key>objectValue</key>
-									<string>0</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>3B0D49A1-4929-4739-8CA1-E5F427F25465-1726-000012EDB130D8C4</string>
-								<key>zIndex</key>
-								<integer>4</integer>
-							</dict>
-						</array>
+						<array/>
 						<key>firstKeyframeIsRelative</key>
 						<false/>
 						<key>framesPerSecond</key>
