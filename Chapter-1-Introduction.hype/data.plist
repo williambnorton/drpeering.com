@@ -94,15 +94,15 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-30T00:16:37Z</date>
+	<date>2019-01-30T23:13:26Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1639, 1024}}</string>
+			<string>{{0, 0}, {1223, 1024}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -115,7 +115,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1368, 1024}}</string>
+					<string>{{0, 0}, {952, 1024}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -151,7 +151,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {1097, 1024}}</string>
+							<string>{{271, 0}, {681, 1024}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -164,7 +164,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {1097, 240}}</string>
+									<string>{{271, 0}, {681, 240}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -177,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {1097, 240}}</string>
+											<string>{{271, 0}, {681, 240}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -187,7 +187,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 241}, {1097, 783}}</string>
+									<string>{{271, 241}, {681, 783}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 241}, {1097, 783}}</string>
+											<string>{{271, 241}, {681, 783}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -214,7 +214,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1369, 0}, {270, 1024}}</string>
+					<string>{{953, 0}, {270, 1024}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -227,7 +227,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1369, 0}, {270, 1024}}</string>
+							<string>{{953, 0}, {270, 1024}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -240,7 +240,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>672 349 1639 1068 0 0 2560 1417 </string>
+		<string>1244 349 1223 1068 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -376,7 +376,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1097, 5123}</string>
+					<string>{887, 785}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -390,7 +390,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{375, 4000}</string>
+						<string>{375, 667}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -401,7 +401,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>135</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 1231}</string>
+					<string>{206, 2}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -417,7 +417,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1098, 2541}</string>
+					<string>{817, 2540}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -442,7 +442,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>132</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1758}</string>
+					<string>{1, 1}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -540,7 +540,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>58px</string>
+							<string>84px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -564,7 +564,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2250px</string>
+							<string>2377px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1366,7 +1366,9 @@ Just as context is the most important part to this airplane story, the most impo
 			<key>documentIdentifier</key>
 			<string>DE8AD3B9-1BF1-49DC-AC8A-335E1DF07752-1726-00006A6090B6BE7B</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>136</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -1455,7 +1457,7 @@ Just as context is the most important part to this airplane story, the most impo
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>4984px</string>
+							<string>568px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
