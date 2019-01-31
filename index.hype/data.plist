@@ -136,7 +136,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T21:45:40Z</date>
+	<date>2019-01-31T21:50:32Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
