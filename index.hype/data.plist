@@ -84,6 +84,7 @@ $(document).ready(function() {
 	
 var currentPage="";
 function check() {
+	  $(".version").text("checking..." );
 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
@@ -128,7 +129,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T21:01:27Z</date>
+	<date>2019-01-31T21:03:32Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
