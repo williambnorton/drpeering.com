@@ -1,1 +1,1 @@
-* * * * * (date;~/drpeering.com/checkNewCode.bash 2>&1) >> ~/drpeering.com/crontab.log
+* * * * * (date;~/drpeering.com/checkNewCode.bash 2>&1) >> /tmp/crontab.log
