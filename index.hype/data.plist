@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -80,7 +80,32 @@ $(document).ready(function() {
 
 });
 
+function check() {
 
+	// Assign handlers immediately after making the request,
+	// and remember the jqxhr object for this request
+	var jqxhr = $.get( "/updates.php", function(marker) {
+	  alert( "success - marker="+marker );
+	})
+	  .done(function() {
+	    alert( "second success" );
+	  })
+	  .fail(function() {
+	    alert( "error" );
+	  })
+	  .always(function() {
+	    alert( "finished" );
+	  });
+	 
+	// Perform other work here ...
+	 
+	// Set another completion function for the request above
+	jqxhr.always(function() {
+	  alert( "second finished" );
+	});
+
+}
+check();
 	&lt;/script&gt;
 	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -92,7 +117,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-30T23:13:26Z</date>
+	<date>2019-01-31T04:44:48Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -162,7 +187,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {811, 245}}</string>
+									<string>{{271, 0}, {811, 240}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -175,7 +200,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {811, 245}}</string>
+											<string>{{271, 0}, {811, 240}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -185,7 +210,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 246}, {811, 707}}</string>
+									<string>{{271, 241}, {811, 712}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -198,7 +223,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 246}, {811, 707}}</string>
+											<string>{{271, 241}, {811, 712}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -238,7 +263,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>98</real>
 		<key>mainWindowFrame</key>
-		<string>452 184 1353 997 0 0 2560 1417 </string>
+		<string>28 413 1353 997 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -247,7 +272,7 @@ $(document).ready(function() {
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -596,8 +621,6 @@ $(document).ready(function() {
 					<string>126</string>
 					<key>scrollViewOffset</key>
 					<string>{1, 47}</string>
-					<key>userGuides</key>
-					<array/>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -636,7 +659,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{33, 0}</string>
+					<string>{1, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -728,8 +751,6 @@ $(document).ready(function() {
 					<string>144</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 5}</string>
-					<key>userGuides</key>
-					<array/>
 				</dict>
 			</array>
 		</dict>
@@ -756,7 +777,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
+			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -773,27 +794,27 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E6661E</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -917,15 +938,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#E6661E</string>
 						</dict>
 					</array>
 					<key>153</key>
@@ -1046,15 +1067,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1229,15 +1250,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1259,15 +1280,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1442,15 +1463,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>7</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1472,15 +1493,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1661,9 +1682,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1673,9 +1694,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1790,9 +1811,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1892,15 +1913,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>359px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>5</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>359px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1922,18 +1943,18 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>164</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2063,18 +2084,18 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>600px</string>
 						</dict>
 					</array>
 					<key>168</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>573px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2234,18 +2255,18 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>573px</string>
 						</dict>
 					</array>
 					<key>170</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>400px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2369,18 +2390,18 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>400px</string>
 						</dict>
 					</array>
 					<key>171</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>2px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2498,9 +2519,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>2px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>173</key>
@@ -2513,9 +2534,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2609,12 +2630,6 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>4</string>
@@ -2624,6 +2639,12 @@ $(document).ready(function() {
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>359px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2645,9 +2666,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>187</key>
@@ -2666,9 +2687,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2804,9 +2825,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>#E8EBED</string>
 						</dict>
 					</array>
 				</dict>
@@ -2821,6 +2842,16 @@ $(document).ready(function() {
 				<key>oid</key>
 				<string>126</string>
 				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
 				<dict>
 					<key>actions</key>
 					<array/>
@@ -2988,7 +3019,7 @@ $(document).ready(function() {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ACCF37A2-2AC0-42F4-AC23-937DBB8D021E-1726-00000C9766224D60</string>
+									<string>D9AB6244-8B05-4F46-AD15-F91BA758F8C7-1726-0000C1114036E9E7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>168</string>
@@ -3055,7 +3086,7 @@ $(document).ready(function() {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ACCF37A2-2AC0-42F4-AC23-937DBB8D021E-1726-00000C9766224D60</string>
+									<string>D9AB6244-8B05-4F46-AD15-F91BA758F8C7-1726-0000C1114036E9E7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>168</string>
@@ -3122,7 +3153,7 @@ $(document).ready(function() {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>ACCF37A2-2AC0-42F4-AC23-937DBB8D021E-1726-00000C9766224D60</string>
+									<string>D9AB6244-8B05-4F46-AD15-F91BA758F8C7-1726-0000C1114036E9E7</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>168</string>
@@ -3254,7 +3285,7 @@ $(document).ready(function() {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EDF563BA-6369-4F3F-BC74-BDCD5CEF6161-1726-00000C9766242D6D</string>
+									<string>D62E994A-906F-4914-BCAF-F429847F5F9F-1726-0000C11140388C71</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>168</string>
@@ -3314,7 +3345,7 @@ $(document).ready(function() {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EDF563BA-6369-4F3F-BC74-BDCD5CEF6161-1726-00000C9766242D6D</string>
+									<string>D62E994A-906F-4914-BCAF-F429847F5F9F-1726-0000C11140388C71</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>168</string>
@@ -3374,7 +3405,7 @@ $(document).ready(function() {
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>EDF563BA-6369-4F3F-BC74-BDCD5CEF6161-1726-00000C9766242D6D</string>
+									<string>D62E994A-906F-4914-BCAF-F429847F5F9F-1726-0000C11140388C71</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>168</string>
@@ -3554,7 +3585,7 @@ $(document).ready(function() {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
+			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -3577,9 +3608,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3689,12 +3720,6 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
@@ -3704,6 +3729,12 @@ $(document).ready(function() {
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>340px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3731,9 +3762,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>221</key>
@@ -3902,15 +3933,15 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>48px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>BorderRadiusBottomRight</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>48px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3965,9 +3996,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4123,9 +4154,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>223</key>
@@ -4138,9 +4169,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4302,9 +4333,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>237</key>
@@ -4353,9 +4384,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
+							<string>Cursor</string>
 							<key>objectValue</key>
-							<string>375px</string>
+							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4368,6 +4399,12 @@ $(document).ready(function() {
 							<string>Top</string>
 							<key>objectValue</key>
 							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>375px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4388,12 +4425,6 @@ $(document).ready(function() {
 									</dict>
 								</array>
 							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4442,6 +4473,11 @@ $(document).ready(function() {
 					<array/>
 				</dict>
 				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
 				<dict>
 					<key>actions</key>
 					<array/>
@@ -4511,7 +4547,7 @@ $(document).ready(function() {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
+			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>225</string>
@@ -4536,9 +4572,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4683,15 +4719,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>727px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>727px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4713,9 +4749,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>217</key>
@@ -4929,9 +4965,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5087,9 +5123,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>219</key>
@@ -5102,9 +5138,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5260,19 +5296,13 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>225</key>
 					<array>
-						<dict>
-							<key>identifier</key>
-							<string>SymbolOid</string>
-							<key>objectValue</key>
-							<string>224</string>
-						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Height</string>
@@ -5281,15 +5311,21 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>SymbolOid</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>224</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
 							<string>unnamed instance</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5440,7 +5476,7 @@ In this last section we present the tactics used by some of the smartest peering
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
+			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>188</string>
@@ -5459,9 +5495,9 @@ In this last section we present the tactics used by some of the smartest peering
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>573px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5621,18 +5657,18 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>573px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>176</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>600px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5762,9 +5798,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>600px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>177</key>
@@ -5861,15 +5897,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>8</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5990,9 +6026,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6086,12 +6122,6 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>5</string>
@@ -6101,6 +6131,12 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>359px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6122,18 +6158,18 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>179</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>400px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6263,9 +6299,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>400px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>180</key>
@@ -6278,9 +6314,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6380,15 +6416,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>359px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>359px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6410,9 +6446,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 					<key>181</key>
@@ -6533,15 +6569,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingTop</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6722,9 +6758,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6734,9 +6770,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6845,27 +6881,27 @@ In this last section we present the tactics used by some of the smartest peering
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>BorderWidthLeft</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
+							<string>#E6661E</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderColorBottom</string>
+							<key>objectValue</key>
+							<string>#D8DDE4</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6953,15 +6989,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>768px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6989,15 +7025,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthLeft</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
 							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#E6661E</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>184</key>
@@ -7094,15 +7130,15 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>7</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ExplicitDimensions</string>
 							<key>objectValue</key>
 							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7217,9 +7253,9 @@ In this last section we present the tactics used by some of the smartest peering
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>2px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7337,9 +7373,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>BorderWidthBottom</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>2px</string>
 						</dict>
 					</array>
 					<key>188</key>
@@ -7358,9 +7394,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>BackgroundColor</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>#E8EBED</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7496,9 +7532,9 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BackgroundColor</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>#E8EBED</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
@@ -7872,7 +7908,7 @@ In this last section we present the tactics used by some of the smartest peering
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8FE8A539-4556-4F4D-AC52-D69C161F97CF-1726-00000C9766F88057</string>
+									<string>D1D41515-DF2E-43AB-8E32-838FF7647F63-1726-0000C11141848863</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>175</string>
@@ -7939,7 +7975,7 @@ In this last section we present the tactics used by some of the smartest peering
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8FE8A539-4556-4F4D-AC52-D69C161F97CF-1726-00000C9766F88057</string>
+									<string>D1D41515-DF2E-43AB-8E32-838FF7647F63-1726-0000C11141848863</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>175</string>
@@ -8006,7 +8042,7 @@ In this last section we present the tactics used by some of the smartest peering
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>8FE8A539-4556-4F4D-AC52-D69C161F97CF-1726-00000C9766F88057</string>
+									<string>D1D41515-DF2E-43AB-8E32-838FF7647F63-1726-0000C11141848863</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>175</string>
@@ -8138,7 +8174,7 @@ In this last section we present the tactics used by some of the smartest peering
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>27B4E58E-99DD-4776-991C-AEE74E1A5EE4-1726-00000C9766F9FBD6</string>
+									<string>56A814FE-DD4A-4D05-AB8B-957960377001-1726-0000C1114185DC91</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>175</string>
@@ -8198,7 +8234,7 @@ In this last section we present the tactics used by some of the smartest peering
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>27B4E58E-99DD-4776-991C-AEE74E1A5EE4-1726-00000C9766F9FBD6</string>
+									<string>56A814FE-DD4A-4D05-AB8B-957960377001-1726-0000C1114185DC91</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>175</string>
@@ -8258,7 +8294,7 @@ In this last section we present the tactics used by some of the smartest peering
 										<false/>
 									</dict>
 									<key>oid</key>
-									<string>27B4E58E-99DD-4776-991C-AEE74E1A5EE4-1726-00000C9766F9FBD6</string>
+									<string>56A814FE-DD4A-4D05-AB8B-957960377001-1726-0000C1114185DC91</string>
 								</dict>
 								<key>referenceOid</key>
 								<string>175</string>
@@ -8438,7 +8474,7 @@ In this last section we present the tactics used by some of the smartest peering
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
+			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>226</string>
@@ -8675,6 +8711,26 @@ In this last section we present the tactics used by some of the smartest peering
 				<string>Book Header</string>
 				<key>oid</key>
 				<string>224</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
 				<key>onSceneLoadActionHandler</key>
 				<dict>
 					<key>actions</key>
@@ -8688,6 +8744,36 @@ In this last section we present the tactics used by some of the smartest peering
 							<integer>3</integer>
 						</dict>
 					</array>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
 				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
@@ -8731,7 +8817,7 @@ In this last section we present the tactics used by some of the smartest peering
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>F3C2F698-4F60-4505-8C3C-527FB8B30C08-1726-00000C978C351974</string>
+			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>238</string>
@@ -8968,6 +9054,26 @@ In this last section we present the tactics used by some of the smartest peering
 				<string>Symbol</string>
 				<key>oid</key>
 				<string>236</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
 				<key>onSceneLoadActionHandler</key>
 				<dict>
 					<key>actions</key>
@@ -8981,6 +9087,36 @@ In this last section we present the tactics used by some of the smartest peering
 							<integer>3</integer>
 						</dict>
 					</array>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
 				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
