@@ -86,7 +86,6 @@ function check() {
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
 	  $(".version").text("Prod "+marker );
-	  setTimeout(check, 2000);
 	  if (currentPage == "" || currentPage == marker) {
 	  		$(".version").text("Prod "+marker );
 	  		currentPage=marker;
@@ -99,10 +98,11 @@ function check() {
 	    //alert( "second success" );
 	  })
 	  .fail(function() {
-		  $(".version").text("Test Mode");
+		  $(".version").text("disconnected Mode");
 	  })
 	  .always(function() {
 	    //alert( "finished" );
+    	  setTimeout(check, 2000);
 	  });
 	 
 	// Perform other work here ...
@@ -125,7 +125,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T20:28:54Z</date>
+	<date>2019-01-31T20:31:57Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
