@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -94,11 +94,11 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-30T23:13:26Z</date>
+	<date>2019-01-31T19:01:44Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -164,7 +164,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {681, 240}}</string>
+									<string>{{271, 0}, {681, 316}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -177,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {681, 240}}</string>
+											<string>{{271, 0}, {681, 316}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -187,7 +187,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 241}, {681, 783}}</string>
+									<string>{{271, 317}, {681, 707}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 241}, {681, 783}}</string>
+											<string>{{271, 317}, {681, 707}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -357,7 +357,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>137</string>
+			<string>134</string>
 			<key>name</key>
 			<string>Chapter 1 - Introduction</string>
 			<key>oid</key>
@@ -376,7 +376,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{887, 785}</string>
+					<string>{682, 708}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -401,7 +401,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>135</string>
 					<key>scrollViewOffset</key>
-					<string>{206, 2}</string>
+					<string>{1, 1}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -417,7 +417,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{817, 2540}</string>
+					<string>{808, 2540}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -442,7 +442,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>132</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1}</string>
+					<string>{2, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -471,7 +471,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>DE8AD3B9-1BF1-49DC-AC8A-335E1DF07752-1726-00006A6090B6BE7B</string>
+			<string>D1141FCE-EAB9-48B9-9795-135B870D7539-1726-0000F6E0A9B008A6</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>133</string>
@@ -496,9 +496,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -540,7 +540,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>84px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -564,7 +564,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>2377px</string>
+							<string>2462px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -583,7 +583,7 @@ $(document).ready(function() {
 							<string>InnerHTML</string>
 							<key>objectValue</key>
 							<string>
-&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Context is Important&lt;/h2&gt;
+&lt;h2 style="text-align: center;"&gt;&lt;font size="3"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h2&gt;&lt;div&gt;&lt;font size="3"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size="3"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;h2 style="text-align: center;"&gt;&lt;span style="font-size: 36px;"&gt;Chapter 1 - Introduction&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Context is Important&lt;/h2&gt;
 &lt;p&gt;I was waiting in the gate area for my flight from Detroit to Los Angeles. I had already been upgraded, so the flight was starting very well! The gate agent called me forward to tell me that my already-delayed flight would most likely be cancelled, and that she would like to rebook me on the next flight to LA, about 10 gates down the terminal. “Your flight will leave in 15 minutes.” I asked that my work colleagues be rebooked as well and she obliged, so the three of us walked to the new gate and boarded the plane, just in time for it to depart. Or so we thought.
 &lt;/p&gt;&lt;p&gt;
 The flight didn’t take off on time. For 30 minutes or so we witnessed some very stressed people getting on the plane, disheveled and complaining. These people were clearly distressed. After a dozen or so people headed back into coach, several came back to the front of the plane saying that their assigned seat was taken and they plopped down in first class. The flight attendant said, “OK, just sit anywhere. We have to leave now!”&lt;/p&gt;
@@ -628,12 +628,6 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -643,6 +637,12 @@ Just as context is the most important part to this airplane story, the most impo
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>693px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -664,593 +664,9 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-					</array>
-					<key>144</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>unnamed instance</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SymbolOid</string>
-							<key>objectValue</key>
-							<string>138</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>768px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Symbol</string>
-						</dict>
-					</array>
-					<key>145</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>39</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFFFF</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontWeight</string>
-							<key>objectValue</key>
-							<string>bold</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Book Header</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>&lt;div style="text-align: center;"&gt;Chapter 1 - Introduction&lt;/div&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>'Times New Roman',Times,Baskerville,Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>669px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>49px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-					</array>
-					<key>146</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>-3px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>⬅️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>PrevChapter</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>147</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>47px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>33</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>721px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>➡️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>NextChapter</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
@@ -1364,7 +780,7 @@ Just as context is the most important part to this airplane story, the most impo
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>DE8AD3B9-1BF1-49DC-AC8A-335E1DF07752-1726-00006A6090B6BE7B</string>
+			<string>D1141FCE-EAB9-48B9-9795-135B870D7539-1726-0000F6E0A9B008A6</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>136</string>
@@ -1389,9 +805,9 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1433,7 +849,7 @@ Just as context is the most important part to this airplane story, the most impo
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>83px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1457,7 +873,7 @@ Just as context is the most important part to this airplane story, the most impo
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>568px</string>
+							<string>651px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1476,7 +892,7 @@ Just as context is the most important part to this airplane story, the most impo
 							<string>InnerHTML</string>
 							<key>objectValue</key>
 							<string>
-&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Context is Important&lt;/h2&gt;
+&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;&lt;font size="3"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;Chapter 1 - Introduction&lt;/span&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Context is Important&lt;/h2&gt;
 &lt;p&gt;I was waiting in the gate area for my flight from Detroit to Los Angeles. I had already been upgraded, so the flight was starting very well! The gate agent called me forward to tell me that my already-delayed flight would most likely be cancelled, and that she would like to rebook me on the next flight to LA, about 10 gates down the terminal. “Your flight will leave in 15 minutes.” I asked that my work colleagues be rebooked as well and she obliged, so the three of us walked to the new gate and boarded the plane, just in time for it to depart. Or so we thought.
 &lt;/p&gt;&lt;p&gt;
 The flight didn’t take off on time. For 30 minutes or so we witnessed some very stressed people getting on the plane, disheveled and complaining. These people were clearly distressed. After a dozen or so people headed back into coach, several came back to the front of the plane saying that their assigned seat was taken and they plopped down in first class. The flight attendant said, “OK, just sit anywhere. We have to leave now!”&lt;/p&gt;
@@ -1527,15 +943,15 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>331px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>331px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1557,633 +973,9 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>150</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>39</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#FFFFFF</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontWeight</string>
-							<key>objectValue</key>
-							<string>bold</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>24px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Book Header</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>&lt;div style="text-align: center;"&gt;Chapter 1 - Introduction&lt;/div&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>40px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>43px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>280px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>'Times New Roman',Times,Baskerville,Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>48px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusBottomLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderRadiusTopLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-					</array>
-					<key>151</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>35px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>-3px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>⬅️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>3</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>PrevChapter</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>TextColor</string>
 							<key>objectValue</key>
 							<string>#000000</string>
-						</dict>
-					</array>
-					<key>152</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextColor</string>
-							<key>objectValue</key>
-							<string>#000000</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>36px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>35px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>33</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>326px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>➡️</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>37px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>NextChapter</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-					<key>153</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>unnamed instance</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>SymbolOid</string>
-							<key>objectValue</key>
-							<string>148</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>39</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>375px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Symbol</string>
 						</dict>
 					</array>
 				</dict>
@@ -2274,684 +1066,6 @@ Just as context is the most important part to this airplane story, the most impo
 				<true/>
 				<key>showInResourceLibrary</key>
 				<false/>
-				<key>timelines</key>
-				<array>
-					<dict>
-						<key>animations</key>
-						<array/>
-						<key>firstKeyframeIsRelative</key>
-						<false/>
-						<key>framesPerSecond</key>
-						<integer>30</integer>
-						<key>hidden</key>
-						<false/>
-						<key>identifier</key>
-						<string>kTimelineDefaultIdentifier</string>
-						<key>name</key>
-						<string>Main Timeline</string>
-						<key>userDefinedDuration</key>
-						<real>0.0</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>documentIdentifier</key>
-			<string>DE8AD3B9-1BF1-49DC-AC8A-335E1DF07752-1726-00006A6090B6BE7B</string>
-			<key>symbol</key>
-			<dict>
-				<key>addToNewSceneControllers</key>
-				<false/>
-				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
-				<key>customBehaviors</key>
-				<array/>
-				<key>elements</key>
-				<dict>
-					<key>139</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>39</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#E6661F</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontWeight</string>
-							<key>objectValue</key>
-							<string>bold</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>18px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Book Header</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>The Internet Peering Playbook: Connecting to the Core of the Internet&lt;br&gt;&lt;div style="text-align: right;"&gt;&lt;br&gt;&lt;/div&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>7</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>768px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>duration</key>
-										<real>1.1000000000000001</real>
-										<key>sceneOid</key>
-										<string>139</string>
-										<key>transition</key>
-										<integer>2</integer>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-					</array>
-				</dict>
-				<key>isPersistentSymbol</key>
-				<true/>
-				<key>name</key>
-				<string>Book Header</string>
-				<key>oid</key>
-				<string>138</string>
-				<key>onSceneDragActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyPressActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneLoadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array>
-						<dict>
-							<key>playInReverse</key>
-							<false/>
-							<key>timelineIdentifier</key>
-							<string>kTimelineDefaultIdentifier</string>
-							<key>type</key>
-							<integer>3</integer>
-						</dict>
-					</array>
-				</dict>
-				<key>onSceneSwipeDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeLeftActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeRightActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneTimelineCompleteActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneUnloadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onTopDuringSceneTransition</key>
-				<true/>
-				<key>preferredSize</key>
-				<string>{768, 42}</string>
-				<key>properties</key>
-				<dict>
-					<key>PhysicsGravityAngle</key>
-					<real>180</real>
-					<key>PhysicsGravityForce</key>
-					<real>1</real>
-					<key>PhysicsGravityInheritFromParent</key>
-					<false/>
-					<key>PhysicsGravityUsesDeviceTilt</key>
-					<false/>
-				</dict>
-				<key>removeWhenNoLongerReferenced</key>
-				<true/>
-				<key>showInResourceLibrary</key>
-				<true/>
-				<key>timelines</key>
-				<array>
-					<dict>
-						<key>animations</key>
-						<array/>
-						<key>firstKeyframeIsRelative</key>
-						<false/>
-						<key>framesPerSecond</key>
-						<integer>30</integer>
-						<key>hidden</key>
-						<false/>
-						<key>identifier</key>
-						<string>kTimelineDefaultIdentifier</string>
-						<key>name</key>
-						<string>Main Timeline</string>
-						<key>userDefinedDuration</key>
-						<real>0.0</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>documentIdentifier</key>
-			<string>DE8AD3B9-1BF1-49DC-AC8A-335E1DF07752-1726-00006A6090B6BE7B</string>
-			<key>symbol</key>
-			<dict>
-				<key>addToNewSceneControllers</key>
-				<true/>
-				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
-				<key>customBehaviors</key>
-				<array/>
-				<key>elements</key>
-				<dict>
-					<key>149</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>39</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleRight</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleTop</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BackgroundColor</string>
-							<key>objectValue</key>
-							<string>#E6661F</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontWeight</string>
-							<key>objectValue</key>
-							<string>bold</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Opacity</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthTop</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorBottom</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleLeft</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
-							<string>18px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Book Header</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>The Internet Peering Playbook: Connecting to the Core of the Internet&lt;br&gt;&lt;div style="text-align: right;"&gt;&lt;br&gt;&lt;/div&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>42px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorTop</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TextAlign</string>
-							<key>objectValue</key>
-							<string>center</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>12</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderStyleBottom</string>
-							<key>objectValue</key>
-							<string>None</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorLeft</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>375px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ActionHandlerOnMouseClick</string>
-							<key>objectValue</key>
-							<dict>
-								<key>actions</key>
-								<array>
-									<dict>
-										<key>duration</key>
-										<real>1.1000000000000001</real>
-										<key>sceneOid</key>
-										<string>139</string>
-										<key>transition</key>
-										<integer>2</integer>
-										<key>type</key>
-										<integer>1</integer>
-									</dict>
-								</array>
-							</dict>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Rectangle</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderColorRight</string>
-							<key>objectValue</key>
-							<string>#D8DDE4</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>BorderWidthLeft</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AccessibilityRole</string>
-							<key>objectValue</key>
-							<string>button</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Cursor</string>
-							<key>objectValue</key>
-							<string>pointer</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>visible</string>
-						</dict>
-					</array>
-				</dict>
-				<key>isPersistentSymbol</key>
-				<true/>
-				<key>name</key>
-				<string>Symbol</string>
-				<key>oid</key>
-				<string>148</string>
-				<key>onSceneDragActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyPressActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneLoadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array>
-						<dict>
-							<key>playInReverse</key>
-							<false/>
-							<key>timelineIdentifier</key>
-							<string>kTimelineDefaultIdentifier</string>
-							<key>type</key>
-							<integer>3</integer>
-						</dict>
-					</array>
-				</dict>
-				<key>onSceneSwipeDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeLeftActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeRightActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneTimelineCompleteActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneUnloadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onTopDuringSceneTransition</key>
-				<true/>
-				<key>preferredSize</key>
-				<string>{375, 42}</string>
-				<key>properties</key>
-				<dict>
-					<key>PhysicsGravityAngle</key>
-					<real>180</real>
-					<key>PhysicsGravityForce</key>
-					<real>1</real>
-					<key>PhysicsGravityInheritFromParent</key>
-					<false/>
-					<key>PhysicsGravityUsesDeviceTilt</key>
-					<false/>
-				</dict>
-				<key>removeWhenNoLongerReferenced</key>
-				<true/>
-				<key>showInResourceLibrary</key>
-				<true/>
 				<key>timelines</key>
 				<array>
 					<dict>
