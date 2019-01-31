@@ -117,7 +117,7 @@ function check() {
 	});
 
 }
-check();
+//check();
 	&lt;/script&gt;
 	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -129,7 +129,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T21:03:32Z</date>
+	<date>2019-01-31T21:04:49Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
