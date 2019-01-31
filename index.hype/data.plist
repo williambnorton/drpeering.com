@@ -86,6 +86,7 @@ var currentPage="";
 function check() {
 	  $(".version").text("version 1 ... checking...");
 
+		    console.log( "checking in with server" ); 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
@@ -93,19 +94,24 @@ function check() {
 	  if (currentPage == "" || currentPage == marker) {
 	  		$(".version").text("Prod "+marker );
 	  		currentPage=marker;
+		    console.log( "NEW Page timestamp" ); 
+
 	  } else {
+		    console.log( "NEW Page timestamp" );  
 	  		$(".version").text("NEW "+marker );
+	  		currentPage=marker;
 	  		//location.reload(true);
 	  }
 	})
 	  .done(function() {
-	    //alert( "second success" );
+	    console.log( "second success" );
 	  })
 	  .fail(function() {
+	    console.log( "fail" );
 		  $(".version").text("disconnected Mode");
 	  })
 	  .always(function() {
-	    //alert( "finished" );
+	    console.log( "finished" );
 	  });
 	 
 	// Perform other work here ...
@@ -117,7 +123,8 @@ function check() {
 	});
 
 }
-check();
+
+let timerId = setInterval(() =&gt; check(), 5000);
 	&lt;/script&gt;
 	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -129,7 +136,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T21:36:20Z</date>
+	<date>2019-01-31T21:45:40Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -275,7 +282,7 @@ check();
 		<key>keyframeTimelineHeight</key>
 		<real>98</real>
 		<key>mainWindowFrame</key>
-		<string>28 360 1353 997 0 0 2560 1417 </string>
+		<string>59 362 1353 997 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
