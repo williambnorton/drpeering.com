@@ -23,7 +23,7 @@
 $(document).ready(function() {
 
 });
-
+var currentPage="";
 function check() {
 
 	// Assign handlers immediately after making the request,
@@ -31,8 +31,9 @@ function check() {
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
 	  $(".version").text("Prod "+marker );
 	  setTimeout(check, 2000);
-	  if (currentPage && currentPage == marker) {
+	  if (currentPage == "" || currentPage == marker) {
 	  		$(".version").text("Prod "+marker );
+	  		currentPage=marker;
 	  } else {
 	  		$(".version").text("NEW "+marker );
 	  		//location.reload();
@@ -73,7 +74,7 @@ check();
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" style="margin:auto;position:relative;width:100%;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?44659"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?52887"></script>
 	</div>
 
 	<!-- end copy -->
