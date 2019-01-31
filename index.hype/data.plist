@@ -94,7 +94,7 @@ function check() {
 	  		currentPage=marker;
 	  } else {
 	  		$(".version").text("NEW "+marker );
-	  		location.reload(true);
+	  		//location.reload(true);
 	  }
 	})
 	  .done(function() {
@@ -128,7 +128,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T20:50:28Z</date>
+	<date>2019-01-31T20:56:13Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
