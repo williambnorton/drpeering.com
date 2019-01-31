@@ -79,6 +79,9 @@
 $(document).ready(function() {
 
 });
+
+
+
 var currentPage="";
 function check() {
 
@@ -125,7 +128,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T20:33:45Z</date>
+	<date>2019-01-31T20:36:42Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -280,7 +283,7 @@ check();
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
