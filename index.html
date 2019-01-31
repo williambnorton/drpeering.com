@@ -30,7 +30,6 @@ function check() {
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
 	  $(".version").text("Prod "+marker );
-	  setTimeout(check, 2000);
 	  if (currentPage == "" || currentPage == marker) {
 	  		$(".version").text("Prod "+marker );
 	  		currentPage=marker;
@@ -43,10 +42,11 @@ function check() {
 	    //alert( "second success" );
 	  })
 	  .fail(function() {
-		  $(".version").text("Test Mode");
+		  $(".version").text("disconnected Mode");
 	  })
 	  .always(function() {
 	    //alert( "finished" );
+    	  setTimeout(check, 2000);
 	  });
 	 
 	// Perform other work here ...
@@ -74,7 +74,7 @@ check();
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" style="margin:auto;position:relative;width:100%;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?52887"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?63777"></script>
 	</div>
 
 	<!-- end copy -->
