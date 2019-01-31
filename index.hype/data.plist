@@ -106,7 +106,6 @@ function check() {
 	  })
 	  .always(function() {
 	    //alert( "finished" );
-    	  setTimeout(check, 2000);
 	  });
 	 
 	// Perform other work here ...
@@ -114,6 +113,8 @@ function check() {
 	// Set another completion function for the request above
 	jqxhr.always(function() {
 	  //alert( "second finished" );
+	      	  setTimeout(check, 2000);
+
 	});
 
 }
@@ -129,7 +130,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T21:08:08Z</date>
+	<date>2019-01-31T21:09:58Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
