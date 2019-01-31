@@ -124,7 +124,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T19:34:57Z</date>
+	<date>2019-01-31T19:47:52Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -194,7 +194,7 @@ check();
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {811, 240}}</string>
+									<string>{{271, 0}, {811, 242}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -207,7 +207,7 @@ check();
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {811, 240}}</string>
+											<string>{{271, 0}, {811, 242}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -217,7 +217,7 @@ check();
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 241}, {811, 712}}</string>
+									<string>{{271, 243}, {811, 710}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -230,7 +230,7 @@ check();
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 241}, {811, 712}}</string>
+											<string>{{271, 243}, {811, 710}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -583,7 +583,7 @@ check();
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>186</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -602,7 +602,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{811, 783}</string>
+					<string>{812, 783}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -627,7 +627,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 71}</string>
+					<string>{1, 73}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -643,7 +643,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{845, 1208}</string>
+					<string>{844, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -668,7 +668,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{34, 411}</string>
+					<string>{33, 411}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -676,7 +676,7 @@ check();
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>143</string>
+			<string>147</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -695,7 +695,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{822, 714}</string>
+					<string>{823, 714}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -720,7 +720,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{11, 0}</string>
+					<string>{12, 0}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -734,7 +734,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{823, 1092}</string>
+					<string>{824, 1092}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -759,7 +759,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>144</string>
 					<key>scrollViewOffset</key>
-					<string>{12, 0}</string>
+					<string>{13, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
