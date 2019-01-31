@@ -91,7 +91,7 @@ function check() {
 	  		$(".version").text("Prod "+marker );
 	  } else {
 	  		$(".version").text("NEW "+marker );
-	  
+	  		
 	  }
 	})
 	  .done(function() {
@@ -124,7 +124,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T20:01:58Z</date>
+	<date>2019-01-31T20:09:01Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -194,7 +194,7 @@ check();
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {811, 238}}</string>
+									<string>{{271, 0}, {811, 240}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -207,7 +207,7 @@ check();
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {811, 238}}</string>
+											<string>{{271, 0}, {811, 240}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -217,7 +217,7 @@ check();
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 239}, {811, 714}}</string>
+									<string>{{271, 241}, {811, 712}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -230,7 +230,7 @@ check();
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 239}, {811, 714}}</string>
+											<string>{{271, 241}, {811, 712}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -583,7 +583,7 @@ check();
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>186</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -602,7 +602,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{813, 783}</string>
+					<string>{812, 783}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -627,7 +627,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{2, 69}</string>
+					<string>{1, 71}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -643,7 +643,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{845, 1208}</string>
+					<string>{844, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -668,7 +668,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{34, 411}</string>
+					<string>{33, 482.5}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -676,7 +676,7 @@ check();
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>143</string>
+			<string>147</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -695,7 +695,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{826, 714}</string>
+					<string>{827, 714}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -720,7 +720,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{15, 0}</string>
+					<string>{16, 0}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -734,7 +734,7 @@ check();
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{827, 1092}</string>
+					<string>{828, 1092}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -759,7 +759,7 @@ check();
 					<key>rootSymbolControllerOid</key>
 					<string>144</string>
 					<key>scrollViewOffset</key>
-					<string>{16, 0}</string>
+					<string>{17, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -2933,7 +2933,7 @@ check();
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>250px</string>
+							<string>180px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2963,7 +2963,7 @@ check();
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>109px</string>
+							<string>179px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5835,9 +5835,7 @@ In this last section we present the tactics used by some of the smartest peering
 			<key>documentIdentifier</key>
 			<string>6BB40516-8550-425F-88BE-FC912125DA3A-1726-0000C1117E1355EC</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>245</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -7984,7 +7982,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>497px</string>
+							<string>460px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8008,7 +8006,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>253px</string>
+							<string>290px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
