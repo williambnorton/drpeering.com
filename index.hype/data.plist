@@ -81,10 +81,10 @@ $(document).ready(function() {
 });
 
 
-	
+var version=1;	
 var currentPage="";
 function check() {
-	  $(".version").text("checking...");
+	  $(".version").text("version 1 ... checking...");
 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
@@ -113,7 +113,6 @@ function check() {
 	// Set another completion function for the request above
 	jqxhr.always(function() {
 	  //alert( "second finished" );
-	      	  setTimeout(check, 2000);
 
 	});
 
@@ -130,7 +129,7 @@ check();
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T21:09:58Z</date>
+	<date>2019-01-31T21:36:20Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
