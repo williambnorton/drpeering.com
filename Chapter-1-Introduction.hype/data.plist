@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -94,7 +94,7 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T20:00:32Z</date>
+	<date>2019-02-01T21:49:48Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -102,7 +102,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1223, 1024}}</string>
+			<string>{{0, 0}, {1223, 1066}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -115,7 +115,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {952, 1024}}</string>
+					<string>{{0, 0}, {952, 1066}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -128,7 +128,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1024}}</string>
+							<string>{{0, 0}, {270, 1066}}</string>
 							<key>identifier</key>
 							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
@@ -141,7 +141,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1024}}</string>
+									<string>{{0, 0}, {270, 1066}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -151,7 +151,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {681, 1024}}</string>
+							<string>{{271, 0}, {681, 1066}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -164,7 +164,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {681, 316}}</string>
+									<string>{{271, 0}, {681, 358}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -177,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {681, 316}}</string>
+											<string>{{271, 0}, {681, 358}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -187,7 +187,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 317}, {681, 707}}</string>
+									<string>{{271, 359}, {681, 707}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 317}, {681, 707}}</string>
+											<string>{{271, 359}, {681, 707}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -214,7 +214,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{953, 0}, {270, 1024}}</string>
+					<string>{{953, 0}, {270, 1066}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -227,7 +227,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{953, 0}, {270, 1024}}</string>
+							<string>{{953, 0}, {270, 1066}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -240,7 +240,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>93 144 1223 1068 0 0 2560 1417 </string>
+		<string>63 111 1223 1110 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -443,8 +443,6 @@ $(document).ready(function() {
 					<string>132</string>
 					<key>scrollViewOffset</key>
 					<string>{3, 1}</string>
-					<key>userGuides</key>
-					<array/>
 				</dict>
 			</array>
 		</dict>
@@ -471,7 +469,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>D1141FCE-EAB9-48B9-9795-135B870D7539-1726-0000F6E0A9B008A6</string>
+			<string>FD1BB0EA-9F33-4428-95CD-FCCFEF9C7ED6-780-000017A21236132F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>133</string>
@@ -496,9 +494,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -634,15 +632,15 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>693px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>693px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -664,9 +662,9 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>
@@ -780,7 +778,7 @@ Just as context is the most important part to this airplane story, the most impo
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>D1141FCE-EAB9-48B9-9795-135B870D7539-1726-0000F6E0A9B008A6</string>
+			<string>FD1BB0EA-9F33-4428-95CD-FCCFEF9C7ED6-780-000017A21236132F</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>136</string>
@@ -805,9 +803,9 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -892,7 +890,7 @@ Just as context is the most important part to this airplane story, the most impo
 							<string>InnerHTML</string>
 							<key>objectValue</key>
 							<string>
-&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;&lt;font size="3"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;Chapter 1 - Introduction&lt;/span&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Context is Important&lt;/h2&gt;
+&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;&lt;font size="3"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/h2&gt;&lt;h2 style="text-align: center;"&gt;&lt;span style="font-weight: bold;"&gt;Ch 1 - Introduction&lt;/span&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Context is Important&lt;/h2&gt;
 &lt;p&gt;I was waiting in the gate area for my flight from Detroit to Los Angeles. I had already been upgraded, so the flight was starting very well! The gate agent called me forward to tell me that my already-delayed flight would most likely be cancelled, and that she would like to rebook me on the next flight to LA, about 10 gates down the terminal. “Your flight will leave in 15 minutes.” I asked that my work colleagues be rebooked as well and she obliged, so the three of us walked to the new gate and boarded the plane, just in time for it to depart. Or so we thought.
 &lt;/p&gt;&lt;p&gt;
 The flight didn’t take off on time. For 30 minutes or so we witnessed some very stressed people getting on the plane, disheveled and complaining. These people were clearly distressed. After a dozen or so people headed back into coach, several came back to the front of the plane saying that their assigned seat was taken and they plopped down in first class. The flight attendant said, “OK, just sit anywhere. We have to leave now!”&lt;/p&gt;
@@ -937,12 +935,6 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -952,6 +944,12 @@ Just as context is the most important part to this airplane story, the most impo
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>331px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -973,9 +971,9 @@ Just as context is the most important part to this airplane story, the most impo
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>

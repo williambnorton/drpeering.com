@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -94,7 +94,7 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-01-31T19:04:56Z</date>
+	<date>2019-02-01T21:49:59Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -102,7 +102,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1173, 1318}}</string>
+			<string>{{0, 0}, {1350, 1073}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -115,7 +115,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {902, 1318}}</string>
+					<string>{{0, 0}, {1079, 1073}}</string>
 					<key>identifier</key>
 					<string>container 186</string>
 					<key>isCustomizableViewContainer</key>
@@ -128,7 +128,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1318}}</string>
+							<string>{{0, 0}, {270, 1073}}</string>
 							<key>identifier</key>
 							<string>container 72</string>
 							<key>isCustomizableViewContainer</key>
@@ -141,7 +141,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1318}}</string>
+									<string>{{0, 0}, {270, 1073}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -151,7 +151,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {631, 1318}}</string>
+							<string>{{271, 0}, {808, 1073}}</string>
 							<key>identifier</key>
 							<string>container 73</string>
 							<key>isCustomizableViewContainer</key>
@@ -164,7 +164,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {631, 240}}</string>
+									<string>{{271, 0}, {808, 190}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -177,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {631, 240}}</string>
+											<string>{{271, 0}, {808, 190}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -187,7 +187,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 241}, {631, 1077}}</string>
+									<string>{{271, 191}, {808, 882}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 241}, {631, 1077}}</string>
+											<string>{{271, 191}, {808, 882}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -214,7 +214,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{903, 0}, {270, 1318}}</string>
+					<string>{{1080, 0}, {270, 1073}}</string>
 					<key>identifier</key>
 					<string>container 185</string>
 					<key>isCustomizableViewContainer</key>
@@ -227,7 +227,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{903, 0}, {270, 1318}}</string>
+							<string>{{1080, 0}, {270, 1073}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -240,7 +240,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>1387 55 1173 1362 0 0 2560 1417 </string>
+		<string>45 246 1350 1117 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -376,7 +376,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{631, 5140}</string>
+					<string>{808, 5140}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -428,11 +428,9 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>32A2635E-0BE2-43EB-A09F-E8FC78A987F8-1726-0000F70D826C326D</string>
+			<string>77811A3F-B89E-4DE8-B8DB-0E8D4F7B21FC-780-000017A494519151</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>136</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -449,13 +447,13 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>'Times New Roman',Times,Baskerville,Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -539,10 +537,8 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center;"&gt;&lt;span style="font-size: 14px;"&gt;The Internet Peering Playbook&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1&gt;Chapter 2 - Internet Transit&lt;/h1&gt;
-&lt;p&gt;In this chapter you will learn about Internet Transit, a service that provides access to the global Internet. We introduce the definitions and the service model, and then describe how Internet Transit service is offered, priced, and metered&lt;/p&gt;
-
-&lt;h2&gt;&lt;br&gt;&lt;/h2&gt;&lt;h2&gt;Introduction to Internet Transit&lt;/h2&gt;
+							<string>&lt;h1 style="text-align: center;"&gt;&lt;font size="3"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;&lt;font size="5"&gt;Ch 2 - Internet Transit&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size="5"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;p&gt;In this chapter you will learn about Internet Transit, a service that provides access to the global Internet. We introduce the definitions and the service model, and then describe how Internet Transit service is offered, priced, and metered&lt;/p&gt;&lt;h2&gt;Introduction to Internet Transit&lt;/h2&gt;
 &lt;p&gt;The Internet is a network of networks.&lt;/p&gt;
 &lt;p&gt;To get connected to the Internet, an entity must attach itself to an entity that is already connected to the Internet. It usually accomplishes this connection by purchasing a service called “Internet Transit.”&lt;/p&gt;
 &lt;p&gt;Definition: Internet Transit is the business relationship whereby an Internet Service Provider provides (usually sells) access to the global Internet.&lt;/p&gt;
@@ -696,12 +692,6 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -711,6 +701,12 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>331px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -732,9 +728,9 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
