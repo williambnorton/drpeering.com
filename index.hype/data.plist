@@ -138,7 +138,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T22:48:44Z</date>
+	<date>2019-02-01T22:51:12Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -208,7 +208,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {814, 475}}</string>
+									<string>{{271, 0}, {814, 473}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -221,7 +221,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {814, 475}}</string>
+											<string>{{271, 0}, {814, 473}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -231,7 +231,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 476}, {814, 840}}</string>
+									<string>{{271, 474}, {814, 842}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -244,7 +244,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 476}, {814, 840}}</string>
+											<string>{{271, 474}, {814, 842}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -284,7 +284,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		<key>keyframeTimelineHeight</key>
 		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>7 57 1356 1360 0 0 2560 1417 </string>
+		<string>26 57 1356 1360 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -603,7 +603,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>186</string>
+			<string>128</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -622,7 +622,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{814, 840}</string>
+					<string>{814, 842}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -696,7 +696,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>147</string>
+			<string>143</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -740,7 +740,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 16}</string>
+					<string>{0, 17}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -822,9 +822,7 @@ function onLoad(hypeDocument, element, event) {
 			<key>documentIdentifier</key>
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>247</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -3172,7 +3170,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;br&gt;</string>
+							<string>v&lt;br&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8411,7 +8409,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;br&gt;</string>
+							<string>v&lt;br&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>

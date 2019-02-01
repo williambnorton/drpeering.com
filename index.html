@@ -25,24 +25,25 @@ $(document).ready(function() {
 });
 
 
-var version=1;	
+var version="v0.1";	
 var currentPage="";
+
 function check() {
-	  $(".version").text("version 1 ... checking...");
+	  $(".marker").text("version 1 ... checking...");
 
 		    console.log( "checking in with server" ); 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
-	  $(".version").text("Prod "+marker );
+	  $(".marker").text("Prod "+marker );
 	  if (currentPage == "" || currentPage == marker) {
-	  		$(".version").text("Prod "+marker );
+	  		$(".marker").text("Prod "+marker );
 	  		currentPage=marker;
 		    console.log( "NEW Page timestamp" ); 
 
 	  } else {
 		    console.log( "NEW Page timestamp" );  
-	  		$(".version").text("NEW "+marker );
+	  		$(".marker").text("NEW "+marker );
 	  		//currentPage=marker;
 	  		location.reload(true);
 	  }
@@ -52,7 +53,7 @@ function check() {
 	  })
 	  .fail(function() {
 	    console.log( "fail" );
-		  $(".version").text("disconnected Mode");
+		  $(".marker").text("disconnected Mode");
 	  })
 	  .always(function() {
 	    console.log( "finished" );
@@ -69,6 +70,7 @@ function check() {
 }
 
 let timerId = setInterval(() => check(), 5000);
+
 	</script>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -85,7 +87,7 @@ let timerId = setInterval(() => check(), 5000);
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" style="margin:auto;position:relative;width:100%;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?27649"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?6365"></script>
 	</div>
 
 	<!-- end copy -->
@@ -99,12 +101,13 @@ let timerId = setInterval(() => check(), 5000);
 		<div>Playbook</div>
 		<div>WEB-BOOK
 </div>
-		<div>V0.11</div>
+		<div>
+</div>
 		<div>Internet</div>
 		<div></div>
 		<div>Connecting to the Core of the Internet</div>
 		<div>Peering</div>
-		<div>Version</div>
+		<div>Marker</div>
 		<div>The</div>
 		<div>Willilam B. Norton
 2019 Edition
