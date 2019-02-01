@@ -81,24 +81,25 @@ $(document).ready(function() {
 });
 
 
-var version=1;	
+var version="v0.1";	
 var currentPage="";
+
 function check() {
-	  $(".version").text("version 1 ... checking...");
+	  $(".marker").text("version 1 ... checking...");
 
 		    console.log( "checking in with server" ); 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
-	  $(".version").text("Prod "+marker );
+	  $(".marker").text("Prod "+marker );
 	  if (currentPage == "" || currentPage == marker) {
-	  		$(".version").text("Prod "+marker );
+	  		$(".marker").text("Prod "+marker );
 	  		currentPage=marker;
 		    console.log( "NEW Page timestamp" ); 
 
 	  } else {
 		    console.log( "NEW Page timestamp" );  
-	  		$(".version").text("NEW "+marker );
+	  		$(".marker").text("NEW "+marker );
 	  		//currentPage=marker;
 	  		location.reload(true);
 	  }
@@ -108,7 +109,7 @@ function check() {
 	  })
 	  .fail(function() {
 	    console.log( "fail" );
-		  $(".version").text("disconnected Mode");
+		  $(".marker").text("disconnected Mode");
 	  })
 	  .always(function() {
 	    console.log( "finished" );
@@ -125,6 +126,7 @@ function check() {
 }
 
 let timerId = setInterval(() =&gt; check(), 5000);
+
 	&lt;/script&gt;
 	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -136,11 +138,11 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T22:14:29Z</date>
+	<date>2019-02-01T22:48:44Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -206,7 +208,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {814, 190}}</string>
+									<string>{{271, 0}, {814, 475}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -219,7 +221,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {814, 190}}</string>
+											<string>{{271, 0}, {814, 475}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -229,7 +231,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 191}, {814, 1125}}</string>
+									<string>{{271, 476}, {814, 840}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -242,7 +244,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 191}, {814, 1125}}</string>
+											<string>{{271, 476}, {814, 840}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -282,12 +284,18 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		<key>keyframeTimelineHeight</key>
 		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>26 57 1356 1360 0 0 2560 1417 </string>
+		<string>7 57 1356 1360 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
 				<key>className</key>
 				<string>HeadHTMLEditor</string>
+			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>249</string>
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
@@ -331,7 +339,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 	<key>monotypeProjectID</key>
 	<string>566BC1B6-8C4D-43AD-BB9F-50F477258C6E-29938-000231916AB72308</string>
 	<key>oidCounter</key>
-	<integer>248</integer>
+	<integer>249</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -614,7 +622,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{814, 1126}</string>
+					<string>{814, 840}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -639,7 +647,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 1}</string>
+					<string>{0, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -655,7 +663,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{845, 1210}</string>
+					<string>{845, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -680,7 +688,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 1}</string>
+					<string>{1, 6}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -732,7 +740,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 2}</string>
+					<string>{0, 16}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -781,7 +789,21 @@ let timerId = setInterval(() =&gt; check(), 5000);
 	<key>sceneExportSlicesBySceneContainerOid</key>
 	<dict/>
 	<key>scripts</key>
-	<array/>
+	<array>
+		<dict>
+			<key>oid</key>
+			<string>249</string>
+			<key>source</key>
+			<string>// element - DOMHTMLElement that triggered this function being called
+// event - event that triggered this function being called
+function onLoad(hypeDocument, element, event) {
+	$('.version').text(version);
+
+	
+}
+</string>
+		</dict>
+	</array>
 	<key>shouldApplySizeChangesToAllScenes</key>
 	<false/>
 	<key>showAnyTimelineCompleteActionHandler</key>
@@ -838,6 +860,12 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<string>BorderColorBottom</string>
 							<key>objectValue</key>
 							<string>#D8DDE4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -919,6 +947,18 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string></string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderStyleTop</string>
 							<key>objectValue</key>
 							<string>None</string>
@@ -937,6 +977,26 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
+										<integer>1</integer>
+										<key>transition</key>
+										<integer>6</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderWidthTop</string>
 							<key>objectValue</key>
 							<string>0px</string>
@@ -945,7 +1005,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>Locked</string>
 							<key>objectValue</key>
-							<string>0</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2949,7 +3009,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>ClassName</string>
 							<key>objectValue</key>
-							<string>version</string>
+							<string>marker</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2961,7 +3021,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>Version</string>
+							<string>Marker</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2997,7 +3057,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>version</string>
+							<string>marker</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3034,6 +3094,16 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DomID</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Display</string>
 							<key>objectValue</key>
 							<string>inline</string>
@@ -3054,7 +3124,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>-2px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3082,15 +3152,27 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ClassName</string>
+							<key>objectValue</key>
+							<string>version</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>160px</string>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>V0.11</string>
+							<string>&lt;br&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3102,7 +3184,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>42px</string>
+							<string>359px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3126,7 +3208,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Text 1</string>
+							<string>version</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3169,7 +3251,14 @@ let timerId = setInterval(() =&gt; check(), 5000);
 				<key>onSceneLoadActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>javascriptOid</key>
+							<string>249</string>
+							<key>type</key>
+							<integer>4</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeDownActionHandler</key>
 				<dict>
@@ -6405,7 +6494,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>10</string>
+							<string>9</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6471,7 +6560,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>695px</string>
+							<string>591px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6624,7 +6713,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6924,7 +7013,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7041,7 +7130,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>11</string>
+							<string>10</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7260,7 +7349,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7405,6 +7494,12 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>Cursor</string>
+							<key>objectValue</key>
+							<string>pointer</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderStyleRight</string>
 							<key>objectValue</key>
 							<string>None</string>
@@ -7483,6 +7578,12 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>button</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BorderStyleTop</string>
 							<key>objectValue</key>
 							<string>None</string>
@@ -7498,6 +7599,26 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ActionHandlerOnMouseClick</string>
+							<key>objectValue</key>
+							<dict>
+								<key>actions</key>
+								<array>
+									<dict>
+										<key>duration</key>
+										<real>1.1000000000000001</real>
+										<key>sceneSymbol</key>
+										<integer>1</integer>
+										<key>transition</key>
+										<integer>6</integer>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+								</array>
+							</dict>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7638,7 +7759,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>9</string>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8004,7 +8125,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>12</string>
+							<string>11</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8121,7 +8242,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>ClassName</string>
 							<key>objectValue</key>
-							<string>version</string>
+							<string>marker</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8139,7 +8260,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>Version</string>
+							<string>Marker</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8175,7 +8296,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>version</string>
+							<string>marker</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8209,6 +8330,16 @@ In this last section we present the tactics used by some of the smartest peering
 							<string>FontSize</string>
 							<key>objectValue</key>
 							<string>16px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DomID</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8260,15 +8391,27 @@ In this last section we present the tactics used by some of the smartest peering
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ClassName</string>
+							<key>objectValue</key>
+							<string>version</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>369px</string>
+							<string>-2px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>V0.11</string>
+							<string>&lt;br&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8280,13 +8423,13 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>42px</string>
+							<string>752px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>12</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -8304,7 +8447,7 @@ In this last section we present the tactics used by some of the smartest peering
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Text 1</string>
+							<string>version</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
