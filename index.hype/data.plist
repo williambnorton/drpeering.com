@@ -81,7 +81,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.11";	
+var version="v0.12";	
 var currentPage="";
 
 function check() {
@@ -120,9 +120,9 @@ function check() {
 	// Set another completion function for the request above
 	jqxhr.always(function() {
 	  //alert( "second finished" );
+	  
 
 	});
-	$('.version').text(version);
 
 }
 
@@ -139,11 +139,11 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T22:53:41Z</date>
+	<date>2019-02-01T22:59:00Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>1</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -209,7 +209,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {814, 473}}</string>
+									<string>{{271, 0}, {814, 475}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -222,7 +222,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {814, 473}}</string>
+											<string>{{271, 0}, {814, 475}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -232,7 +232,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 474}, {814, 842}}</string>
+									<string>{{271, 476}, {814, 840}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -245,7 +245,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 474}, {814, 842}}</string>
+											<string>{{271, 476}, {814, 840}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -292,9 +292,15 @@ let timerId = setInterval(() =&gt; check(), 5000);
 				<key>className</key>
 				<string>HeadHTMLEditor</string>
 			</dict>
+			<dict>
+				<key>className</key>
+				<string>HypeJavascript</string>
+				<key>oid</key>
+				<string>249</string>
+			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -598,7 +604,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>186</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -617,7 +623,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{814, 842}</string>
+					<string>{814, 838}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -683,7 +689,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 6}</string>
+					<string>{1, 8}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -691,7 +697,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>143</string>
+			<string>147</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -735,7 +741,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 17}</string>
+					<string>{0, 18}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -792,6 +798,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			<string>// element - DOMHTMLElement that triggered this function being called
 // event - event that triggered this function being called
 function onLoad(hypeDocument, element, event) {
+	$('.version').text(version);
 
 	
 }
@@ -816,7 +823,9 @@ function onLoad(hypeDocument, element, event) {
 			<key>documentIdentifier</key>
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>247</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -8487,7 +8496,14 @@ In this last section we present the tactics used by some of the smartest peering
 				<key>onSceneLoadActionHandler</key>
 				<dict>
 					<key>actions</key>
-					<array/>
+					<array>
+						<dict>
+							<key>javascriptOid</key>
+							<string>249</string>
+							<key>type</key>
+							<integer>4</integer>
+						</dict>
+					</array>
 				</dict>
 				<key>onSceneSwipeDownActionHandler</key>
 				<dict>
