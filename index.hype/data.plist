@@ -81,13 +81,15 @@ $(document).ready(function() {
 });
 
 
-var version="v0.14";	
+var version="v0.15";	
 var currentPage="";
+let timerId = setInterval(() =&gt; check(), 6000);
+
 
 function check() {
 	  $(".marker").text("version 1 ... checking...");
 
-		    console.log( "checking in with server" ); 
+	console.log( "checking in with server" ); 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
@@ -123,13 +125,11 @@ function check() {
 	// Set another completion function for the request above
 	jqxhr.always(function() {
 	  //alert( "second finished" );
-	  
 
 	});
 
 }
 
-let timerId = setInterval(() =&gt; check(), 6000);
 
 	&lt;/script&gt;
 	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
@@ -142,7 +142,7 @@ let timerId = setInterval(() =&gt; check(), 6000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T23:20:24Z</date>
+	<date>2019-02-01T23:23:45Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -607,7 +607,7 @@ let timerId = setInterval(() =&gt; check(), 6000);
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>186</string>
+			<string>128</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -626,7 +626,7 @@ let timerId = setInterval(() =&gt; check(), 6000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{814, 838}</string>
+					<string>{814, 846}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -692,7 +692,7 @@ let timerId = setInterval(() =&gt; check(), 6000);
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 8}</string>
+					<string>{1, 10}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -700,7 +700,7 @@ let timerId = setInterval(() =&gt; check(), 6000);
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>147</string>
+			<string>143</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -744,7 +744,7 @@ let timerId = setInterval(() =&gt; check(), 6000);
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 18}</string>
+					<string>{0, 19}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
