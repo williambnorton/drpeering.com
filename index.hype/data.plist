@@ -81,7 +81,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.13";	
+var version="v0.14";	
 var currentPage="";
 
 function check() {
@@ -129,7 +129,7 @@ function check() {
 
 }
 
-let timerId = setInterval(() =&gt; check(), 1500);
+let timerId = setInterval(() =&gt; check(), 6000);
 
 	&lt;/script&gt;
 	&lt;script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"&gt;&lt;/script&gt;
@@ -142,7 +142,7 @@ let timerId = setInterval(() =&gt; check(), 1500);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T23:19:33Z</date>
+	<date>2019-02-01T23:20:24Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
