@@ -81,7 +81,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.1";	
+var version="v0.11";	
 var currentPage="";
 
 function check() {
@@ -122,6 +122,7 @@ function check() {
 	  //alert( "second finished" );
 
 	});
+	$('.version').text(version);
 
 }
 
@@ -138,7 +139,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T22:51:12Z</date>
+	<date>2019-02-01T22:53:41Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -291,15 +292,9 @@ let timerId = setInterval(() =&gt; check(), 5000);
 				<key>className</key>
 				<string>HeadHTMLEditor</string>
 			</dict>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>249</string>
-			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -797,7 +792,6 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			<string>// element - DOMHTMLElement that triggered this function being called
 // event - event that triggered this function being called
 function onLoad(hypeDocument, element, event) {
-	$('.version').text(version);
 
 	
 }
