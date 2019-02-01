@@ -81,7 +81,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.15";	
+var version="v0.2";	
 var currentPage="";
 let timerId = setInterval(() =&gt; check(), 6000);
 
@@ -142,7 +142,7 @@ function check() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T23:23:45Z</date>
+	<date>2019-02-01T23:54:13Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -150,7 +150,7 @@ function check() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1356, 1316}}</string>
+			<string>{{0, 0}, {1082, 1160}}</string>
 			<key>identifier</key>
 			<string>container 73</string>
 			<key>isCustomizableViewContainer</key>
@@ -163,7 +163,7 @@ function check() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1085, 1316}}</string>
+					<string>{{0, 0}, {811, 1160}}</string>
 					<key>identifier</key>
 					<string>container 49</string>
 					<key>isCustomizableViewContainer</key>
@@ -176,7 +176,7 @@ function check() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1316}}</string>
+							<string>{{0, 0}, {270, 1160}}</string>
 							<key>identifier</key>
 							<string>container 39</string>
 							<key>isCustomizableViewContainer</key>
@@ -189,7 +189,7 @@ function check() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1316}}</string>
+									<string>{{0, 0}, {270, 1160}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -199,7 +199,7 @@ function check() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {814, 1316}}</string>
+							<string>{{271, 0}, {540, 1160}}</string>
 							<key>identifier</key>
 							<string>container 40</string>
 							<key>isCustomizableViewContainer</key>
@@ -212,7 +212,7 @@ function check() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {814, 469}}</string>
+									<string>{{271, 0}, {540, 452}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -225,7 +225,7 @@ function check() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {814, 469}}</string>
+											<string>{{271, 0}, {540, 452}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -235,7 +235,7 @@ function check() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 470}, {814, 846}}</string>
+									<string>{{271, 453}, {540, 707}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -248,7 +248,7 @@ function check() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 470}, {814, 846}}</string>
+											<string>{{271, 453}, {540, 707}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -262,7 +262,7 @@ function check() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1086, 0}, {270, 1316}}</string>
+					<string>{{812, 0}, {270, 1160}}</string>
 					<key>identifier</key>
 					<string>container 48</string>
 					<key>isCustomizableViewContainer</key>
@@ -275,7 +275,7 @@ function check() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1086, 0}, {270, 1316}}</string>
+							<string>{{812, 0}, {270, 1160}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -288,7 +288,7 @@ function check() {
 		<key>keyframeTimelineHeight</key>
 		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>26 57 1356 1360 0 0 2560 1417 </string>
+		<string>1 213 1082 1204 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -607,7 +607,7 @@ function check() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>186</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -626,7 +626,7 @@ function check() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{814, 846}</string>
+					<string>{540, 783}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -651,7 +651,7 @@ function check() {
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{0, 2}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -667,7 +667,7 @@ function check() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{845, 1208}</string>
+					<string>{844, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -692,15 +692,17 @@ function check() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 10}</string>
+					<string>{0, 21}</string>
 					<key>userGuides</key>
 					<array/>
+					<key>zoomFactor</key>
+					<real>0.75</real>
 				</dict>
 			</array>
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>143</string>
+			<string>147</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -744,7 +746,7 @@ function check() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 19}</string>
+					<string>{0, 21}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
