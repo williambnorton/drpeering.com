@@ -136,7 +136,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T22:10:52Z</date>
+	<date>2019-02-01T22:13:40Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -206,7 +206,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {814, 186}}</string>
+									<string>{{271, 0}, {814, 188}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -219,7 +219,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {814, 186}}</string>
+											<string>{{271, 0}, {814, 188}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -229,7 +229,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 187}, {814, 1129}}</string>
+									<string>{{271, 189}, {814, 1127}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -242,7 +242,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 187}, {814, 1129}}</string>
+											<string>{{271, 189}, {814, 1127}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -282,7 +282,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		<key>keyframeTimelineHeight</key>
 		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>0 57 1356 1360 0 0 2560 1417 </string>
+		<string>26 57 1356 1360 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -291,7 +291,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -614,7 +614,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{814, 1129}</string>
+					<string>{814, 1127}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -798,7 +798,9 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			<key>documentIdentifier</key>
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>247</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -3086,7 +3088,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>V0.1</string>
+							<string>V0.11</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3098,7 +3100,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>34px</string>
+							<string>42px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
