@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>113</string>
+	<string>139</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -136,15 +136,15 @@ let timerId = setInterval(() =&gt; check(), 5000);
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T21:49:29Z</date>
+	<date>2019-02-01T21:56:07Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>1</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1353, 953}}</string>
+			<string>{{0, 0}, {1356, 1316}}</string>
 			<key>identifier</key>
 			<string>container 73</string>
 			<key>isCustomizableViewContainer</key>
@@ -157,7 +157,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1082, 953}}</string>
+					<string>{{0, 0}, {1085, 1316}}</string>
 					<key>identifier</key>
 					<string>container 49</string>
 					<key>isCustomizableViewContainer</key>
@@ -170,7 +170,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 953}}</string>
+							<string>{{0, 0}, {270, 1316}}</string>
 							<key>identifier</key>
 							<string>container 39</string>
 							<key>isCustomizableViewContainer</key>
@@ -183,7 +183,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 953}}</string>
+									<string>{{0, 0}, {270, 1316}}</string>
 									<key>identifier</key>
 									<string>sceneSelectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -193,7 +193,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {811, 953}}</string>
+							<string>{{271, 0}, {814, 1316}}</string>
 							<key>identifier</key>
 							<string>container 40</string>
 							<key>isCustomizableViewContainer</key>
@@ -206,7 +206,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {811, 245}}</string>
+									<string>{{271, 0}, {814, 186}}</string>
 									<key>identifier</key>
 									<string>container 4</string>
 									<key>isCustomizableViewContainer</key>
@@ -219,7 +219,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {811, 245}}</string>
+											<string>{{271, 0}, {814, 186}}</string>
 											<key>identifier</key>
 											<string>timelineCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -229,7 +229,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 246}, {811, 707}}</string>
+									<string>{{271, 187}, {814, 1129}}</string>
 									<key>identifier</key>
 									<string>container 3</string>
 									<key>isCustomizableViewContainer</key>
@@ -242,7 +242,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 246}, {811, 707}}</string>
+											<string>{{271, 187}, {814, 1129}}</string>
 											<key>identifier</key>
 											<string>sceneEditorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -256,7 +256,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1083, 0}, {270, 953}}</string>
+					<string>{{1086, 0}, {270, 1316}}</string>
 					<key>identifier</key>
 					<string>container 48</string>
 					<key>isCustomizableViewContainer</key>
@@ -269,7 +269,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1083, 0}, {270, 953}}</string>
+							<string>{{1086, 0}, {270, 1316}}</string>
 							<key>identifier</key>
 							<string>inspectorCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -280,9 +280,9 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			</array>
 		</dict>
 		<key>keyframeTimelineHeight</key>
-		<real>98</real>
+		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>4 413 1353 997 0 0 2560 1417 </string>
+		<string>-1 55 1356 1360 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -614,7 +614,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{811, 783}</string>
+					<string>{812, 783}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -639,7 +639,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
+					<string>{1, 1}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -705,7 +705,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{828, 714}</string>
+					<string>{814, 1490}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -719,7 +719,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{375, 667}</string>
+						<string>{375, 1450}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -730,7 +730,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{17, 0}</string>
+					<string>{0, 361}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -3759,9 +3759,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 			<key>documentIdentifier</key>
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>141</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -3850,7 +3848,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>651px</string>
+							<string>1424px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3862,7 +3860,7 @@ let timerId = setInterval(() =&gt; check(), 5000);
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>9px</string>
+							<string>16px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3872,7 +3870,9 @@ let timerId = setInterval(() =&gt; check(), 5000);
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-1-Introduction"&gt;Chapter 1 - Introduction&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-2-Internet-Transit"&gt;Chapter 2 - Internet Transit&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-3-Internet-Transit-Playbook"&gt;Chapter 3 - Internet Transit Playbook&lt;/a&gt;&lt;/h2&gt;
+
 &lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;Section II - Connecting to the Core of the Internet&lt;/h1&gt;
+
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-4-Internet-Peering"&gt;Chapter 4 - Internet Peering&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-5-The-Business-Case-for-Peering"&gt;Chapter 5 - The Business Case for Peering&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-6-Selecting-an-ISP"&gt;Chapter 6 - Selecting an ISP&lt;/a&gt;&lt;/h2&gt;
@@ -3883,14 +3883,18 @@ let timerId = setInterval(() =&gt; check(), 5000);
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-8-The-20th-Century-Internet-Peering-Ecosystem"&gt;Chapter 8 - The 20th Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-9-The-Global-Peering-Ecosystem"&gt;Chapter 9 - The Global Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
 &lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-10-The-21st-Century-Internet-Peering-Ecosystem"&gt;Chapter 10 - The 21st Century Internet Peering Ecosystem&lt;/a&gt;&lt;/h2&gt;
+
 &lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;Section IV - The Tricks of the Trade: The Playbooks&lt;/h1&gt;
-&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;Chapter 12 - Taxonomy of Internet Data Centers&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;&lt;font color="#000000"&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;
-&lt;h1 style="text-align: center;"&gt;&lt;html&gt;&lt;body style="margin:0px;padding:0px;"&gt;&lt;div style="overflow: hidden; position: absolute; width: 811px; height: 714px; zoom: 1;"&gt;&lt;div class="HYPE_scene" style="overflow: visible; position: absolute; width: 375px; height: 667px; background-color: rgb(191, 190, 192); left: 218px; top: 23px;"&gt;&lt;div class="HYPE_element_container" style="position: absolute; overflow: visible; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; perspective: none; z-index: 2;"&gt;&lt;div hypeobjectid="27" hypeattributetop="" hypeattributeleft="" style="pointer-events: auto; font-family: &amp;quot;Times New Roman&amp;quot;, Times, Baskerville, serif; color: rgb(0, 0, 0); padding: 8px; font-size: 12px; display: inline; word-wrap: break-word; transform: rotateY(0deg); position: absolute; height: 651px; z-index: 2; width: 340px; overflow: scroll; opacity: 1; left: 9px; top: 0px;" contenteditable="false"&gt;&lt;innerhtmldiv class="HYPE_InnerHTML_Div" style="width: 340px; height: 651px; transform: none; word-wrap: normal; outline: none;" contenteditable="true"&gt;&lt;br&gt;&lt;/innerhtmldiv&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;Section V - Advanced Peering Topics&lt;/h1&gt;
-&lt;/a&gt;&lt;/font&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;
-&lt;/a&gt;&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
+
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-11-The-ISP-Peering-Playbook"&gt;Chapter 11 - The ISP Peering Playbook&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-12-Taxonomy-of-Internet-Data-Centers"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;Chapter 13 - The IXP Playbook Playbook&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h1 style="text-align: center;"&gt;Section V - Advanced Peering Topics&lt;/h1&gt;
+
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-13-The-IXP-Playbook-Playbook"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;Chapter 14 - Remote Peering&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-14-Remote-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;Chapter 15 - International Peering&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;&lt;a href="http://drpeering.com/Chapter-15-International-Peering"&gt;&lt;/a&gt;&lt;a href="http://drpeering.com/Chapter-16-The-Future"&gt;Chapter 16 - The Future&lt;/a&gt;&lt;/h2&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
