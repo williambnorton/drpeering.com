@@ -96,7 +96,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T02:23:18Z</date>
+	<date>2019-02-02T02:30:46Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -595,11 +595,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T02:21:52Z</date>
+				<date>2019-02-02T02:30:45Z</date>
 				<key>fileSize</key>
 				<integer>1356</integer>
 				<key>md5</key>
-				<string>F85CAEE2B6234E8431EE7457F35D537A</string>
+				<string>291DFA53A2E2860CA22F460274EEB77B</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -608,8 +608,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAAFQINuxRlRLiDFsY0w+c10cH
-				kO44ibbCSO7oBWG5RuNeLAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAABUSXyQJqSkwSsEO+JR4B4sS
+				9QpUdv5JfaBLuY7bb1ZlLAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -617,9 +617,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAABP8lgAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAADa91gAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcECmxhhKvEYAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcECmyBWvakYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 11}</string>
+					<string>{0, 12}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -4033,9 +4033,7 @@ function onLoad(hypeDocument, element, event) {
 			<key>documentIdentifier</key>
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>254</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
