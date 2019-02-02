@@ -25,7 +25,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.21";	
+var version="v0.22";	
 var currentPage="";
 
 let timerId = setInterval(() => check(), 6000);
@@ -49,6 +49,7 @@ function check() {
 		    console.log( "NEW Page timestamp" );  
 	  		$(".marker").text("NEW "+marker );
 	  		//currentPage=marker;
+		    clearInterval(timerId);
 	  		setTimeout(function() { location.reload(true); },3000);
 	  }
 	})
@@ -91,7 +92,7 @@ function check() {
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" style="margin:auto;position:relative;width:100%;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?10334"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?45598"></script>
 	</div>
 
 	<!-- end copy -->
