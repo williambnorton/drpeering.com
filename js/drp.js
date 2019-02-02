@@ -1,8 +1,9 @@
 //
 //	DrPeering javascript drp.js
 //
-var version=" v0.40";	//continuous updates	
+var version=" v0.41";	//continuous updates	
 var currentPage="";
+let timerId = setInterval(() => check(), 6000);
 
 function check() {
 	$('title').text("Internet Peering Playbook "+version);
