@@ -18,6 +18,7 @@
 
 	<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=375" />
 	<script type="text/javascript" src="index.hyperesources/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="index.hyperesources/drp.js"></script>
 	
 	<script type="text/javascript">
 $(document).ready(function() {
@@ -32,47 +33,7 @@ let timerId = setInterval(() => check(), 6000);
 
 
 
-function check() {
-	  $(".marker").text("version 1 ... checking...");
 
-	console.log( "checking in with server" ); 
-	// Assign handlers immediately after making the request,
-	// and remember the jqxhr object for this request
-	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
-	  //$(".marker").text("Prod "+marker );
-	  if (currentPage == "" || currentPage == marker) {
-	  		$(".marker").text("Prod "+marker );
-	  		currentPage=marker;
-		    //console.log( "Same Page" ); 
-	  } else {
-		    console.log( "NEW CODE" );  
-	  		$(".marker").text("NEW CODE "+marker );
-	  		//currentPage=marker;
-		    clearInterval(timerId);
-	  		setTimeout(function() { location.reload(true); },5000);
-	  }
-	})
-	  .done(function() {
-	    console.log( "second success" );
-	  })
-	  .fail(function() {
-	    //console.log( "fail" );
-		  $(".marker").text("disconnected Mode");
-		  //clearInterval(timerId);
-	  })
-	  .always(function() {
-	    //console.log( "finished" );
-	    	//$('.version').text(version);
-	  });
-	
-	 
-	// Set another completion function for the request above
-	jqxhr.always(function() {
-	  //alert( "second finished" );
-
-	});
-
-}
 
 
 	</script>
@@ -91,7 +52,7 @@ function check() {
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" style="margin:auto;position:relative;width:100%;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?24370"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?19981"></script>
 	</div>
 
 	<!-- end copy -->
