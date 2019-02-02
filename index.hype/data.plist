@@ -81,7 +81,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.2";	
+var version="v0.21";	
 var currentPage="";
 
 let timerId = setInterval(() =&gt; check(), 6000);
@@ -105,7 +105,7 @@ function check() {
 		    console.log( "NEW Page timestamp" );  
 	  		$(".marker").text("NEW "+marker );
 	  		//currentPage=marker;
-	  		location.reload(true);
+	  		setTimeout(function() { location.reload(true); },3000);
 	  }
 	})
 	  .done(function() {
@@ -119,10 +119,8 @@ function check() {
 	  .always(function() {
 	    //console.log( "finished" );
 	    	$('.version').text(version);
-
 	  });
-	 
-	// Perform other work here ...
+	
 	 
 	// Set another completion function for the request above
 	jqxhr.always(function() {
@@ -144,7 +142,7 @@ function check() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T23:59:58Z</date>
+	<date>2019-02-02T00:10:01Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -290,7 +288,7 @@ function check() {
 		<key>keyframeTimelineHeight</key>
 		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>4 210 1082 1204 0 0 2560 1417 </string>
+		<string>5 213 1082 1204 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
