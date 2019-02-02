@@ -83,7 +83,9 @@ $(document).ready(function() {
 
 var version="v0.2";	
 var currentPage="";
+
 let timerId = setInterval(() =&gt; check(), 6000);
+
 
 
 function check() {
@@ -112,7 +114,7 @@ function check() {
 	  .fail(function() {
 	    //console.log( "fail" );
 		  $(".marker").text("disconnected Mode");
-		  clearInterval(timerId);
+		  //clearInterval(timerId);
 	  })
 	  .always(function() {
 	    //console.log( "finished" );
@@ -142,7 +144,7 @@ function check() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T23:54:13Z</date>
+	<date>2019-02-01T23:59:58Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -288,7 +290,7 @@ function check() {
 		<key>keyframeTimelineHeight</key>
 		<real>90.5</real>
 		<key>mainWindowFrame</key>
-		<string>1 213 1082 1204 0 0 2560 1417 </string>
+		<string>4 210 1082 1204 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
