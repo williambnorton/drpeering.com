@@ -96,7 +96,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T20:53:51Z</date>
+	<date>2019-02-02T21:44:32Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -595,11 +595,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T20:52:09Z</date>
+				<date>2019-02-02T20:56:09Z</date>
 				<key>fileSize</key>
-				<integer>1302</integer>
+				<integer>1300</integer>
 				<key>md5</key>
-				<string>A49495E745859A15BE3962A73F9DE9E2</string>
+				<string>D37916E8695D28B66D8877D823EEC96A</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -608,8 +608,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAAARW1sUE41oTBtxjYqJm1F4z
-				HECXIeJuCN8dtrqk8BxeLAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAOvq4V6SVLEYqwAl2fVU38eD
+				yHWd2C+rrJQhnGb3r9MhLAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -617,9 +617,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAAA3VFkAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAAD6VVkAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcEDG/ugYqIYAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcEDHTysdI4YAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -736,7 +736,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 4}</string>
+					<string>{0, 5}</string>
 					<key>userGuides</key>
 					<array/>
 					<key>zoomFactor</key>

@@ -11,7 +11,7 @@ function check() {
 	console.log( "checking in with server" ); 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
-	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
+	var jqxhr = $.get( "http://drpeering.com/check.php", function(marker) {
 	  //$(".marker").text("Prod "+marker );
 	  if (currentPage == "" || currentPage == marker) {
 	  		$(".marker").text("Prod "+marker );
