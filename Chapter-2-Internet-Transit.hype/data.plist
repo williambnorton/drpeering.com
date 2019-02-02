@@ -94,7 +94,7 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T02:12:46Z</date>
+	<date>2019-02-02T02:19:34Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -102,7 +102,7 @@ $(document).ready(function() {
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1353, 815}}</string>
+			<string>{{0, 0}, {1353, 795}}</string>
 			<key>identifier</key>
 			<string>container 73</string>
 			<key>isCustomizableViewContainer</key>
@@ -115,7 +115,7 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1082, 815}}</string>
+					<string>{{0, 0}, {1082, 795}}</string>
 					<key>identifier</key>
 					<string>container 348</string>
 					<key>isCustomizableViewContainer</key>
@@ -128,7 +128,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {811, 815}}</string>
+							<string>{{0, 0}, {811, 795}}</string>
 							<key>identifier</key>
 							<string>container 337</string>
 							<key>isCustomizableViewContainer</key>
@@ -141,7 +141,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 815}}</string>
+									<string>{{0, 0}, {270, 795}}</string>
 									<key>identifier</key>
 									<string>container 327</string>
 									<key>isCustomizableViewContainer</key>
@@ -154,7 +154,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{0, 0}, {270, 815}}</string>
+											<string>{{0, 0}, {270, 795}}</string>
 											<key>identifier</key>
 											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
@@ -164,7 +164,7 @@ $(document).ready(function() {
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {540, 815}}</string>
+									<string>{{271, 0}, {540, 795}}</string>
 									<key>identifier</key>
 									<string>container 328</string>
 									<key>isCustomizableViewContainer</key>
@@ -177,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {540, 192}}</string>
+											<string>{{271, 0}, {540, 172}}</string>
 											<key>identifier</key>
 											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
@@ -190,7 +190,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {540, 192}}</string>
+													<string>{{271, 0}, {540, 172}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ $(document).ready(function() {
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 193}, {540, 622}}</string>
+											<string>{{271, 173}, {540, 622}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -213,7 +213,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 193}, {540, 622}}</string>
+													<string>{{271, 173}, {540, 622}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -227,7 +227,7 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{812, 0}, {270, 815}}</string>
+							<string>{{812, 0}, {270, 795}}</string>
 							<key>identifier</key>
 							<string>container 336</string>
 							<key>isCustomizableViewContainer</key>
@@ -240,7 +240,7 @@ $(document).ready(function() {
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{812, 0}, {270, 815}}</string>
+									<string>{{812, 0}, {270, 795}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
@@ -252,7 +252,7 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1083, 0}, {270, 815}}</string>
+					<string>{{1083, 0}, {270, 795}}</string>
 					<key>identifier</key>
 					<string>container 347</string>
 					<key>isCustomizableViewContainer</key>
@@ -265,7 +265,7 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1083, 0}, {270, 815}}</string>
+							<string>{{1083, 0}, {270, 795}}</string>
 							<key>identifier</key>
 							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
@@ -278,7 +278,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>1179 118 1353 859 0 0 2560 1417 </string>
+		<string>1179 118 1353 839 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -391,11 +391,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T02:12:43Z</date>
+				<date>2019-02-02T02:19:31Z</date>
 				<key>fileSize</key>
-				<integer>1231</integer>
+				<integer>1308</integer>
 				<key>md5</key>
-				<string>B6F368FFDF4C1FCF626C27070DBA827B</string>
+				<string>233ABE06691508F260F40F189A1D40E0</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -404,8 +404,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAAHT7/+/+xyJtdojC5YqGLzjJ
-				tbGtD9zX8vvsaKxlPp1TLAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAJW4j9Mmh78ZIv0F37kk+TdN
+				BrBfmPlwCibGB0NpiKCULAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -413,9 +413,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAAAh6FgAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAABc7lgAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcECk6RoITIYAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcECmg2Ve/IYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -520,7 +520,9 @@ $(document).ready(function() {
 			<key>documentIdentifier</key>
 			<string>9929B819-A6E7-48D5-A21C-DBCB79973C5B-780-0000236D63BAAE33</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>136</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
