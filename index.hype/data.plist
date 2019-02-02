@@ -96,11 +96,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T02:38:18Z</date>
+	<date>2019-02-02T20:31:16Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>7</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -280,7 +280,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>74</real>
 		<key>mainWindowFrame</key>
-		<string>27 98 1604 917 0 0 2560 1417 </string>
+		<string>6 60 1604 917 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -651,7 +651,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>186</string>
+			<string>128</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -695,7 +695,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 15}</string>
+					<string>{0, 22}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -736,7 +736,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 23}</string>
+					<string>{1, 1}</string>
 					<key>userGuides</key>
 					<array/>
 					<key>zoomFactor</key>
@@ -746,7 +746,7 @@ $(document).ready(function() {
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>147</string>
+			<string>143</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -765,7 +765,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{792, 1497}</string>
+					<string>{797, 1497}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1}</string>
+					<string>{6, 0}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -804,7 +804,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{817, 1092}</string>
+					<string>{817, 1064}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -818,7 +818,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{768, 1052}</string>
+						<string>{768, 1024}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -829,7 +829,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>144</string>
 					<key>scrollViewOffset</key>
-					<string>{26, 9}</string>
+					<string>{11, 1}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -4035,7 +4035,7 @@ function onLoad(hypeDocument, element, event) {
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>250</string>
+				<string>141</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -4101,7 +4101,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>13px</string>
+							<string>26px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4137,7 +4137,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>16px</string>
+							<string>11px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5497,7 +5497,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1014px</string>
+							<string>987px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6562,10 +6562,7 @@ In this last section we present the tactics used by some of the smartest peering
 			<key>documentIdentifier</key>
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>245</string>
-				<string>248</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
