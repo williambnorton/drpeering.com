@@ -81,7 +81,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.21";	
+var version="v0.22";	
 var currentPage="";
 
 let timerId = setInterval(() =&gt; check(), 6000);
@@ -105,6 +105,7 @@ function check() {
 		    console.log( "NEW Page timestamp" );  
 	  		$(".marker").text("NEW "+marker );
 	  		//currentPage=marker;
+		    clearInterval(timerId);
 	  		setTimeout(function() { location.reload(true); },3000);
 	  }
 	})
@@ -142,7 +143,7 @@ function check() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T00:12:32Z</date>
+	<date>2019-02-02T00:13:27Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
