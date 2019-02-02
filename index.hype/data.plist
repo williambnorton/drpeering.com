@@ -96,7 +96,7 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T20:34:57Z</date>
+	<date>2019-02-02T20:41:29Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -595,11 +595,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T20:34:54Z</date>
+				<date>2019-02-02T20:41:27Z</date>
 				<key>fileSize</key>
-				<integer>1296</integer>
+				<integer>1302</integer>
 				<key>md5</key>
-				<string>96DF625A0E25CA8B8DE503EA21C465D1</string>
+				<string>85D8F0F67F29B666AA9001059F7BC094</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -608,8 +608,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAACvy1wZWzvyue0XcC9Fvtnke
-				gznknZwEs/QLEUarz4v6LAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAO9PByeXE4BbECBY6eU599sM
+				lUi1hsG6uIT4kUnSPGl0LAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -617,9 +617,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAABkTVkAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAADjUFkAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcECnQyF1K4YAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcEDG5/OtNkYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 1}</string>
+					<string>{0, 3}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
