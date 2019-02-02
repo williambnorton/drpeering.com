@@ -94,15 +94,15 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T21:49:48Z</date>
+	<date>2019-02-02T02:12:46Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>1</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1223, 1066}}</string>
+			<string>{{0, 0}, {1353, 1060}}</string>
 			<key>identifier</key>
 			<string>container 82</string>
 			<key>isCustomizableViewContainer</key>
@@ -115,9 +115,9 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {952, 1066}}</string>
+					<string>{{0, 0}, {1082, 1060}}</string>
 					<key>identifier</key>
-					<string>container 186</string>
+					<string>container 391</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -128,85 +128,123 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1066}}</string>
+							<string>{{0, 0}, {811, 1060}}</string>
 							<key>identifier</key>
-							<string>container 72</string>
+							<string>container 186</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<true/>
+							<false/>
 							<key>isVertical</key>
 							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1066}}</string>
+									<string>{{0, 0}, {270, 1060}}</string>
 									<key>identifier</key>
-									<string>sceneSelectorCustomizableContainer</string>
+									<string>container 72</string>
 									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
+									<true/>
+									<key>isVertical</key>
+									<true/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{0, 0}, {270, 1060}}</string>
+											<key>identifier</key>
+											<string>sceneSelectorCustomizableContainer</string>
+											<key>isCustomizableViewContainer</key>
+											<false/>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>frame</key>
+									<string>{{271, 0}, {540, 1060}}</string>
+									<key>identifier</key>
+									<string>container 73</string>
+									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
 									<false/>
+									<key>isVertical</key>
+									<false/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{271, 0}, {540, 352}}</string>
+											<key>identifier</key>
+											<string>container 4</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{271, 0}, {540, 352}}</string>
+													<key>identifier</key>
+													<string>timelineCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>frame</key>
+											<string>{{271, 353}, {540, 707}}</string>
+											<key>identifier</key>
+											<string>container 3</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{271, 353}, {540, 707}}</string>
+													<key>identifier</key>
+													<string>sceneEditorCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+									</array>
 								</dict>
 							</array>
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {681, 1066}}</string>
+							<string>{{812, 0}, {270, 1060}}</string>
 							<key>identifier</key>
-							<string>container 73</string>
+							<string>container 185</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<false/>
+							<true/>
 							<key>isVertical</key>
-							<false/>
+							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {681, 358}}</string>
+									<string>{{812, 0}, {270, 1060}}</string>
 									<key>identifier</key>
-									<string>container 4</string>
+									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
-									<true/>
-									<key>isCustomizableViewWrapper</key>
-									<true/>
-									<key>isVertical</key>
-									<true/>
-									<key>subviews</key>
-									<array>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 0}, {681, 358}}</string>
-											<key>identifier</key>
-											<string>timelineCustomizableContainer</string>
-											<key>isCustomizableViewContainer</key>
-											<false/>
-										</dict>
-									</array>
-								</dict>
-								<dict>
-									<key>frame</key>
-									<string>{{271, 359}, {681, 707}}</string>
-									<key>identifier</key>
-									<string>container 3</string>
-									<key>isCustomizableViewContainer</key>
-									<true/>
-									<key>isCustomizableViewWrapper</key>
-									<true/>
-									<key>isVertical</key>
-									<true/>
-									<key>subviews</key>
-									<array>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 359}, {681, 707}}</string>
-											<key>identifier</key>
-											<string>sceneEditorCustomizableContainer</string>
-											<key>isCustomizableViewContainer</key>
-											<false/>
-										</dict>
-									</array>
+									<false/>
 								</dict>
 							</array>
 						</dict>
@@ -214,9 +252,9 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{953, 0}, {270, 1066}}</string>
+					<string>{{1083, 0}, {270, 1060}}</string>
 					<key>identifier</key>
-					<string>container 185</string>
+					<string>container 390</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -227,9 +265,9 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{953, 0}, {270, 1066}}</string>
+							<string>{{1083, 0}, {270, 1060}}</string>
 							<key>identifier</key>
-							<string>inspectorCustomizableContainer</string>
+							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
 							<false/>
 						</dict>
@@ -240,7 +278,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>63 111 1223 1110 0 0 2560 1417 </string>
+		<string>1067 104 1353 1104 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -253,7 +291,7 @@ $(document).ready(function() {
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<false/>
+		<true/>
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
@@ -351,6 +389,58 @@ $(document).ready(function() {
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2019-02-02T02:12:43Z</date>
+				<key>fileSize</key>
+				<integer>1231</integer>
+				<key>md5</key>
+				<string>B6F368FFDF4C1FCF626C27070DBA827B</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/wbn/Dropbox/Development/drpeering.com/js/drp.js</string>
+				<key>resourceName</key>
+				<string>drp.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vazADAAAAAAQQMAAAAHT7/+/+xyJtdojC5YqGLzjJ
+				tbGtD9zX8vvsaKxlPp1TLAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
+				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
+				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
+				AAAAAQEAAGRycC5qcwAAHAAAAAEGAAAQAAAAIAAAACwA
+				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
+				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
+				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
+				AAAABAMAAAfaWAADAAAACAAAAAQDAAAh6FgAAwAAABwA
+				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
+				AAgAAAAABAAAQcECk6RoITIYAAAAAQIAAAEAAAAAAAAA
+				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
+				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
+				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
+				AAAEAABBvrff8QAAACQAAAABAQAAMUIxODJBNzgtMDhE
+				MS0zMzkyLUE4NTgtMUUzN0QxNDI1QTMxGAAAAAECAACB
+				AAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8A
+				AAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAA
+				AIQAAAAAAAAABRAAABgBAAAAAAAAEBAAAEwBAAAAAAAA
+				QBAAADwBAAAAAAAAAiAAABgCAAAAAAAABSAAAIgBAAAA
+				AAAAECAAAJgBAAAAAAAAESAAAMwBAAAAAAAAEiAAAKwB
+				AAAAAAAAEyAAALwBAAAAAAAAICAAAPgBAAAAAAAAMCAA
+				ACQCAAAAAAAAAcAAAGwBAAAAAAAAEcAAACAAAAAAAAAA
+				EsAAAHwBAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -376,7 +466,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{681, 707}</string>
+					<string>{540, 707}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>

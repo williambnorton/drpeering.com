@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -94,17 +94,17 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-01T21:49:59Z</date>
+	<date>2019-02-02T02:12:46Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>7</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1350, 1073}}</string>
+			<string>{{0, 0}, {1353, 815}}</string>
 			<key>identifier</key>
-			<string>container 82</string>
+			<string>container 73</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -115,9 +115,9 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {1079, 1073}}</string>
+					<string>{{0, 0}, {1082, 815}}</string>
 					<key>identifier</key>
-					<string>container 186</string>
+					<string>container 348</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -128,85 +128,123 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 1073}}</string>
+							<string>{{0, 0}, {811, 815}}</string>
 							<key>identifier</key>
-							<string>container 72</string>
+							<string>container 337</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<true/>
+							<false/>
 							<key>isVertical</key>
 							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 1073}}</string>
+									<string>{{0, 0}, {270, 815}}</string>
 									<key>identifier</key>
-									<string>sceneSelectorCustomizableContainer</string>
+									<string>container 327</string>
 									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
+									<true/>
+									<key>isVertical</key>
+									<true/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{0, 0}, {270, 815}}</string>
+											<key>identifier</key>
+											<string>sceneSelectorCustomizableContainer</string>
+											<key>isCustomizableViewContainer</key>
+											<false/>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>frame</key>
+									<string>{{271, 0}, {540, 815}}</string>
+									<key>identifier</key>
+									<string>container 328</string>
+									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
 									<false/>
+									<key>isVertical</key>
+									<false/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{271, 0}, {540, 192}}</string>
+											<key>identifier</key>
+											<string>container 4</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{271, 0}, {540, 192}}</string>
+													<key>identifier</key>
+													<string>timelineCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>frame</key>
+											<string>{{271, 193}, {540, 622}}</string>
+											<key>identifier</key>
+											<string>container 3</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{271, 193}, {540, 622}}</string>
+													<key>identifier</key>
+													<string>sceneEditorCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+									</array>
 								</dict>
 							</array>
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {808, 1073}}</string>
+							<string>{{812, 0}, {270, 815}}</string>
 							<key>identifier</key>
-							<string>container 73</string>
+							<string>container 336</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<false/>
+							<true/>
 							<key>isVertical</key>
-							<false/>
+							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {808, 190}}</string>
+									<string>{{812, 0}, {270, 815}}</string>
 									<key>identifier</key>
-									<string>container 4</string>
+									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
-									<true/>
-									<key>isCustomizableViewWrapper</key>
-									<true/>
-									<key>isVertical</key>
-									<true/>
-									<key>subviews</key>
-									<array>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 0}, {808, 190}}</string>
-											<key>identifier</key>
-											<string>timelineCustomizableContainer</string>
-											<key>isCustomizableViewContainer</key>
-											<false/>
-										</dict>
-									</array>
-								</dict>
-								<dict>
-									<key>frame</key>
-									<string>{{271, 191}, {808, 882}}</string>
-									<key>identifier</key>
-									<string>container 3</string>
-									<key>isCustomizableViewContainer</key>
-									<true/>
-									<key>isCustomizableViewWrapper</key>
-									<true/>
-									<key>isVertical</key>
-									<true/>
-									<key>subviews</key>
-									<array>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 191}, {808, 882}}</string>
-											<key>identifier</key>
-											<string>sceneEditorCustomizableContainer</string>
-											<key>isCustomizableViewContainer</key>
-											<false/>
-										</dict>
-									</array>
+									<false/>
 								</dict>
 							</array>
 						</dict>
@@ -214,9 +252,9 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{1080, 0}, {270, 1073}}</string>
+					<string>{{1083, 0}, {270, 815}}</string>
 					<key>identifier</key>
-					<string>container 185</string>
+					<string>container 347</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -227,9 +265,9 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{1080, 0}, {270, 1073}}</string>
+							<string>{{1083, 0}, {270, 815}}</string>
 							<key>identifier</key>
-							<string>inspectorCustomizableContainer</string>
+							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
 							<false/>
 						</dict>
@@ -240,7 +278,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>45 246 1350 1117 0 0 2560 1417 </string>
+		<string>1179 118 1353 859 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -253,7 +291,7 @@ $(document).ready(function() {
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<false/>
+		<true/>
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
@@ -289,7 +327,7 @@ $(document).ready(function() {
 	<key>monotypeProjectID</key>
 	<string>566BC1B6-8C4D-43AD-BB9F-50F477258C6E-29938-000231916AB72308</string>
 	<key>oidCounter</key>
-	<integer>143</integer>
+	<integer>144</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -351,6 +389,58 @@ $(document).ready(function() {
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2019-02-02T02:12:43Z</date>
+				<key>fileSize</key>
+				<integer>1231</integer>
+				<key>md5</key>
+				<string>B6F368FFDF4C1FCF626C27070DBA827B</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/wbn/Dropbox/Development/drpeering.com/js/drp.js</string>
+				<key>resourceName</key>
+				<string>drp.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vazADAAAAAAQQMAAAAHT7/+/+xyJtdojC5YqGLzjJ
+				tbGtD9zX8vvsaKxlPp1TLAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
+				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
+				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
+				AAAAAQEAAGRycC5qcwAAHAAAAAEGAAAQAAAAIAAAACwA
+				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
+				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
+				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
+				AAAABAMAAAfaWAADAAAACAAAAAQDAAAh6FgAAwAAABwA
+				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
+				AAgAAAAABAAAQcECk6RoITIYAAAAAQIAAAEAAAAAAAAA
+				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
+				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
+				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
+				AAAEAABBvrff8QAAACQAAAABAQAAMUIxODJBNzgtMDhE
+				MS0zMzkyLUE4NTgtMUUzN0QxNDI1QTMxGAAAAAECAACB
+				AAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8A
+				AAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAA
+				AIQAAAAAAAAABRAAABgBAAAAAAAAEBAAAEwBAAAAAAAA
+				QBAAADwBAAAAAAAAAiAAABgCAAAAAAAABSAAAIgBAAAA
+				AAAAECAAAJgBAAAAAAAAESAAAMwBAAAAAAAAEiAAAKwB
+				AAAAAAAAEyAAALwBAAAAAAAAICAAAPgBAAAAAAAAMCAA
+				ACQCAAAAAAAAAcAAAGwBAAAAAAAAEcAAACAAAAAAAAAA
+				EsAAAHwBAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -376,7 +466,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{808, 5140}</string>
+					<string>{540, 5147}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -401,7 +491,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>135</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 1}</string>
+					<string>{0, 7}</string>
 				</dict>
 			</array>
 		</dict>
@@ -428,7 +518,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>77811A3F-B89E-4DE8-B8DB-0E8D4F7B21FC-780-000017A494519151</string>
+			<string>9929B819-A6E7-48D5-A21C-DBCB79973C5B-780-0000236D63BAAE33</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -451,9 +541,9 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -495,7 +585,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>16px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -519,7 +609,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>5058px</string>
+							<string>5042px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -535,9 +625,13 @@ $(document).ready(function() {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ClassName</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1 style="text-align: center;"&gt;&lt;font size="3"&gt;The Internet Peering Playbook&lt;/font&gt;&lt;/h1&gt;&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;&lt;font size="5"&gt;Ch 2 - Internet Transit&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size="5"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;
+							<string>&lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;&lt;font size="5"&gt;Ch 2 - Internet Transit&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size="5"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;
 &lt;p&gt;In this chapter you will learn about Internet Transit, a service that provides access to the global Internet. We introduce the definitions and the service model, and then describe how Internet Transit service is offered, priced, and metered&lt;/p&gt;&lt;h2&gt;Introduction to Internet Transit&lt;/h2&gt;
 &lt;p&gt;The Internet is a network of networks.&lt;/p&gt;
 &lt;p&gt;To get connected to the Internet, an entity must attach itself to an entity that is already connected to the Internet. It usually accomplishes this connection by purchasing a service called “Internet Transit.”&lt;/p&gt;
@@ -724,13 +818,148 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Text</string>
+							<string>text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
+						</dict>
+					</array>
+					<key>144</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>'Times New Roman',Times,Baskerville,Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>TagName</string>
 							<key>objectValue</key>
 							<string>div</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingRight</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>FontSize</string>
+							<key>objectValue</key>
+							<string>16px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WordWrap</string>
+							<key>objectValue</key>
+							<string>break-word</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Text</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>-7px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingBottom</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>WhiteSpaceCollapsing</string>
+							<key>objectValue</key>
+							<string>preserve</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>18px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassName</string>
+							<key>objectValue</key>
+							<string>title</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>80px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>InnerHTML</string>
+							<key>objectValue</key>
+							<string>The Internet Peering Playbook</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>197px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingTop</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>title</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextColor</string>
+							<key>objectValue</key>
+							<string>#000000</string>
 						</dict>
 					</array>
 				</dict>

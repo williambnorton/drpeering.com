@@ -1,6 +1,9 @@
 //
 //	DrPeering javascript drp.js
 //
+var version=" v0.35";	
+var currentPage="";
+
 function check() {
 	  $(".marker").text("version 1 ... checking...");
 
@@ -18,7 +21,7 @@ function check() {
 	  		$(".marker").text("NEW CODE "+marker );
 	  		//currentPage=marker;
 		    clearInterval(timerId);
-	  		setTimeout(function() { location.reload(true); },5000);
+	  		setTimeout(function() { 				location.reload(true); },5000);
 	  }
 	})
 	  .done(function() {
