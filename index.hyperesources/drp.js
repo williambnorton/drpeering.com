@@ -1,12 +1,11 @@
 //
 //	DrPeering javascript drp.js
 //
-var version=" v0.43";	//continuous updates	
+var version=" v0.44";	//continuous updates	
 var currentPage="";
 let timerId = setInterval(() => check(), 6000);
 
 function check() {
-	$('title').text("Internet Peering Playbook "+version);
 	  $(".marker").text("version 1 ... checking...");
 
 	console.log( "checking in with server" ); 
@@ -20,7 +19,7 @@ function check() {
 		    //console.log( "Same Page" ); 
 	  } else {
 		    console.log( "NEW CODE" );  
-	  		$(".marker").text("NEW CODE "+marker );
+	  		$(".marker").text("CMD= "+marker );
 	  		//currentPage=marker;
 		    clearInterval(timerId);
 	  		setTimeout(function() { 				location.reload(true); },5000);

@@ -94,7 +94,7 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T02:32:31Z</date>
+	<date>2019-02-02T02:38:18Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -391,11 +391,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T02:32:28Z</date>
+				<date>2019-02-02T02:38:17Z</date>
 				<key>fileSize</key>
-				<integer>1356</integer>
+				<integer>1296</integer>
 				<key>md5</key>
-				<string>BF48F4D9D974277CBB3CA3BB4D725432</string>
+				<string>F83FD17F9573CC003BD9AFC784B768E7</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -404,8 +404,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAADooXt9z3oG2unRNmQ0yowPM
-				gPq3fmyNrdqMiCiwEdtZLAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAKrVtXrR5+Ib90Wj8VEFHNPa
+				DnrAU/SsC2fL549vjsdSLAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -413,9 +413,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAACv+lgAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAAADAFkAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcECnCrDAdIYAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcECnF5livQYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -520,7 +520,9 @@ $(document).ready(function() {
 			<key>documentIdentifier</key>
 			<string>9929B819-A6E7-48D5-A21C-DBCB79973C5B-780-0000236D63BAAE33</string>
 			<key>selectedObjects</key>
-			<array/>
+			<array>
+				<string>136</string>
+			</array>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
