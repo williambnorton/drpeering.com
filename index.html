@@ -25,7 +25,7 @@ $(document).ready(function() {
 });
 
 
-var version="v0.22";	
+var version="v0.24";	
 var currentPage="";
 
 let timerId = setInterval(() => check(), 6000);
@@ -39,7 +39,7 @@ function check() {
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
 	var jqxhr = $.get( "http://drpeering.com/updates.php", function(marker) {
-	  $(".marker").text("Prod "+marker );
+	  //$(".marker").text("Prod "+marker );
 	  if (currentPage == "" || currentPage == marker) {
 	  		$(".marker").text("Prod "+marker );
 	  		currentPage=marker;
@@ -62,7 +62,7 @@ function check() {
 	  })
 	  .always(function() {
 	    //console.log( "finished" );
-	    	$('.version').text(version);
+	    	//$('.version').text(version);
 	  });
 	
 	 
@@ -91,7 +91,7 @@ function check() {
 	<!-- copy these lines to your document: -->
 
 	<div id="index_hype_container" style="margin:auto;position:relative;width:100%;height:667px;overflow:hidden;">
-		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?99402"></script>
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?99797"></script>
 	</div>
 
 	<!-- end copy -->
