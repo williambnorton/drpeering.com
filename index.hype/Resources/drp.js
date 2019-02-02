@@ -1,7 +1,7 @@
 //
 //	DrPeering javascript drp.js
 //
-var version=" v0.47";	//continuous updates	
+var version=" v0.48";	//continuous updates	
 var currentPage="";
 let timerId = setInterval(() => check(), 6000);
 

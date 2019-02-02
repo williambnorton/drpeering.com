@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>139</string>
+	<string>113</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -96,11 +96,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T20:46:30Z</date>
+	<date>2019-02-02T20:53:51Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>7</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -179,7 +179,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {791, 243}}</string>
+											<string>{{271, 0}, {791, 241}}</string>
 											<key>identifier</key>
 											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
@@ -192,7 +192,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {791, 243}}</string>
+													<string>{{271, 0}, {791, 241}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -202,7 +202,7 @@ $(document).ready(function() {
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 244}, {791, 697}}</string>
+											<string>{{271, 242}, {791, 699}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -215,7 +215,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 244}, {791, 697}}</string>
+													<string>{{271, 242}, {791, 699}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -295,7 +295,7 @@ $(document).ready(function() {
 			</dict>
 		</array>
 		<key>selectedTabIndex</key>
-		<integer>2</integer>
+		<integer>0</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
@@ -595,11 +595,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T20:41:27Z</date>
+				<date>2019-02-02T20:52:09Z</date>
 				<key>fileSize</key>
 				<integer>1302</integer>
 				<key>md5</key>
-				<string>85D8F0F67F29B666AA9001059F7BC094</string>
+				<string>A49495E745859A15BE3962A73F9DE9E2</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -608,8 +608,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAAO9PByeXE4BbECBY6eU599sM
-				lUi1hsG6uIT4kUnSPGl0LAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAARW1sUE41oTBtxjYqJm1F4z
+				HECXIeJuCN8dtrqk8BxeLAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -617,9 +617,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAADjUFkAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAAA3VFkAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcEDG5/OtNkYAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcEDG/ugYqIYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -651,7 +651,7 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>128</string>
+			<string>186</string>
 			<key>name</key>
 			<string>Internet Peering Playbook</string>
 			<key>oid</key>
@@ -695,7 +695,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>126</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 22}</string>
+					<string>{0, 24}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -711,7 +711,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1056, 1208}</string>
+					<string>{1054, 1208}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -736,7 +736,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>174</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1}</string>
+					<string>{0, 4}</string>
 					<key>userGuides</key>
 					<array/>
 					<key>zoomFactor</key>
@@ -746,7 +746,7 @@ $(document).ready(function() {
 		</dict>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>143</string>
+			<string>147</string>
 			<key>name</key>
 			<string>Table of Contents</string>
 			<key>oid</key>
@@ -765,7 +765,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{791, 1497}</string>
+					<string>{793, 1497}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 3}</string>
+					<string>{2, 5}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -829,7 +829,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>144</string>
 					<key>scrollViewOffset</key>
-					<string>{11, 1}</string>
+					<string>{13, 71}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -4036,7 +4036,7 @@ function onLoad(hypeDocument, element, event) {
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>253</string>
+				<string>250</string>
 			</array>
 			<key>symbol</key>
 			<dict>
