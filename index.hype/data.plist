@@ -96,11 +96,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-03T01:01:55Z</date>
+	<date>2019-02-03T01:08:17Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -595,11 +595,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-03T00:55:34Z</date>
+				<date>2019-02-03T01:06:43Z</date>
 				<key>fileSize</key>
 				<integer>1410</integer>
 				<key>md5</key>
-				<string>B67A75639D5E1A270396CE09E88B20AE</string>
+				<string>D2A4BDA6B13ED9EA397DB04B2DF5C6AF</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -608,8 +608,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAADntlagCtJ6WO+1JDuOouszr
-				7lIp8yhOEAUIab4tfAJpLAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAPbHmJz0SOm03xzIM0LjjsKm
+				4x/ETikjFtkua5wvthjGLAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -617,9 +617,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAADidlkAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAAA0elkAAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcEDHbTg2NMYAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcEDOcM4OAAYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -765,7 +765,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{540, 714}</string>
+					<string>{540, 717}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -779,7 +779,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{375, 667}</string>
+						<string>{375, 670}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 88}</string>
+					<string>{0, 0}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -4205,7 +4205,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>auto</string>
+							<string>scroll</string>
 						</dict>
 						<dict>
 							<key>identifier</key>

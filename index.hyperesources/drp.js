@@ -2,7 +2,7 @@
 //
 //	shared DrPeering javascript for each chapter in the book
 //
-var version=" v0.48";	//continuous updates
+var version=" v0.49";	//continuous updates
 var currentPage="";
 let timerId = setInterval(() => check(), 6000);
 
