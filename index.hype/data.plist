@@ -96,11 +96,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-03T01:08:17Z</date>
+	<date>2019-02-03T01:13:21Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -4130,7 +4130,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>AutoresizingMask</string>
 							<key>objectValue</key>
-							<string>71</string>
+							<string>111</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
