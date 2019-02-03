@@ -96,11 +96,11 @@ $(document).ready(function() {
 		
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-03T00:58:23Z</date>
+	<date>2019-02-03T01:01:55Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>4</integer>
+		<integer>2</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -280,7 +280,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>0 518 1353 896 0 0 2560 1417 </string>
+		<string>28 518 1353 896 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -765,7 +765,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{540, 1497}</string>
+					<string>{540, 714}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -779,7 +779,7 @@ $(document).ready(function() {
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{375, 1450}</string>
+						<string>{375, 667}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>140</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 8}</string>
+					<string>{0, 88}</string>
 				</dict>
 				<dict>
 					<key>animationController</key>
@@ -4034,7 +4034,7 @@ function onLoad(hypeDocument, element, event) {
 			<string>21AD4466-0751-4D12-BE25-24CE017E67C3-780-0000179D79B770D3</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>250</string>
+				<string>141</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -4100,7 +4100,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>26px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4124,7 +4124,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>1408px</string>
+							<string>651px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4205,7 +4205,7 @@ function onLoad(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>scroll</string>
+							<string>auto</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
