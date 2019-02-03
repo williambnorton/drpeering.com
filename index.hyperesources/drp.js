@@ -1,13 +1,15 @@
+//											drp.js
 //
-//	DrPeering javascript drp.js
+//	shared DrPeering javascript for each chapter in the book
 //
-var version=" v0.48";	//continuous updates	
+var version=" v0.48";	//continuous updates
 var currentPage="";
 let timerId = setInterval(() => check(), 6000);
 
 function check() {
 	  $(".marker").text("v1 ... checking...");
-
+	  $(".title").text("Internet Peering Playbook "+version);
+	  
 	console.log( "checking in with server" ); 
 	// Assign handlers immediately after making the request,
 	// and remember the jqxhr object for this request
