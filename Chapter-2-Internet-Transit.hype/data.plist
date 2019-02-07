@@ -94,11 +94,11 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-02T21:43:53Z</date>
+	<date>2019-02-06T17:44:15Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>7</integer>
+		<integer>4</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
@@ -177,7 +177,7 @@ $(document).ready(function() {
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 0}, {540, 172}}</string>
+											<string>{{271, 0}, {540, 227}}</string>
 											<key>identifier</key>
 											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
@@ -190,7 +190,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 0}, {540, 172}}</string>
+													<string>{{271, 0}, {540, 227}}</string>
 													<key>identifier</key>
 													<string>timelineCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -200,7 +200,7 @@ $(document).ready(function() {
 										</dict>
 										<dict>
 											<key>frame</key>
-											<string>{{271, 173}, {540, 622}}</string>
+											<string>{{271, 228}, {540, 567}}</string>
 											<key>identifier</key>
 											<string>container 3</string>
 											<key>isCustomizableViewContainer</key>
@@ -213,7 +213,7 @@ $(document).ready(function() {
 											<array>
 												<dict>
 													<key>frame</key>
-													<string>{{271, 173}, {540, 622}}</string>
+													<string>{{271, 228}, {540, 567}}</string>
 													<key>identifier</key>
 													<string>sceneEditorCustomizableContainer</string>
 													<key>isCustomizableViewContainer</key>
@@ -278,7 +278,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>1179 118 1353 839 0 0 2560 1417 </string>
+		<string>206 144 1353 839 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -391,11 +391,11 @@ $(document).ready(function() {
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-02-02T20:56:09Z</date>
+				<date>2019-02-05T19:37:03Z</date>
 				<key>fileSize</key>
-				<integer>1300</integer>
+				<integer>1556</integer>
 				<key>md5</key>
-				<string>D37916E8695D28B66D8877D823EEC96A</string>
+				<string>80549A866F0E7B3EABABFBCB6A5E9D82</string>
 				<key>notifyOnBookmarkChange</key>
 				<true/>
 				<key>originalPath</key>
@@ -404,8 +404,8 @@ $(document).ready(function() {
 				<string>drp.js</string>
 				<key>securityScopedBookmark</key>
 				<data>
-				Ym9vazADAAAAAAQQMAAAAOvq4V6SVLEYqwAl2fVU38eD
-				yHWd2C+rrJQhnGb3r9MhLAIAAAQAAAADAwAAAAkAKAUA
+				Ym9vazADAAAAAAQQMAAAAJtJsiCvBswZ4AiaMWAv8ceF
+				yxbRHzaKLKQD+ToLJuMVLAIAAAQAAAADAwAAAAkAKAUA
 				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
 				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
 				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
@@ -413,9 +413,9 @@ $(document).ready(function() {
 				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
 				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
 				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
-				AAAABAMAAAfaWAADAAAACAAAAAQDAAD6VVkAAwAAABwA
+				AAAABAMAAAfaWAADAAAACAAAAAQDAADzSl0AAwAAABwA
 				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
-				AAgAAAAABAAAQcEDHTysdI4YAAAAAQIAAAEAAAAAAAAA
+				AAgAAAAABAAAQcEDPgyQLYQYAAAAAQIAAAEAAAAAAAAA
 				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
 				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
 				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
@@ -466,7 +466,7 @@ $(document).ready(function() {
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{540, 5147}</string>
+					<string>{540, 5141}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -491,7 +491,7 @@ $(document).ready(function() {
 					<key>rootSymbolControllerOid</key>
 					<string>135</string>
 					<key>scrollViewOffset</key>
-					<string>{0, 7}</string>
+					<string>{0, 2}</string>
 				</dict>
 			</array>
 		</dict>
@@ -518,11 +518,9 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>9929B819-A6E7-48D5-A21C-DBCB79973C5B-780-0000236D63BAAE33</string>
+			<string>1438E1E2-688C-4965-AFF3-6F5970D845BD-1537-00005A2E5A0796F5</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>136</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -788,9 +786,9 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -800,9 +798,9 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -857,6 +855,12 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Display</string>
 							<key>objectValue</key>
 							<string>inline</string>
@@ -877,7 +881,7 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>-7px</string>
+							<string>-1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -913,31 +917,37 @@ http://DrPeering.net/books/The-Internet-Peering-Playbook/transit.php&lt;/p&gt;
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>80px</string>
+							<string>0px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TextAlign</string>
+							<key>objectValue</key>
+							<string>center</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>The Internet Peering Playbook</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>197px</string>
+							<string>Internet Peering Playbook  v0.50</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>2</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>359px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>

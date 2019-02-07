@@ -94,17 +94,17 @@ $(document).ready(function() {
 	&lt;/style&gt;	
 </string>
 	<key>lastCheckDate</key>
-	<date>2019-02-06T19:22:34Z</date>
+	<date>2019-02-06T19:22:35Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1176, 817}}</string>
+			<string>{{0, 0}, {2560, 1318}}</string>
 			<key>identifier</key>
-			<string>container 82</string>
+			<string>container 73</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -115,9 +115,9 @@ $(document).ready(function() {
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {905, 817}}</string>
+					<string>{{0, 0}, {2289, 1318}}</string>
 					<key>identifier</key>
-					<string>container 186</string>
+					<string>container 348</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -128,85 +128,123 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{0, 0}, {270, 817}}</string>
+							<string>{{0, 0}, {2018, 1318}}</string>
 							<key>identifier</key>
-							<string>container 72</string>
+							<string>container 337</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<true/>
+							<false/>
 							<key>isVertical</key>
 							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{0, 0}, {270, 817}}</string>
+									<string>{{0, 0}, {270, 1318}}</string>
 									<key>identifier</key>
-									<string>sceneSelectorCustomizableContainer</string>
+									<string>container 327</string>
 									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
+									<true/>
+									<key>isVertical</key>
+									<true/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{0, 0}, {270, 1318}}</string>
+											<key>identifier</key>
+											<string>sceneSelectorCustomizableContainer</string>
+											<key>isCustomizableViewContainer</key>
+											<false/>
+										</dict>
+									</array>
+								</dict>
+								<dict>
+									<key>frame</key>
+									<string>{{271, 0}, {1747, 1318}}</string>
+									<key>identifier</key>
+									<string>container 328</string>
+									<key>isCustomizableViewContainer</key>
+									<true/>
+									<key>isCustomizableViewWrapper</key>
 									<false/>
+									<key>isVertical</key>
+									<false/>
+									<key>subviews</key>
+									<array>
+										<dict>
+											<key>frame</key>
+											<string>{{271, 0}, {1747, 240}}</string>
+											<key>identifier</key>
+											<string>container 4</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{271, 0}, {1747, 240}}</string>
+													<key>identifier</key>
+													<string>timelineCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>frame</key>
+											<string>{{271, 241}, {1747, 1077}}</string>
+											<key>identifier</key>
+											<string>container 3</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{271, 241}, {1747, 1077}}</string>
+													<key>identifier</key>
+													<string>sceneEditorCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+									</array>
 								</dict>
 							</array>
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{271, 0}, {634, 817}}</string>
+							<string>{{2019, 0}, {270, 1318}}</string>
 							<key>identifier</key>
-							<string>container 73</string>
+							<string>container 336</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
-							<false/>
+							<true/>
 							<key>isVertical</key>
-							<false/>
+							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{271, 0}, {634, 240}}</string>
+									<string>{{2019, 0}, {270, 1318}}</string>
 									<key>identifier</key>
-									<string>container 4</string>
+									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
-									<true/>
-									<key>isCustomizableViewWrapper</key>
-									<true/>
-									<key>isVertical</key>
-									<true/>
-									<key>subviews</key>
-									<array>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 0}, {634, 240}}</string>
-											<key>identifier</key>
-											<string>timelineCustomizableContainer</string>
-											<key>isCustomizableViewContainer</key>
-											<false/>
-										</dict>
-									</array>
-								</dict>
-								<dict>
-									<key>frame</key>
-									<string>{{271, 241}, {634, 576}}</string>
-									<key>identifier</key>
-									<string>container 3</string>
-									<key>isCustomizableViewContainer</key>
-									<true/>
-									<key>isCustomizableViewWrapper</key>
-									<true/>
-									<key>isVertical</key>
-									<true/>
-									<key>subviews</key>
-									<array>
-										<dict>
-											<key>frame</key>
-											<string>{{271, 241}, {634, 576}}</string>
-											<key>identifier</key>
-											<string>sceneEditorCustomizableContainer</string>
-											<key>isCustomizableViewContainer</key>
-											<false/>
-										</dict>
-									</array>
+									<false/>
 								</dict>
 							</array>
 						</dict>
@@ -214,9 +252,9 @@ $(document).ready(function() {
 				</dict>
 				<dict>
 					<key>frame</key>
-					<string>{{906, 0}, {270, 817}}</string>
+					<string>{{2290, 0}, {270, 1318}}</string>
 					<key>identifier</key>
-					<string>container 185</string>
+					<string>container 347</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -227,9 +265,9 @@ $(document).ready(function() {
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{906, 0}, {270, 817}}</string>
+							<string>{{2290, 0}, {270, 1318}}</string>
 							<key>identifier</key>
-							<string>inspectorCustomizableContainer</string>
+							<string>resourcesCustomizableContainer</string>
 							<key>isCustomizableViewContainer</key>
 							<false/>
 						</dict>
@@ -240,7 +278,7 @@ $(document).ready(function() {
 		<key>keyframeTimelineHeight</key>
 		<real>50</real>
 		<key>mainWindowFrame</key>
-		<string>1435 396 1176 861 0 0 2560 1417 </string>
+		<string>0 55 2560 1362 0 0 2560 1417 </string>
 		<key>openTabs</key>
 		<array>
 			<dict>
@@ -253,7 +291,7 @@ $(document).ready(function() {
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<false/>
+		<true/>
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
@@ -289,7 +327,7 @@ $(document).ready(function() {
 	<key>monotypeProjectID</key>
 	<string>566BC1B6-8C4D-43AD-BB9F-50F477258C6E-29938-000231916AB72308</string>
 	<key>oidCounter</key>
-	<integer>166</integer>
+	<integer>148</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -351,15 +389,67 @@ $(document).ready(function() {
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2019-02-03T01:32:09Z</date>
+				<key>fileSize</key>
+				<integer>1556</integer>
+				<key>md5</key>
+				<string>80549A866F0E7B3EABABFBCB6A5E9D82</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/wbn/Dropbox/Development/drpeering.com/js/drp.js</string>
+				<key>resourceName</key>
+				<string>drp.js</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9vazADAAAAAAQQMAAAAHObynyCLWxfZxYXELfxAshX
+				cTqzBM5qaaPbj3QB01PzLAIAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAADAAAAAQEAAHdibgAHAAAAAQEA
+				AERyb3Bib3gACwAAAAEBAABEZXZlbG9wbWVudAANAAAA
+				AQEAAGRycGVlcmluZy5jb20AAAACAAAAAQEAAGpzAAAG
+				AAAAAQEAAGRycC5qcwAAHAAAAAEGAAAQAAAAIAAAACwA
+				AAA8AAAAUAAAAGgAAAB0AAAACAAAAAQDAADcaQYAAAAA
+				AAgAAAAEAwAAUBE5AAAAAAAIAAAABAMAADK0OgAAAAAA
+				CAAAAAQDAACz4ToAAAAAAAgAAAAEAwAAY8dNAAMAAAAI
+				AAAABAMAAAfaWAADAAAACAAAAAQDAADsf1kAAwAAABwA
+				AAABBgAAqAAAALgAAADIAAAA2AAAAOgAAAD4AAAACAEA
+				AAgAAAAABAAAQcEDOxGjAkcYAAAAAQIAAAEAAAAAAAAA
+				DwAAAAAAAAAAAAAAAAAAAAgAAAAEAwAABQAAAAAAAAAE
+				AAAAAwMAAPYBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEB
+				AABNYWNpbnRvc2ggSEQIAAAABAMAAAAQ0OHtAQAACAAA
+				AAAEAABBvrff8QAAACQAAAABAQAAMUIxODJBNzgtMDhE
+				MS0zMzkyLUE4NTgtMUUzN0QxNDI1QTMxGAAAAAECAACB
+				AAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8A
+				AAAAAAAAAQUAAMwAAAD+////AQAAAAAAAAAQAAAABBAA
+				AIQAAAAAAAAABRAAABgBAAAAAAAAEBAAAEwBAAAAAAAA
+				QBAAADwBAAAAAAAAAiAAABgCAAAAAAAABSAAAIgBAAAA
+				AAAAECAAAJgBAAAAAAAAESAAAMwBAAAAAAAAEiAAAKwB
+				AAAAAAAAEyAAALwBAAAAAAAAICAAAPgBAAAAAAAAMCAA
+				ACQCAAAAAAAAAcAAAGwBAAAAAAAAEcAAACAAAAAAAAAA
+				EsAAAHwBAAAAAAAAENAAAAQAAAAAAAAA
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<true/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<false/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
 	<array>
 		<dict>
 			<key>currentSceneOid</key>
-			<string>115</string>
+			<string>137</string>
 			<key>name</key>
-			<string>Chapter-3-Internet-Transit-Playbook</string>
+			<string>Chapter-2-Internet-Transit</string>
 			<key>oid</key>
 			<string>113</string>
 			<key>scenes</key>
@@ -370,144 +460,38 @@ $(document).ready(function() {
 						<key>timeCursors</key>
 						<dict>
 							<key>kTimelineDefaultIdentifier</key>
-							<real>2</real>
-						</dict>
-						<key>timescale</key>
-						<integer>60</integer>
-					</dict>
-					<key>canvasSize</key>
-					<string>{1268, 5340}</string>
-					<key>hypeScene</key>
-					<dict>
-						<key>backgroundColor</key>
-						<string>#F9FFFA</string>
-						<key>breakpointWidth</key>
-						<real>1024</real>
-						<key>name</key>
-						<string>Desktop</string>
-						<key>perspective</key>
-						<real>600</real>
-						<key>sceneScalePercentageSize</key>
-						<string>{1, 1}</string>
-						<key>sceneSize</key>
-						<string>{1024, 5300}</string>
-						<key>shouldScaleSceneHeight</key>
-						<false/>
-						<key>shouldScaleSceneWidth</key>
-						<true/>
-					</dict>
-					<key>oid</key>
-					<string>115</string>
-					<key>rootSymbolControllerOid</key>
-					<string>114</string>
-					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
-					<key>zoomFactor</key>
-					<real>0.5</real>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>currentSceneOid</key>
-			<string>155</string>
-			<key>name</key>
-			<string>Transit Tactic 1 - Optimal Internet Transit</string>
-			<key>oid</key>
-			<string>146</string>
-			<key>scenes</key>
-			<array>
-				<dict>
-					<key>animationController</key>
-					<dict>
-						<key>timeCursors</key>
-						<dict>
-							<key>kTimelineDefaultIdentifier</key>
 							<real>0.0</real>
 						</dict>
 						<key>timescale</key>
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1064, 5298}</string>
+					<string>{1747, 5141}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
 						<string>#F9FFFA</string>
 						<key>breakpointWidth</key>
-						<real>1024</real>
+						<real>375</real>
 						<key>name</key>
-						<string>Desktop</string>
+						<string>iPhone</string>
 						<key>perspective</key>
 						<real>600</real>
 						<key>sceneScalePercentageSize</key>
 						<string>{1, 1}</string>
 						<key>sceneSize</key>
-						<string>{1024, 1200}</string>
+						<string>{375, 5100}</string>
 						<key>shouldScaleSceneHeight</key>
 						<false/>
 						<key>shouldScaleSceneWidth</key>
 						<true/>
 					</dict>
 					<key>oid</key>
-					<string>155</string>
+					<string>137</string>
 					<key>rootSymbolControllerOid</key>
-					<string>153</string>
+					<string>135</string>
 					<key>scrollViewOffset</key>
 					<string>{0, 0}</string>
-					<key>userGuides</key>
-					<array/>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>currentSceneOid</key>
-			<string>166</string>
-			<key>name</key>
-			<string>Transit Tactic 1 - Optimal Internet Transit Copy</string>
-			<key>oid</key>
-			<string>163</string>
-			<key>scenes</key>
-			<array>
-				<dict>
-					<key>animationController</key>
-					<dict>
-						<key>timeCursors</key>
-						<dict>
-							<key>kTimelineDefaultIdentifier</key>
-							<real>0.0</real>
-						</dict>
-						<key>timescale</key>
-						<integer>60</integer>
-					</dict>
-					<key>canvasSize</key>
-					<string>{1064, 5298}</string>
-					<key>hypeScene</key>
-					<dict>
-						<key>backgroundColor</key>
-						<string>#F9FFFA</string>
-						<key>breakpointWidth</key>
-						<real>1024</real>
-						<key>name</key>
-						<string>Desktop</string>
-						<key>perspective</key>
-						<real>600</real>
-						<key>sceneScalePercentageSize</key>
-						<string>{1, 1}</string>
-						<key>sceneSize</key>
-						<string>{1024, 1200}</string>
-						<key>shouldScaleSceneHeight</key>
-						<false/>
-						<key>shouldScaleSceneWidth</key>
-						<true/>
-					</dict>
-					<key>oid</key>
-					<string>166</string>
-					<key>rootSymbolControllerOid</key>
-					<string>164</string>
-					<key>scrollViewOffset</key>
-					<string>{0, 0}</string>
-					<key>userGuides</key>
-					<array/>
 				</dict>
 			</array>
 		</dict>
@@ -534,10 +518,10 @@ $(document).ready(function() {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>D7AD6408-23A5-470E-BED2-321BDE253304-1537-00005F845F9524C8</string>
+			<string>36A2708D-6C57-4C7D-9780-1BB5DD4E753F-1537-00005F8C2F6DE3C2</string>
 			<key>selectedObjects</key>
 			<array>
-				<string>119</string>
+				<string>136</string>
 			</array>
 			<key>symbol</key>
 			<dict>
@@ -549,13 +533,13 @@ $(document).ready(function() {
 				<array/>
 				<key>elements</key>
 				<dict>
-					<key>119</key>
+					<key>136</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>'Times New Roman',Times,Baskerville,Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -603,331 +587,10 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingBottom</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WhiteSpaceCollapsing</string>
-							<key>objectValue</key>
-							<string>preserve</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Position</string>
-							<key>objectValue</key>
-							<string>absolute</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Height</string>
-							<key>objectValue</key>
-							<string>5242px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>AutoresizingMask</string>
-							<key>objectValue</key>
-							<string>71</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Left</string>
-							<key>objectValue</key>
-							<string>32px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>InnerHTML</string>
-							<key>objectValue</key>
-							<string>&lt;h1&gt;Chapter 3 - The Internet Transit Playbook&lt;/h1&gt;
-
-
-
-&lt;p&gt;This chapter presents clever manipulations of commodity Internet Transit services.&lt;/p&gt;
-&lt;p&gt;As previously mentioned, these “tricks of the trade” are not “recommended” tactics. A few, you may consider unsavory or even unethical. They were gleaned from conversations with hundreds of peering coordinators, and are included here because they clarify the Internet Transit paradigm so well, and they give us an opportunity to apply the terms and definitions learned in the previous chapter.&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;When I lived in Ann Arbor, Michigan, the local newspaper ran a yearly article featuring how the locals get around town efficiently. These tricks included rarely used routes and secret ways to bypass congested paths using side streets, one-way streets, and alleys, and included even illegally using parking lots as avenues between two roads. Whether you used them or not, it was enlightening to read about these tricks.&lt;/p&gt;
-&lt;p&gt;In this chapter we will present a dozen tactics that have been used effectively to manipulate simple commodity Internet Transit services.&lt;/p&gt;
-&lt;h2&gt;Edge “Tricks of the Trade”&lt;/h2&gt;
-&lt;p&gt;One challenge that we pose during the peering workshops is to create your own “manipulation.”&lt;/p&gt;
-&lt;p&gt;Put yourself in the shoes of a purchaser of Internet Transit. Based upon the information you have learned so far, what clever maneuvers could you use? How would you optimize your transit purchase? How would you minimize your transit costs? You have all of the information you need to answer these questions.&lt;/p&gt;
-&lt;p&gt;Sometimes it helps to start by enumerating some assumptions.&lt;/p&gt;
-&lt;p&gt;Let’s assume that you are the purchaser of Internet Transit in a market with the following typical characteristics:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;The price declines yearly.&lt;/li&gt;
-&lt;li&gt;The market for Internet Transit services is open and competitive.&lt;/li&gt;
-&lt;li&gt;Pricing varies widely (say plus or minus 20 to 50%).&lt;/li&gt;
-&lt;li&gt;95th Percentile zero-commit services are available for $20/Mbps.&lt;/li&gt;
-&lt;li&gt;You may be wildly successful (70Gbps) or have only 5Mbps of total traffic.&lt;/li&gt;
-&lt;li&gt;There are tiered transit services as discussed in Chapter 2 and shown in Table 3-1.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Transit Pricing Table&lt;/p&gt;
-&lt;p&gt;Table 3-1. Sample Internet Transit Pricing with Commits&lt;/p&gt;
-&lt;p&gt;It is very important that, before you continue reading, you think about and write down a few strategies that reduce your monthly transit expense and/or improve its performance.&lt;/p&gt;
-&lt;p&gt;Answer: Here are the tricks of the trade collected from the field.&lt;/p&gt;
-&lt;p&gt;
-&lt;/p&gt;&lt;ol&gt;
-&lt;li&gt;Optimal Internet Transit, where you commit early to the next higher commit level&lt;/li&gt;
-&lt;li&gt;Gaming the 95th Percentile, where you carefully orchestrate traffic across many ISPs&lt;/li&gt;
-&lt;li&gt;Multi-Homing for performance and economic benefits&lt;/li&gt;
-&lt;li&gt;Renegotiating Multi-Year Contracts every year&lt;/li&gt;
-&lt;li&gt;Playing the Market to leverage information asymmetry&lt;/li&gt;
-&lt;li&gt;Resell Transit to allow you entry into a higher commit and lower price point in a tiered market&lt;/li&gt;
-&lt;li&gt;Secret Sauce Transit to create additional routing controls based on performance and cost&lt;/li&gt;
-&lt;li&gt;Building into a Cheap Internet Region to leverage the wide market disparity around the globe&lt;/li&gt;
-&lt;li&gt;Internet Transit Troughs, which can be filled with no cost&lt;/li&gt;
-&lt;li&gt;Capturing Content and Access Customers to allow feeding from a two-sided market&lt;/li&gt;
-&lt;li&gt;Short-term Transit, which enables the participation in the dropping transit market without commitments&lt;/li&gt;
-&lt;li&gt;Deploying Trial Gear into Production to minimize the cost of operating a network&lt;/li&gt;
-&lt;h2&gt;Peering Workshop Practice Question&lt;/h2&gt;
-&lt;p&gt;Here are a few practice questions from the Internet Peering Workshop:&lt;/p&gt;
-
-&lt;p&gt;1.  Given the assumptions in this chapter, what is the maximum cost savings realized by the successful execution of the:&lt;/p&gt;
-
-&lt;p&gt;A) Optimal Transit tactic&lt;/p&gt;
-
-&lt;p&gt;B) Gaming 95th percentile&lt;/p&gt;
-
-&lt;p&gt;2.  What other tactics were not mentioned?&lt;/p&gt;
-
-&lt;p&gt;3.  You are an eyeball-heavy ISP and your buddy is a content-heavy ISP. Therefore, you are not paying for traffic in your outbound direction, and your buddy is not paying for traffic in the inbound direction. How might you work together to reduce costs?&lt;/p&gt;
-
-&lt;p&gt;Answers to these questions are in the answer key in the back of the book.&lt;/p&gt;&lt;/ol&gt;</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>939px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingTop</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Overflow</string>
-							<key>objectValue</key>
-							<string>scroll</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>DisplayName</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-					</array>
-				</dict>
-				<key>isPersistentSymbol</key>
-				<false/>
-				<key>name</key>
-				<string>Scene Symbol 2</string>
-				<key>oid</key>
-				<string>114</string>
-				<key>onSceneDragActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyPressActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneLoadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeLeftActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array>
-						<dict>
-							<key>goToURL</key>
-							<string>http://drpeering.com</string>
-							<key>openInNewWindow</key>
-							<false/>
-							<key>type</key>
-							<integer>5</integer>
-						</dict>
-					</array>
-				</dict>
-				<key>onSceneSwipeRightActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneTimelineCompleteActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneUnloadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onTopDuringSceneTransition</key>
-				<true/>
-				<key>properties</key>
-				<dict>
-					<key>PhysicsGravityAngle</key>
-					<real>180</real>
-					<key>PhysicsGravityForce</key>
-					<real>1</real>
-					<key>PhysicsGravityInheritFromParent</key>
-					<false/>
-					<key>PhysicsGravityUsesDeviceTilt</key>
-					<false/>
-				</dict>
-				<key>removeWhenNoLongerReferenced</key>
-				<true/>
-				<key>showInResourceLibrary</key>
-				<false/>
-				<key>timelines</key>
-				<array>
-					<dict>
-						<key>animations</key>
-						<array/>
-						<key>firstKeyframeIsRelative</key>
-						<false/>
-						<key>framesPerSecond</key>
-						<integer>30</integer>
-						<key>hidden</key>
-						<false/>
-						<key>identifier</key>
-						<string>kTimelineDefaultIdentifier</string>
-						<key>name</key>
-						<string>Main Timeline</string>
-						<key>userDefinedDuration</key>
-						<real>0.0</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>documentIdentifier</key>
-			<string>D7AD6408-23A5-470E-BED2-321BDE253304-1537-00005F845F9524C8</string>
-			<key>selectedObjects</key>
-			<array>
-				<string>154</string>
-			</array>
-			<key>symbol</key>
-			<dict>
-				<key>addToNewSceneControllers</key>
-				<false/>
-				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
-				<key>customBehaviors</key>
-				<array/>
-				<key>elements</key>
-				<dict>
-					<key>154</key>
-					<array>
-						<dict>
-							<key>identifier</key>
-							<string>FontFamily</string>
-							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>TagName</string>
-							<key>objectValue</key>
-							<string>div</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingRight</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>FontSize</string>
-							<key>objectValue</key>
 							<string>16px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ExplicitDimensions</string>
-							<key>objectValue</key>
-							<string>YES</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Display</string>
-							<key>objectValue</key>
-							<string>inline</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>WordWrap</string>
-							<key>objectValue</key>
-							<string>break-word</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ClassType</string>
-							<key>objectValue</key>
-							<string>Text</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Top</string>
-							<key>objectValue</key>
-							<string>0px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingBottom</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -948,7 +611,7 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>5242px</string>
+							<string>5042px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -960,91 +623,19 @@ $(document).ready(function() {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>32px</string>
+							<string>14px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassName</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string>&lt;h1&gt;Transit Tactic 1 - Optimal Internet Transit&lt;/h1&gt;
-&lt;p&gt;Excerpts from The Internet Peering Playbook: Connecting to the Core of the Internet&lt;/p&gt;
-&lt;p&gt;
-
-&lt;/p&gt;
-&lt;p&gt;This tactic seeks to minimize the cost of Internet Transit by committing early to the next higher tier of commitment. By carefully analyzing the pricing sheet, we can identify the optimal point to commit to the next higher level of traffic. Seasoned peering coordinators have learned that it is often cheaper to commit to a higher traffic volume level, even when there is little chance of actually using that much traffic in any given month.&lt;/p&gt;
-&lt;p&gt;
-
-&lt;/p&gt;
-&lt;p&gt;For example, if we allocate our tiered pricing model in Table 3-1 across the number of Mbps we expect to send, we can see that it is cheaper to sign up for the lowest commit level (10Mbps) until we start using more than 41Mbps (see Table 3-2).&lt;/p&gt;
-&lt;p&gt;
-
-Table 3-2. Internet Transit Pricing Table with Commits&lt;/p&gt;
-&lt;p&gt;
-
-Description: t3-2a-Internet Transit across traffic&lt;/p&gt;
-&lt;p&gt;
-
-:
-&lt;/p&gt;
-&lt;p&gt;
-:
-&lt;/p&gt;
-&lt;p&gt;
-
-
-The highlighted cells show the lowest monthly Internet Transit fee.&lt;/p&gt;
-&lt;p&gt;
-
-Even though you may not use the full 100Mbps commit that month, it is still less expensive to commit to 100Mbps if you expect to send more than 42Mbps. This "early commit" is shown graphically in Figure 3-1.&lt;/p&gt;
-&lt;p&gt;
-
-
-
-Figure 3-1. Tactic 1 - Early commits lead to optimal unit prices for Internet Transit.&lt;/p&gt;
-&lt;p&gt;
-
-The monthly transit price for this “Optimal Transit Heuristic” can be described formulaically as:&lt;/p&gt;
-&lt;p&gt;
-
-Optimal Transit Bill = min(T * P, C * H)&lt;/p&gt;
-&lt;p&gt;
-
-where&lt;/p&gt;
-&lt;p&gt;
-
-T = monthly traffic volume&lt;/p&gt;
-&lt;p&gt;
-
-P = unit transit price at commit level&lt;/p&gt;
-&lt;p&gt;
-
-C = next higher traffic volume commit level&lt;/p&gt;
-&lt;p&gt;
-
-H = next higher traffic volume commit level price&lt;/p&gt;
-&lt;p&gt;
-
-This heuristic can result in a reduction in monthly Internet Transit fees, but it is worth pointing out that the cost savings depend on the ability to predict the future traffic volume. The savings will disappear if for some reason the traffic volume isn’t there. For example, if you commit to 100Mbps based on the assumption that you will hit 45Mbps this month but you reach only 40Mbps, this tactic will actually cost you more money.  With this tactic the company must track and project its Internet Transit traffic volumes.&lt;/p&gt;
-&lt;p&gt;
-
-Notes from the field.&lt;/p&gt;
-&lt;p&gt;
-
-Cable Companies Pay Too Much for Internet Transit?&lt;/p&gt;
-&lt;p&gt;
-
-A few ISPs said that the large access networks were not very savvy negotiators because they were paying much more than market prices for Internet Transit. They said the cable companies were paying about double the market rate. I asked a few cable companies about this, and they explained that it might be true. They said that their inclination was to commit well below the traffic projections to gain flexibility in adjusting traffic and transit purchases across providers based on market conditions. What might be assumed to be poor negotiating might actually be exercising of a different strategy.&lt;/p&gt;
-&lt;p&gt;
-
-For those that track traffic volume very carefully, the next tactic is particularly clever (and dangerous).&lt;/p&gt;
-
- </string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>1</string>
+							<string>&lt;h1 style="text-align: center;"&gt;&lt;br&gt;&lt;/h1&gt;&lt;h1 style="text-align: center;"&gt;&lt;font size="5"&gt;Ch 4 - Internet Peering&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font size="5"&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;div&gt;
+&lt;/div&gt;</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1056,7 +647,13 @@ For those that track traffic volume very carefully, the next tactic is particula
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>939px</string>
+							<string>331px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1074,148 +671,22 @@ For those that track traffic volume very carefully, the next tactic is particula
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Text</string>
+							<string>text</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
-				</dict>
-				<key>isPersistentSymbol</key>
-				<false/>
-				<key>name</key>
-				<string>Scene Symbol 2</string>
-				<key>oid</key>
-				<string>153</string>
-				<key>onSceneDragActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyPressActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneKeyUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneLoadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeDownActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeLeftActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array>
-						<dict>
-							<key>goToURL</key>
-							<string>http://drpeering.com</string>
-							<key>openInNewWindow</key>
-							<false/>
-							<key>type</key>
-							<integer>5</integer>
-						</dict>
-					</array>
-				</dict>
-				<key>onSceneSwipeRightActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneSwipeUpActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneTimelineCompleteActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onSceneUnloadActionHandler</key>
-				<dict>
-					<key>actions</key>
-					<array/>
-				</dict>
-				<key>onTopDuringSceneTransition</key>
-				<true/>
-				<key>properties</key>
-				<dict>
-					<key>PhysicsGravityAngle</key>
-					<real>180</real>
-					<key>PhysicsGravityForce</key>
-					<real>1</real>
-					<key>PhysicsGravityInheritFromParent</key>
-					<false/>
-					<key>PhysicsGravityUsesDeviceTilt</key>
-					<false/>
-				</dict>
-				<key>removeWhenNoLongerReferenced</key>
-				<true/>
-				<key>showInResourceLibrary</key>
-				<false/>
-				<key>timelines</key>
-				<array>
-					<dict>
-						<key>animations</key>
-						<array/>
-						<key>firstKeyframeIsRelative</key>
-						<false/>
-						<key>framesPerSecond</key>
-						<integer>30</integer>
-						<key>hidden</key>
-						<false/>
-						<key>identifier</key>
-						<string>kTimelineDefaultIdentifier</string>
-						<key>name</key>
-						<string>Main Timeline</string>
-						<key>userDefinedDuration</key>
-						<real>0.0</real>
-					</dict>
-				</array>
-			</dict>
-		</dict>
-		<dict>
-			<key>documentIdentifier</key>
-			<string>D7AD6408-23A5-470E-BED2-321BDE253304-1537-00005F845F9524C8</string>
-			<key>selectedObjects</key>
-			<array>
-				<string>165</string>
-			</array>
-			<key>symbol</key>
-			<dict>
-				<key>addToNewSceneControllers</key>
-				<false/>
-				<key>currentTimelineIdentifier</key>
-				<string>kTimelineDefaultIdentifier</string>
-				<key>customBehaviors</key>
-				<array/>
-				<key>elements</key>
-				<dict>
-					<key>165</key>
+					<key>144</key>
 					<array>
 						<dict>
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>'Times New Roman',Times,Baskerville,Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1263,7 +734,7 @@ For those that track traffic volume very carefully, the next tactic is particula
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>0px</string>
+							<string>-1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1287,25 +758,25 @@ For those that track traffic volume very carefully, the next tactic is particula
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>5242px</string>
+							<string>18px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>AutoresizingMask</string>
+							<string>ClassName</string>
 							<key>objectValue</key>
-							<string>71</string>
+							<string>title</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>32px</string>
+							<string>0px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
-							<string></string>
+							<string>The Internet Peering Playbook</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1317,13 +788,13 @@ For those that track traffic volume very carefully, the next tactic is particula
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>939px</string>
+							<string>359px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>3</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1335,13 +806,13 @@ For those that track traffic volume very carefully, the next tactic is particula
 							<key>identifier</key>
 							<string>Overflow</string>
 							<key>objectValue</key>
-							<string>scroll</string>
+							<string>visible</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>Text</string>
+							<string>title</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1356,7 +827,7 @@ For those that track traffic volume very carefully, the next tactic is particula
 				<key>name</key>
 				<string>Scene Symbol 2</string>
 				<key>oid</key>
-				<string>164</string>
+				<string>135</string>
 				<key>onSceneDragActionHandler</key>
 				<dict>
 					<key>actions</key>
